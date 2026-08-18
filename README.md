@@ -1,0 +1,2 @@
+# durian-disease-mobile-ai
+HỆ THỐNG NHẬN DIỆN BỆNH SẦU RIÊNG TÂY NGUYÊN SỬ DỤNG VISION FOUNDATION MODEL VÀ AI AGENT TRÊN THIẾT BỊ DI ĐỘNG
