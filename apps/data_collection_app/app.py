@@ -3,7 +3,7 @@ from __future__ import annotations
 from flask import Flask, jsonify, render_template_string, request
 
 from image_quality import inspect_image
-from storage import save_submission
+from storage import StorageError, save_submission
 
 
 DISEASES = {
@@ -829,17 +829,21 @@ def submit():
     if not result.acceptable or result.image is None:
         return jsonify(ok=False, message=result.message), 400
 
-    submission_id = save_submission(
-        image=result.image,
-        disease=DISEASES[disease_label],
-        tree_stage=request.form.get("tree_stage"),
-        notes=request.form.get("notes"),
-        latitude=request.form.get("latitude"),
-        longitude=request.form.get("longitude"),
-        location_accuracy=request.form.get("location_accuracy"),
-        location_name=request.form.get("location_name"),
-        captured_at=request.form.get("captured_at"),
-    )
+    try:
+        submission_id = save_submission(
+            image=result.image,
+            disease=DISEASES[disease_label],
+            tree_stage=request.form.get("tree_stage"),
+            notes=request.form.get("notes"),
+            latitude=request.form.get("latitude"),
+            longitude=request.form.get("longitude"),
+            location_accuracy=request.form.get("location_accuracy"),
+            location_name=request.form.get("location_name"),
+            captured_at=request.form.get("captured_at"),
+        )
+    except StorageError as error:
+        return jsonify(ok=False, message=f"Không lưu được lên Supabase: {error}"), 502
+
     return jsonify(
         ok=True,
         message=f"Lưu ảnh thành công! Mã mẫu của bạn là {submission_id[:8]}.",

@@ -10,7 +10,7 @@
 - Nhập tuổi cây/giai đoạn sinh trưởng và ghi chú tự do.
 - Lấy vị trí GPS nếu người dùng cấp quyền.
 - Giao diện tiếng Việt, tông xanh lá và tối ưu cho màn hình điện thoại.
-- Lưu ảnh JPEG chất lượng cao và metadata vào SQLite trên máy chạy ứng dụng.
+- Lưu ảnh JPEG chất lượng cao và metadata vào Supabase khi có cấu hình env; nếu chạy local chưa cấu hình Supabase thì lưu tạm SQLite.
 
 ## Metadata lưu cho mỗi mẫu
 
@@ -47,7 +47,7 @@ Khi import repository trên Vercel:
 - Output Directory: để trống
 - Install Command: `pip install -r requirements.txt`
 
-Vercel nhận Flask qua biến `app` trong `app.py`. Dữ liệu trên Vercel đang được ghi tạm vào `/tmp/durian-data`, nên có thể mất khi function khởi động lại. Nếu cần lưu ảnh thật để thu thập dữ liệu lâu dài, hãy nối database và object storage riêng.
+Vercel nhận Flask qua biến `app` trong `app.py`. Khi đã cấu hình `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` và `SUPABASE_BUCKET`, dữ liệu trên Vercel sẽ được lưu vào Supabase Storage/Postgres. Nếu thiếu các biến này, app chỉ lưu tạm local để chạy thử.
 
 Dữ liệu local được tạo trong thư mục `data/`; thư mục này không được đưa lên Git.
 
@@ -127,21 +127,26 @@ Trạng thái đề xuất:
 - `confirmed`: chuyên gia đã xác nhận nhãn.
 - `rejected`: ảnh kém chất lượng hoặc không phù hợp.
 
-### 4. Biến môi trường khi tích hợp
+### 4. Biến môi trường trên Vercel
 
-Khi app được sửa để lưu Supabase, cấu hình các biến sau trên Vercel:
+Cấu hình các biến sau trên Vercel:
 
 ```text
-SUPABASE_URL=...
-SUPABASE_SERVICE_ROLE_KEY=...
+SUPABASE_URL=https://PROJECT_ID.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=sb_secret_...
 SUPABASE_BUCKET=durian-submissions
 ```
 
-Hiện phiên bản này vẫn lưu local bằng SQLite. Supabase ở trên là cấu hình chuẩn bị cho bước tích hợp tiếp theo.
+Sau khi thêm hoặc sửa env, vào Vercel `Deployments` và `Redeploy` bản mới nhất để app nhận biến môi trường.
+
+Khi lưu thành công:
+
+- Ảnh nằm trong Supabase `Storage` -> bucket `durian-submissions` -> thư mục `raw/`.
+- Metadata nằm trong Supabase `Table Editor` -> bảng `submissions`.
 
 ## Cấu trúc
 
 - `app.py`: giao diện và luồng nhập dữ liệu.
 - `image_quality.py`: kiểm tra chất lượng ảnh.
-- `storage.py`: lưu ảnh, nhãn và metadata vào SQLite.
+- `storage.py`: lưu ảnh, nhãn và metadata vào Supabase hoặc SQLite fallback khi chạy local.
 - `test_app.py`: kiểm thử chức năng chính.

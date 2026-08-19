@@ -3,6 +3,7 @@ import sqlite3
 import tempfile
 import unittest
 from io import BytesIO
+from unittest.mock import patch
 
 from PIL import Image, ImageDraw
 from PIL import ImageFilter
@@ -10,6 +11,7 @@ from PIL import ImageFilter
 os.environ["DURIAN_DATA_DIR"] = tempfile.mkdtemp(prefix="durian-test-")
 
 from image_quality import inspect_image
+import storage
 from storage import DATABASE_PATH, IMAGE_DIR, save_submission
 from app import app
 
@@ -133,6 +135,32 @@ class DataCollectionTest(unittest.TestCase):
 
         self.assertEqual(response.status_code, 200)
         self.assertTrue(response.get_json()["ok"])
+
+    def test_supabase_storage_is_used_when_configured(self) -> None:
+        calls = []
+
+        def fake_request_supabase(**kwargs):
+            calls.append(kwargs)
+            return b""
+
+        with (
+            patch.object(storage, "SUPABASE_URL", "https://example.supabase.co"),
+            patch.object(storage, "SUPABASE_SERVICE_ROLE_KEY", "sb_secret_test"),
+            patch.object(storage, "SUPABASE_BUCKET", "durian-submissions"),
+            patch.object(storage, "_request_supabase", side_effect=fake_request_supabase),
+        ):
+            submission_id = save_submission(
+                image=make_leaf_photo(),
+                disease="Unknown",
+                captured_at="2026-08-19T10:00:00.000Z",
+            )
+
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(calls[0]["method"], "POST")
+        self.assertIn(f"/storage/v1/object/durian-submissions/raw/{submission_id}.jpg", calls[0]["path"])
+        self.assertEqual(calls[0]["content_type"], "image/jpeg")
+        self.assertEqual(calls[1]["path"], "/rest/v1/submissions")
+        self.assertEqual(calls[1]["method"], "POST")
 
 
 if __name__ == "__main__":
