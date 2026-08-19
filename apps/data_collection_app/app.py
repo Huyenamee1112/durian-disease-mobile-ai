@@ -216,6 +216,52 @@ PAGE = """
       justify-content: center;
     }
 
+    .camera-hint {
+      display: none;
+      position: absolute;
+      left: 1rem;
+      right: 1rem;
+      top: 1rem;
+      z-index: 2;
+      padding: .55rem .75rem;
+      border-radius: 999px;
+      color: white;
+      background: rgba(12, 48, 29, .72);
+      font-size: .82rem;
+      text-align: center;
+      backdrop-filter: blur(6px);
+    }
+
+    .camera-box.is-live .camera-hint {
+      display: block;
+    }
+
+    .zoom-control {
+      display: none;
+      margin-top: .7rem;
+      padding: .75rem .85rem;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #f7fcf8;
+    }
+
+    .zoom-control.is-visible {
+      display: block;
+    }
+
+    .zoom-control label {
+      display: flex;
+      justify-content: space-between;
+      gap: .75rem;
+      margin: 0 0 .55rem;
+      font-size: .92rem;
+    }
+
+    .zoom-control input {
+      width: 100%;
+      accent-color: var(--leaf);
+    }
+
     button:disabled {
       cursor: not-allowed;
       opacity: .62;
@@ -309,9 +355,17 @@ PAGE = """
         <video id="camera" autoplay playsinline muted></video>
         <canvas id="snapshot"></canvas>
         <input id="fallback-image" type="file" accept="image/*" capture="environment">
+        <div class="camera-hint" id="camera-hint">Chạm vào lá để lấy nét, chỉnh zoom rồi bấm Chụp ảnh</div>
         <button type="button" class="camera-capture" id="capture-overlay">Chụp ảnh</button>
       </div>
-      <p class="caption">Mẹo: chụp cận một lá sầu riêng, để lá chiếm phần lớn khung hình, tránh rung tay và ánh sáng quá chói.</p>
+      <div class="zoom-control" id="zoom-control">
+        <label for="zoom-range">
+          <span>Phóng to / thu nhỏ</span>
+          <span id="zoom-value">1x</span>
+        </label>
+        <input id="zoom-range" type="range" min="1" max="1" step="0.1" value="1">
+      </div>
+      <p class="caption">Mẹo: chạm vào lá để lấy nét, chụp cận một lá sầu riêng, để lá chiếm phần lớn khung hình và tránh rung tay.</p>
 
       <div class="actions">
         <button type="button" class="secondary" id="start-camera">Mở camera</button>
@@ -359,6 +413,9 @@ PAGE = """
     const startButton = document.getElementById("start-camera");
     const captureButton = document.getElementById("capture");
     const captureOverlayButton = document.getElementById("capture-overlay");
+    const zoomControl = document.getElementById("zoom-control");
+    const zoomRange = document.getElementById("zoom-range");
+    const zoomValue = document.getElementById("zoom-value");
     const locationButton = document.getElementById("get-location");
     const locationStatus = document.getElementById("location-status");
     const submitButton = document.getElementById("submit");
@@ -368,6 +425,7 @@ PAGE = """
     let hasSnapshot = false;
     let snapshotAccepted = false;
     let cameraReady = false;
+    let videoTrack = null;
 
     function showMessage(text, type) {
       message.textContent = text;
@@ -387,6 +445,72 @@ PAGE = """
       cameraBox.classList.toggle("is-live", isLive);
     }
 
+    function resetZoomControl() {
+      zoomControl.classList.remove("is-visible");
+      zoomRange.min = "1";
+      zoomRange.max = "1";
+      zoomRange.step = "0.1";
+      zoomRange.value = "1";
+      zoomValue.textContent = "1x";
+    }
+
+    function setupZoomControl(track) {
+      const capabilities = track.getCapabilities ? track.getCapabilities() : {};
+      if (!capabilities.zoom) {
+        resetZoomControl();
+        return;
+      }
+
+      const min = capabilities.zoom.min || 1;
+      const max = capabilities.zoom.max || min;
+      const step = capabilities.zoom.step || 0.1;
+      if (max <= min) {
+        resetZoomControl();
+        return;
+      }
+
+      zoomRange.min = String(min);
+      zoomRange.max = String(max);
+      zoomRange.step = String(step);
+      zoomRange.value = String(min);
+      zoomValue.textContent = `${Number(min).toFixed(1)}x`;
+      zoomControl.classList.add("is-visible");
+    }
+
+    async function applyCameraZoom(value) {
+      if (!videoTrack) {
+        return;
+      }
+      const zoom = Number(value);
+      zoomValue.textContent = `${zoom.toFixed(1)}x`;
+      try {
+        await videoTrack.applyConstraints({ advanced: [{ zoom }] });
+      } catch (error) {
+        showMessage("Trình duyệt không hỗ trợ chỉnh zoom cho camera này.", "error");
+      }
+    }
+
+    async function requestFocus() {
+      if (!videoTrack || !videoTrack.applyConstraints) {
+        return;
+      }
+      const capabilities = videoTrack.getCapabilities ? videoTrack.getCapabilities() : {};
+      if (!capabilities.focusMode) {
+        return;
+      }
+      const modes = capabilities.focusMode;
+      const focusMode = modes.includes("continuous") ? "continuous" : modes.includes("auto") ? "auto" : "";
+      if (!focusMode) {
+        return;
+      }
+      try {
+        await videoTrack.applyConstraints({ advanced: [{ focusMode }] });
+        showMessage("Đã yêu cầu camera lấy nét. Giữ chắc điện thoại rồi bấm Chụp ảnh.", "success");
+      } catch (error) {
+        showMessage("Hãy chạm lấy nét trên màn hình và giữ chắc điện thoại trước khi chụp.", "success");
+      }
+    }
+
     function waitForVideo() {
       return new Promise((resolve) => {
         if (video.readyState >= 2 && video.videoWidth && video.videoHeight) {
@@ -399,8 +523,9 @@ PAGE = """
 
     function openDeviceCamera() {
       setLivePreview(false);
+      resetZoomControl();
       fallbackInput.click();
-      showMessage("Camera hệ thống đang mở. Hãy chụp ảnh lá rồi bấm dùng ảnh.", "success");
+      showMessage("Camera hệ thống đang mở. Chạm vào lá để lấy nét, chỉnh zoom rồi chụp ảnh.", "success");
     }
 
     function formatLocationName(address) {
@@ -509,8 +634,13 @@ PAGE = """
           audio: false
         });
         video.srcObject = stream;
+        videoTrack = stream.getVideoTracks()[0] || null;
         await waitForVideo();
         await video.play();
+        if (videoTrack) {
+          await requestFocus();
+          setupZoomControl(videoTrack);
+        }
         video.style.display = "block";
         canvas.style.display = "none";
         setLivePreview(true);
@@ -521,6 +651,8 @@ PAGE = """
         return true;
       } catch (error) {
         cameraReady = false;
+        videoTrack = null;
+        resetZoomControl();
         openDeviceCamera();
         return false;
       }
@@ -538,6 +670,7 @@ PAGE = """
       canvas.style.display = "block";
       video.style.display = "none";
       setLivePreview(false);
+      resetZoomControl();
       hasSnapshot = true;
       snapshotAccepted = false;
       document.getElementById("captured-at").value = new Date().toISOString();
@@ -547,6 +680,8 @@ PAGE = """
     }
 
     startButton.addEventListener("click", startCamera);
+    cameraBox.addEventListener("click", requestFocus);
+    zoomRange.addEventListener("input", () => applyCameraZoom(zoomRange.value));
     locationButton.addEventListener("click", () => {
       if (!navigator.geolocation) {
         locationStatus.textContent = "Vị trí: trình duyệt không hỗ trợ GPS.";

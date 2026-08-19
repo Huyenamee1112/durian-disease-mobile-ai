@@ -5,6 +5,7 @@ import unittest
 from io import BytesIO
 
 from PIL import Image, ImageDraw
+from PIL import ImageFilter
 
 os.environ["DURIAN_DATA_DIR"] = tempfile.mkdtemp(prefix="durian-test-")
 
@@ -83,6 +84,12 @@ class DataCollectionTest(unittest.TestCase):
 
     def test_person_photo_is_rejected(self) -> None:
         image = make_person_like_photo()
+        buffer = BytesIO()
+        image.save(buffer, "JPEG")
+        self.assertFalse(inspect_image(buffer.getvalue()).acceptable)
+
+    def test_blurry_leaf_photo_is_rejected(self) -> None:
+        image = make_leaf_photo().filter(ImageFilter.GaussianBlur(radius=12))
         buffer = BytesIO()
         image.save(buffer, "JPEG")
         self.assertFalse(inspect_image(buffer.getvalue()).acceptable)

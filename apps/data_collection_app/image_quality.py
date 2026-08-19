@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from io import BytesIO
 
-from PIL import Image, ImageFilter, ImageStat, UnidentifiedImageError
+from PIL import Image, ImageChops, ImageFilter, ImageStat, UnidentifiedImageError
 
 
 @dataclass(frozen=True)
@@ -36,9 +36,20 @@ def inspect_image(content: bytes) -> ImageQualityResult:
     if average_light > 240:
         return ImageQualityResult(False, "Ảnh bị chói, hãy đổi góc chụp.")
 
+    detail_preview = image.copy()
+    detail_preview.thumbnail((512, 512))
+    detail_gray = detail_preview.convert("L")
+    high_frequency = ImageChops.difference(
+        detail_gray, detail_gray.filter(ImageFilter.GaussianBlur(radius=2))
+    )
+    high_frequency_stat = ImageStat.Stat(high_frequency)
+    sharpness_score = high_frequency_stat.mean[0] + high_frequency_stat.var[0] ** 0.5
     edge_variance = ImageStat.Stat(gray.filter(ImageFilter.FIND_EDGES)).var[0]
-    if edge_variance < 20:
-        return ImageQualityResult(False, "Ảnh có thể bị mờ, hãy giữ chắc điện thoại.")
+    if edge_variance < 24 or sharpness_score < 1.6:
+        return ImageQualityResult(
+            False,
+            "Ảnh chưa đủ nét. Hãy chạm vào lá để lấy nét, giữ chắc điện thoại rồi chụp lại.",
+        )
 
     if not _looks_like_leaf_photo(preview):
         return ImageQualityResult(
