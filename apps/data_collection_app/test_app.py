@@ -135,6 +135,7 @@ class DataCollectionTest(unittest.TestCase):
 
         self.assertEqual(response.status_code, 200)
         self.assertTrue(response.get_json()["ok"])
+        self.assertIn("Gửi dữ liệu thành công", response.get_json()["message"])
 
     def test_supabase_storage_is_used_when_configured(self) -> None:
         calls = []

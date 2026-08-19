@@ -846,7 +846,7 @@ def submit():
 
     return jsonify(
         ok=True,
-        message=f"Lưu ảnh thành công! Mã mẫu của bạn là {submission_id[:8]}.",
+        message=f"Gửi dữ liệu thành công! Mã mẫu của bạn là {submission_id[:8]}.",
         submission_id=submission_id,
     )
 
