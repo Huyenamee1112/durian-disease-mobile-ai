@@ -124,6 +124,8 @@ PAGE = """
     }
 
     .camera-box {
+      position: relative;
+      overflow: hidden;
       padding: .65rem;
       border-radius: 16px;
       background: var(--mint);
@@ -191,6 +193,27 @@ PAGE = """
       border: 1px solid var(--line);
       background: white;
       box-shadow: none;
+    }
+
+    .camera-capture {
+      display: none;
+      position: absolute;
+      left: 50%;
+      bottom: 1rem;
+      z-index: 2;
+      width: auto;
+      min-width: 9.5rem;
+      padding: 0 1.3rem;
+      transform: translateX(-50%);
+      border: 2px solid rgba(255,255,255,.92);
+      border-radius: 999px;
+      box-shadow: 0 10px 26px rgba(0,0,0,.25);
+    }
+
+    .camera-box.is-live .camera-capture {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
 
     button:disabled {
@@ -286,6 +309,7 @@ PAGE = """
         <video id="camera" autoplay playsinline muted></video>
         <canvas id="snapshot"></canvas>
         <input id="fallback-image" type="file" accept="image/*" capture="environment">
+        <button type="button" class="camera-capture" id="capture-overlay">Chụp ảnh</button>
       </div>
       <p class="caption">Mẹo: chụp cận một lá sầu riêng, để lá chiếm phần lớn khung hình, tránh rung tay và ánh sáng quá chói.</p>
 
@@ -330,9 +354,11 @@ PAGE = """
   <script>
     const video = document.getElementById("camera");
     const canvas = document.getElementById("snapshot");
+    const cameraBox = document.querySelector(".camera-box");
     const fallbackInput = document.getElementById("fallback-image");
     const startButton = document.getElementById("start-camera");
     const captureButton = document.getElementById("capture");
+    const captureOverlayButton = document.getElementById("capture-overlay");
     const locationButton = document.getElementById("get-location");
     const locationStatus = document.getElementById("location-status");
     const submitButton = document.getElementById("submit");
@@ -352,6 +378,15 @@ PAGE = """
       return window.isSecureContext || ["localhost", "127.0.0.1"].includes(window.location.hostname);
     }
 
+    function isIOSDevice() {
+      return /iPad|iPhone|iPod/.test(navigator.userAgent)
+        || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    }
+
+    function setLivePreview(isLive) {
+      cameraBox.classList.toggle("is-live", isLive);
+    }
+
     function waitForVideo() {
       return new Promise((resolve) => {
         if (video.readyState >= 2 && video.videoWidth && video.videoHeight) {
@@ -363,8 +398,9 @@ PAGE = """
     }
 
     function openDeviceCamera() {
+      setLivePreview(false);
       fallbackInput.click();
-      showMessage("Nếu trình duyệt không mở camera trực tiếp, hãy chụp ảnh bằng camera điện thoại.", "success");
+      showMessage("Camera hệ thống đang mở. Hãy chụp ảnh lá rồi bấm dùng ảnh.", "success");
     }
 
     function formatLocationName(address) {
@@ -437,6 +473,7 @@ PAGE = """
         canvas.getContext("2d").drawImage(image, 0, 0);
         canvas.style.display = "block";
         video.style.display = "none";
+        setLivePreview(false);
         hasSnapshot = true;
         snapshotAccepted = false;
         document.getElementById("captured-at").value = new Date().toISOString();
@@ -451,6 +488,11 @@ PAGE = """
     }
 
     async function startCamera() {
+      if (isIOSDevice()) {
+        openDeviceCamera();
+        return false;
+      }
+
       if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
         openDeviceCamera();
         return false;
@@ -471,6 +513,7 @@ PAGE = """
         await video.play();
         video.style.display = "block";
         canvas.style.display = "none";
+        setLivePreview(true);
         hasSnapshot = false;
         snapshotAccepted = false;
         cameraReady = true;
@@ -494,6 +537,7 @@ PAGE = """
       canvas.getContext("2d").drawImage(video, 0, 0);
       canvas.style.display = "block";
       video.style.display = "none";
+      setLivePreview(false);
       hasSnapshot = true;
       snapshotAccepted = false;
       document.getElementById("captured-at").value = new Date().toISOString();
@@ -548,7 +592,7 @@ PAGE = """
       }
     });
 
-    captureButton.addEventListener("click", async () => {
+    async function handleCaptureClick() {
       if (!stream) {
         const started = await startCamera();
         if (!started) {
@@ -556,7 +600,10 @@ PAGE = """
         }
       }
       captureImage();
-    });
+    }
+
+    captureButton.addEventListener("click", handleCaptureClick);
+    captureOverlayButton.addEventListener("click", handleCaptureClick);
 
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
