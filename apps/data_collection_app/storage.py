@@ -179,6 +179,17 @@ def _insert_supabase_metadata(payload: SubmissionPayload) -> None:
         "captured_at": payload.captured_at or None,
         "status": payload.status,
     }
+
+    try:
+        _insert_supabase_record(record)
+    except StorageError as error:
+        if "location_name" not in str(error):
+            raise
+        record.pop("location_name", None)
+        _insert_supabase_record(record)
+
+
+def _insert_supabase_record(record: dict[str, Any]) -> None:
     _request_supabase(
         path="/rest/v1/submissions",
         method="POST",

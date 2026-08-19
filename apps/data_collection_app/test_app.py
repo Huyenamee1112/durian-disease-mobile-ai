@@ -12,7 +12,7 @@ os.environ["DURIAN_DATA_DIR"] = tempfile.mkdtemp(prefix="durian-test-")
 
 from image_quality import inspect_image
 import storage
-from storage import DATABASE_PATH, IMAGE_DIR, save_submission
+from storage import DATABASE_PATH, IMAGE_DIR, StorageError, save_submission
 from app import app
 
 
@@ -162,6 +162,32 @@ class DataCollectionTest(unittest.TestCase):
         self.assertEqual(calls[0]["content_type"], "image/jpeg")
         self.assertEqual(calls[1]["path"], "/rest/v1/submissions")
         self.assertEqual(calls[1]["method"], "POST")
+
+    def test_supabase_insert_retries_without_location_name_when_column_is_missing(self) -> None:
+        calls = []
+
+        def fake_request_supabase(**kwargs):
+            calls.append(kwargs)
+            if kwargs["path"] == "/rest/v1/submissions" and len(calls) == 2:
+                raise StorageError("Could not find the 'location_name' column")
+            return b""
+
+        with (
+            patch.object(storage, "SUPABASE_URL", "https://example.supabase.co"),
+            patch.object(storage, "SUPABASE_SERVICE_ROLE_KEY", "sb_secret_test"),
+            patch.object(storage, "SUPABASE_BUCKET", "durian-submissions"),
+            patch.object(storage, "_request_supabase", side_effect=fake_request_supabase),
+        ):
+            save_submission(
+                image=make_leaf_photo(),
+                disease="Leaf_Blight",
+                location_name="Phường Hạnh Thông",
+                captured_at="2026-08-19T10:00:00.000Z",
+            )
+
+        self.assertEqual(len(calls), 3)
+        retry_body = calls[2]["body"].decode("utf-8")
+        self.assertNotIn("location_name", retry_body)
 
 
 if __name__ == "__main__":

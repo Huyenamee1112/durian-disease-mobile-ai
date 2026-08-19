@@ -121,6 +121,8 @@ alter table public.submissions
   add column if not exists location_name text;
 ```
 
+Nếu app báo lỗi `Could not find the 'location_name' column`, chạy lại câu SQL trên trong Supabase `SQL Editor`, sau đó bấm `Run`. App vẫn có cơ chế lưu dữ liệu không kèm tên vị trí nếu cột này chưa tồn tại, nhưng nên thêm cột để metadata đầy đủ hơn.
+
 Trạng thái đề xuất:
 
 - `submitted`: nông dân đã gửi.
