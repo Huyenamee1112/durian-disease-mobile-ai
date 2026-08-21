@@ -44,8 +44,12 @@ def inspect_image(content: bytes) -> ImageQualityResult:
     )
     high_frequency_stat = ImageStat.Stat(high_frequency)
     sharpness_score = high_frequency_stat.mean[0] + high_frequency_stat.var[0] ** 0.5
+    sharpened = detail_gray.filter(
+        ImageFilter.UnsharpMask(radius=2, percent=180, threshold=3)
+    )
+    local_detail = ImageStat.Stat(ImageChops.difference(detail_gray, sharpened)).mean[0]
     edge_variance = ImageStat.Stat(gray.filter(ImageFilter.FIND_EDGES)).var[0]
-    if edge_variance < 24 or sharpness_score < 1.6:
+    if edge_variance < 24 or sharpness_score < 2.2 or local_detail < 0.55:
         return ImageQualityResult(
             False,
             "Ảnh chưa đủ nét. Hãy chạm vào lá để lấy nét, giữ chắc điện thoại rồi chụp lại.",
