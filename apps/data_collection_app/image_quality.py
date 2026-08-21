@@ -48,8 +48,19 @@ def inspect_image(content: bytes) -> ImageQualityResult:
         ImageFilter.UnsharpMask(radius=2, percent=180, threshold=3)
     )
     local_detail = ImageStat.Stat(ImageChops.difference(detail_gray, sharpened)).mean[0]
+    tile_scores = _sharp_tile_scores(detail_gray)
+    sharp_tile_count = sum(score >= 1.2 for score in tile_scores)
+    strong_tile_count = sum(score >= 1.8 for score in tile_scores)
+    average_tile_score = sum(tile_scores) / max(len(tile_scores), 1)
     edge_variance = ImageStat.Stat(gray.filter(ImageFilter.FIND_EDGES)).var[0]
-    if edge_variance < 24 or sharpness_score < 2.2 or local_detail < 0.55:
+    if (
+        edge_variance < 24
+        or sharpness_score < 2.2
+        or local_detail < 0.55
+        or average_tile_score < 1.0
+        or sharp_tile_count < 6
+        or strong_tile_count < 5
+    ):
         return ImageQualityResult(
             False,
             "Ảnh chưa đủ nét. Hãy chạm vào lá để lấy nét, giữ chắc điện thoại rồi chụp lại.",
@@ -62,6 +73,26 @@ def inspect_image(content: bytes) -> ImageQualityResult:
         )
 
     return ImageQualityResult(True, "Ảnh đạt yêu cầu.", image)
+
+
+def _sharp_tile_scores(image: Image.Image) -> list[float]:
+    width, height = image.size
+    tile_width = max(width // 4, 1)
+    tile_height = max(height // 4, 1)
+    scores = []
+
+    for top in range(0, height, tile_height):
+        for left in range(0, width, tile_width):
+            tile = image.crop(
+                (left, top, min(left + tile_width, width), min(top + tile_height, height))
+            )
+            high_frequency = ImageChops.difference(
+                tile, tile.filter(ImageFilter.GaussianBlur(radius=1.6))
+            )
+            stat = ImageStat.Stat(high_frequency)
+            scores.append(stat.mean[0] + stat.var[0] ** 0.5)
+
+    return scores
 
 
 def _looks_like_leaf_photo(image: Image.Image) -> bool:

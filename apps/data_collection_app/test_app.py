@@ -104,6 +104,14 @@ class DataCollectionTest(unittest.TestCase):
         self.assertFalse(result.acceptable)
         self.assertIn("chưa đủ nét", result.message)
 
+    def test_soft_focus_leaf_photo_is_rejected(self) -> None:
+        image = make_leaf_photo().filter(ImageFilter.GaussianBlur(radius=3))
+        buffer = BytesIO()
+        image.save(buffer, "JPEG")
+        result = inspect_image(buffer.getvalue())
+        self.assertFalse(result.acceptable)
+        self.assertIn("chưa đủ nét", result.message)
+
     def test_flask_inspect_rejects_person_photo(self) -> None:
         image = make_person_like_photo()
         buffer = BytesIO()
