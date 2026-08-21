@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from flask import Flask, jsonify, render_template_string, request
+from werkzeug.exceptions import RequestEntityTooLarge
 
 from image_quality import inspect_image
 from storage import StorageError, save_submission
@@ -17,7 +18,7 @@ DISEASES = {
 }
 
 app = Flask(__name__)
-app.config["MAX_CONTENT_LENGTH"] = 12 * 1024 * 1024
+app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024
 
 
 PAGE = """
@@ -426,10 +427,50 @@ PAGE = """
     let snapshotAccepted = false;
     let cameraReady = false;
     let videoTrack = null;
+    const MAX_IMAGE_EDGE = 2200;
+    const JPEG_QUALITY = 0.92;
 
     function showMessage(text, type) {
       message.textContent = text;
       message.className = `message ${type}`;
+    }
+
+    function fitImageSize(width, height) {
+      const longestEdge = Math.max(width, height);
+      if (longestEdge <= MAX_IMAGE_EDGE) {
+        return { width, height };
+      }
+      const ratio = MAX_IMAGE_EDGE / longestEdge;
+      return {
+        width: Math.round(width * ratio),
+        height: Math.round(height * ratio)
+      };
+    }
+
+    async function readResponseMessage(response, fallbackMessage) {
+      const contentType = response.headers.get("content-type") || "";
+      if (contentType.includes("application/json")) {
+        const result = await response.json();
+        return {
+          ok: Boolean(result.ok),
+          message: result.message || fallbackMessage,
+          data: result
+        };
+      }
+
+      if (response.status === 413) {
+        return {
+          ok: false,
+          message: "Ảnh quá lớn. App đã tối ưu ảnh, hãy bấm Chụp ảnh lại rồi gửi.",
+          data: {}
+        };
+      }
+
+      return {
+        ok: false,
+        message: `${fallbackMessage} Mã lỗi ${response.status || "không rõ"}.`,
+        data: {}
+      };
     }
 
     function isSecureCameraContext() {
@@ -557,7 +598,7 @@ PAGE = """
 
     function blobFromCanvas() {
       return new Promise((resolve) => {
-        canvas.toBlob((blob) => resolve(blob), "image/jpeg", 0.95);
+        canvas.toBlob((blob) => resolve(blob), "image/jpeg", JPEG_QUALITY);
       });
     }
 
@@ -579,7 +620,7 @@ PAGE = """
 
       try {
         const response = await fetch("/inspect", { method: "POST", body: data });
-        const result = await response.json();
+        const result = await readResponseMessage(response, "Không kiểm tra được ảnh.");
         snapshotAccepted = Boolean(result.ok);
         showMessage(result.message, result.ok ? "success" : "error");
         return snapshotAccepted;
@@ -593,9 +634,10 @@ PAGE = """
     function drawFallbackImage(file) {
       const image = new Image();
       image.onload = async () => {
-        canvas.width = image.naturalWidth;
-        canvas.height = image.naturalHeight;
-        canvas.getContext("2d").drawImage(image, 0, 0);
+        const fittedSize = fitImageSize(image.naturalWidth, image.naturalHeight);
+        canvas.width = fittedSize.width;
+        canvas.height = fittedSize.height;
+        canvas.getContext("2d").drawImage(image, 0, 0, fittedSize.width, fittedSize.height);
         canvas.style.display = "block";
         video.style.display = "none";
         setLivePreview(false);
@@ -664,9 +706,10 @@ PAGE = """
         return false;
       }
 
-      canvas.width = video.videoWidth;
-      canvas.height = video.videoHeight;
-      canvas.getContext("2d").drawImage(video, 0, 0);
+      const fittedSize = fitImageSize(video.videoWidth, video.videoHeight);
+      canvas.width = fittedSize.width;
+      canvas.height = fittedSize.height;
+      canvas.getContext("2d").drawImage(video, 0, 0, fittedSize.width, fittedSize.height);
       canvas.style.display = "block";
       video.style.display = "none";
       setLivePreview(false);
@@ -777,7 +820,7 @@ PAGE = """
         data.append("captured_at", document.getElementById("captured-at").value || new Date().toISOString());
 
         const response = await fetch("/submit", { method: "POST", body: data });
-        const result = await response.json();
+        const result = await readResponseMessage(response, "Không gửi được ảnh.");
         showMessage(result.message, result.ok ? "success" : "error");
       } catch (error) {
         showMessage("Không gửi được ảnh. Hãy thử lại.", "error");
@@ -802,6 +845,17 @@ PAGE = """
 @app.get("/")
 def index():
     return render_template_string(PAGE, diseases=DISEASES.keys())
+
+
+@app.errorhandler(RequestEntityTooLarge)
+def image_too_large(_error):
+    return (
+        jsonify(
+            ok=False,
+            message="Ảnh quá lớn. Hãy chụp lại gần lá hơn hoặc dùng ảnh nhẹ hơn.",
+        ),
+        413,
+    )
 
 
 @app.post("/inspect")

@@ -111,6 +111,22 @@ class DataCollectionTest(unittest.TestCase):
         self.assertEqual(response.status_code, 400)
         self.assertFalse(response.get_json()["ok"])
 
+    def test_large_upload_returns_json_error(self) -> None:
+        original_limit = app.config["MAX_CONTENT_LENGTH"]
+        app.config["MAX_CONTENT_LENGTH"] = 128
+        try:
+            response = app.test_client().post(
+                "/inspect",
+                data={"image": (BytesIO(b"x" * 2048), "large.jpg")},
+                content_type="multipart/form-data",
+            )
+        finally:
+            app.config["MAX_CONTENT_LENGTH"] = original_limit
+
+        self.assertEqual(response.status_code, 413)
+        self.assertFalse(response.get_json()["ok"])
+        self.assertIn("Ảnh quá lớn", response.get_json()["message"])
+
     def test_flask_submit_saves_image(self) -> None:
         image = make_leaf_photo()
         buffer = BytesIO()
