@@ -8,7 +8,7 @@ from storage import StorageError, save_submission
 
 
 DISEASES = {
-    "Không rõ / cần chuyên gia xác nhận": "Unknown",
+    "Lá khỏe mạnh": "Leaf_Healthy",
     "Bệnh đốm rong": "Leaf_Algal",
     "Bệnh cháy lá": "Leaf_Blight",
     "Bệnh thán thư": "Leaf_Colletotrichum",
@@ -373,20 +373,20 @@ PAGE = """
       </div>
       <div id="message" class="message" role="status"></div>
 
-      <label for="disease">Tên bệnh trên lá</label>
+      <label for="disease">Tình trạng lá</label>
       <select id="disease" name="disease" required>
         {% for label in diseases %}
           <option value="{{ label }}">{{ label }}</option>
         {% endfor %}
       </select>
-      <p class="caption">Nếu chưa chắc bệnh, hãy chọn Chưa xác định để chuyên gia kiểm tra lại sau.</p>
+      <p class="caption">Chọn đúng một trong 6 lớp dùng để huấn luyện model.</p>
 
       <label for="tree-stage">Tuổi cây hoặc giai đoạn sinh trưởng</label>
       <input id="tree-stage" name="tree_stage" type="text" maxlength="120" required placeholder="Ví dụ: cây 3 năm, ra đọt non, sau thu hoạch">
 
       <label for="notes">Ghi chú thêm</label>
       <textarea id="notes" name="notes" maxlength="600" required placeholder="Ví dụ: lá bị đốm nhiều ở mép, sau mưa, vườn vừa phun thuốc"></textarea>
-      <p class="caption">Ghi chú giúp dữ liệu thực tế có bối cảnh tốt hơn khi chuyên gia xác nhận nhãn.</p>
+      <p class="caption">Ghi chú giúp dữ liệu thực tế có bối cảnh tốt hơn khi rà soát lại mẫu.</p>
 
       <input id="latitude" name="latitude" type="hidden">
       <input id="longitude" name="longitude" type="hidden">
@@ -609,7 +609,7 @@ PAGE = """
       const longitude = document.getElementById("longitude").value.trim();
 
       if (!disease) {
-        showMessage("Hãy chọn tên bệnh trên lá.", "error");
+        showMessage("Hãy chọn tình trạng lá.", "error");
         document.getElementById("disease").focus();
         return false;
       }

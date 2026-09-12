@@ -152,7 +152,7 @@ class DataCollectionTest(unittest.TestCase):
         response = app.test_client().post(
             "/submit",
             data={
-                "disease": "Không rõ / cần chuyên gia xác nhận",
+                "disease": "Lá khỏe mạnh",
                 "tree_stage": "Ra đọt non",
                 "notes": "Lá bị đốm ở mép",
                 "latitude": "10.1",
@@ -169,11 +169,13 @@ class DataCollectionTest(unittest.TestCase):
         self.assertTrue(response.get_json()["ok"])
         self.assertIn("Gửi dữ liệu thành công", response.get_json()["message"])
 
-    def test_form_does_not_include_healthy_leaf_option(self) -> None:
+    def test_form_includes_healthy_leaf_option(self) -> None:
         response = app.test_client().get("/")
 
         self.assertEqual(response.status_code, 200)
-        self.assertNotIn("Lá khỏe mạnh", response.get_data(as_text=True))
+        page = response.get_data(as_text=True)
+        self.assertIn("Lá khỏe mạnh", page)
+        self.assertNotIn("Không rõ / cần chuyên gia xác nhận", page)
 
     def test_flask_submit_requires_context_fields(self) -> None:
         required_fields = ["tree_stage", "notes", "latitude", "longitude"]
@@ -185,7 +187,7 @@ class DataCollectionTest(unittest.TestCase):
                 image.save(buffer, "JPEG")
                 buffer.seek(0)
                 data = {
-                    "disease": "Không rõ / cần chuyên gia xác nhận",
+                    "disease": "Lá khỏe mạnh",
                     "tree_stage": "Ra đọt non",
                     "notes": "Lá bị đốm ở mép",
                     "latitude": "10.1",

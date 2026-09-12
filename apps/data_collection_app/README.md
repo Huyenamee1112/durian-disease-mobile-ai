@@ -1,12 +1,12 @@
 # Thu thập ảnh bệnh lá sầu riêng thực tế
 
-Ứng dụng web Flask viết bằng Python để người dân chụp ảnh lá sầu riêng ngoài vườn, nhập nhãn nghi ngờ và metadata thực tế. Dữ liệu dùng để xây dựng bộ dữ liệu phục vụ train/fine-tune và đánh giá model nhận diện bệnh lá sầu riêng.
+Ứng dụng web Flask viết bằng Python để người dân chụp ảnh lá sầu riêng ngoài vườn, chọn một trong 6 lớp huấn luyện và nhập metadata thực tế. Dữ liệu dùng để xây dựng bộ dữ liệu phục vụ train/fine-tune và đánh giá model nhận diện bệnh lá sầu riêng.
 
 ## Chức năng
 
 - Chụp một ảnh trực tiếp bằng camera trong trình duyệt hoặc camera hệ thống trên điện thoại.
 - Kiểm tra cơ bản độ phân giải, độ sáng, độ mờ và ảnh có giống ảnh lá.
-- Chọn tên bệnh nghi ngờ hoặc `Không rõ / cần chuyên gia xác nhận`.
+- Chọn một trong 6 lớp huấn luyện: lá khỏe mạnh hoặc 5 bệnh lá sầu riêng.
 - Nhập tuổi cây/giai đoạn sinh trưởng và ghi chú tự do.
 - Lấy vị trí GPS nếu người dùng cấp quyền.
 - Giao diện tiếng Việt, tông xanh lá và tối ưu cho màn hình điện thoại.
@@ -15,7 +15,7 @@
 ## Metadata lưu cho mỗi mẫu
 
 - Ảnh lá.
-- Nhãn bệnh nghi ngờ.
+- Nhãn lớp huấn luyện.
 - Tuổi cây hoặc giai đoạn sinh trưởng.
 - Ghi chú tự do.
 - Vĩ độ, kinh độ và sai số GPS nếu có.
