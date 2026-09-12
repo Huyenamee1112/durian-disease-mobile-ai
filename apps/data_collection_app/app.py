@@ -9,7 +9,6 @@ from storage import StorageError, save_submission
 
 DISEASES = {
     "Không rõ / cần chuyên gia xác nhận": "Unknown",
-    "Lá khỏe mạnh": "Leaf_Healthy",
     "Bệnh đốm rong": "Leaf_Algal",
     "Bệnh cháy lá": "Leaf_Blight",
     "Bệnh thán thư": "Leaf_Colletotrichum",

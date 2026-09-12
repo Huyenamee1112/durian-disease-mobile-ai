@@ -169,6 +169,12 @@ class DataCollectionTest(unittest.TestCase):
         self.assertTrue(response.get_json()["ok"])
         self.assertIn("Gửi dữ liệu thành công", response.get_json()["message"])
 
+    def test_form_does_not_include_healthy_leaf_option(self) -> None:
+        response = app.test_client().get("/")
+
+        self.assertEqual(response.status_code, 200)
+        self.assertNotIn("Lá khỏe mạnh", response.get_data(as_text=True))
+
     def test_flask_submit_requires_context_fields(self) -> None:
         required_fields = ["tree_stage", "notes", "latitude", "longitude"]
 
