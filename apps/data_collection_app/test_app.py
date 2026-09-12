@@ -169,6 +169,37 @@ class DataCollectionTest(unittest.TestCase):
         self.assertTrue(response.get_json()["ok"])
         self.assertIn("Gửi dữ liệu thành công", response.get_json()["message"])
 
+    def test_flask_submit_requires_context_fields(self) -> None:
+        required_fields = ["tree_stage", "notes", "latitude", "longitude"]
+
+        for field in required_fields:
+            with self.subTest(field=field):
+                image = make_leaf_photo()
+                buffer = BytesIO()
+                image.save(buffer, "JPEG")
+                buffer.seek(0)
+                data = {
+                    "disease": "Không rõ / cần chuyên gia xác nhận",
+                    "tree_stage": "Ra đọt non",
+                    "notes": "Lá bị đốm ở mép",
+                    "latitude": "10.1",
+                    "longitude": "106.2",
+                    "location_accuracy": "20",
+                    "location_name": "Xã Ea Kpam, Cư M'gar, Đắk Lắk",
+                    "captured_at": "2026-08-19T10:00:00.000Z",
+                    "image": (buffer, "leaf.jpg"),
+                }
+                data[field] = ""
+
+                response = app.test_client().post(
+                    "/submit",
+                    data=data,
+                    content_type="multipart/form-data",
+                )
+
+                self.assertEqual(response.status_code, 400)
+                self.assertFalse(response.get_json()["ok"])
+
     def test_supabase_storage_is_used_when_configured(self) -> None:
         calls = []
 

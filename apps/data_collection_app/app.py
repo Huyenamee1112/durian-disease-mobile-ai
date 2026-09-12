@@ -375,7 +375,7 @@ PAGE = """
       <div id="message" class="message" role="status"></div>
 
       <label for="disease">Tên bệnh trên lá</label>
-      <select id="disease" name="disease">
+      <select id="disease" name="disease" required>
         {% for label in diseases %}
           <option value="{{ label }}">{{ label }}</option>
         {% endfor %}
@@ -383,10 +383,10 @@ PAGE = """
       <p class="caption">Nếu chưa chắc bệnh, hãy chọn Chưa xác định để chuyên gia kiểm tra lại sau.</p>
 
       <label for="tree-stage">Tuổi cây hoặc giai đoạn sinh trưởng</label>
-      <input id="tree-stage" name="tree_stage" type="text" maxlength="120" placeholder="Ví dụ: cây 3 năm, ra đọt non, sau thu hoạch">
+      <input id="tree-stage" name="tree_stage" type="text" maxlength="120" required placeholder="Ví dụ: cây 3 năm, ra đọt non, sau thu hoạch">
 
       <label for="notes">Ghi chú thêm</label>
-      <textarea id="notes" name="notes" maxlength="600" placeholder="Ví dụ: lá bị đốm nhiều ở mép, sau mưa, vườn vừa phun thuốc"></textarea>
+      <textarea id="notes" name="notes" maxlength="600" required placeholder="Ví dụ: lá bị đốm nhiều ở mép, sau mưa, vườn vừa phun thuốc"></textarea>
       <p class="caption">Ghi chú giúp dữ liệu thực tế có bối cảnh tốt hơn khi chuyên gia xác nhận nhãn.</p>
 
       <input id="latitude" name="latitude" type="hidden">
@@ -396,7 +396,7 @@ PAGE = """
       <input id="captured-at" name="captured_at" type="hidden">
 
       <div class="location-row">
-        <p id="location-status">Vị trí: chưa lấy. App chỉ lưu vị trí nếu bạn đồng ý cấp quyền.</p>
+        <p id="location-status">Vị trí: chưa lấy. Cần lấy vị trí trước khi gửi dữ liệu.</p>
         <button type="button" class="secondary" id="get-location">Lấy vị trí</button>
       </div>
 
@@ -602,6 +602,36 @@ PAGE = """
       });
     }
 
+    function validateRequiredFields() {
+      const disease = document.getElementById("disease").value.trim();
+      const treeStage = document.getElementById("tree-stage").value.trim();
+      const notes = document.getElementById("notes").value.trim();
+      const latitude = document.getElementById("latitude").value.trim();
+      const longitude = document.getElementById("longitude").value.trim();
+
+      if (!disease) {
+        showMessage("Hãy chọn tên bệnh trên lá.", "error");
+        document.getElementById("disease").focus();
+        return false;
+      }
+      if (!treeStage) {
+        showMessage("Hãy nhập tuổi cây hoặc giai đoạn sinh trưởng.", "error");
+        document.getElementById("tree-stage").focus();
+        return false;
+      }
+      if (!notes) {
+        showMessage("Hãy nhập ghi chú thêm về tình trạng lá hoặc bối cảnh vườn.", "error");
+        document.getElementById("notes").focus();
+        return false;
+      }
+      if (!latitude || !longitude) {
+        showMessage("Hãy bấm Lấy vị trí và cấp quyền GPS trước khi gửi dữ liệu.", "error");
+        locationButton.focus();
+        return false;
+      }
+      return true;
+    }
+
     async function inspectSnapshot() {
       if (!hasSnapshot) {
         snapshotAccepted = false;
@@ -786,6 +816,10 @@ PAGE = """
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
 
+      if (!validateRequiredFields()) {
+        return;
+      }
+
       if (!hasSnapshot || !snapshotAccepted) {
         const captured = captureImage();
         if (!captured) {
@@ -875,6 +909,17 @@ def submit():
     if disease_label not in DISEASES:
         return jsonify(ok=False, message="Tên bệnh không hợp lệ."), 400
 
+    tree_stage = request.form.get("tree_stage", "").strip()
+    notes = request.form.get("notes", "").strip()
+    latitude = request.form.get("latitude", "").strip()
+    longitude = request.form.get("longitude", "").strip()
+    if not tree_stage:
+        return jsonify(ok=False, message="Bạn chưa nhập tuổi cây hoặc giai đoạn sinh trưởng."), 400
+    if not notes:
+        return jsonify(ok=False, message="Bạn chưa nhập ghi chú thêm."), 400
+    if not latitude or not longitude:
+        return jsonify(ok=False, message="Bạn chưa lấy vị trí GPS."), 400
+
     image_file = request.files.get("image")
     if image_file is None:
         return jsonify(ok=False, message="Bạn chưa chụp ảnh."), 400
@@ -887,10 +932,10 @@ def submit():
         submission_id = save_submission(
             image=result.image,
             disease=DISEASES[disease_label],
-            tree_stage=request.form.get("tree_stage"),
-            notes=request.form.get("notes"),
-            latitude=request.form.get("latitude"),
-            longitude=request.form.get("longitude"),
+            tree_stage=tree_stage,
+            notes=notes,
+            latitude=latitude,
+            longitude=longitude,
             location_accuracy=request.form.get("location_accuracy"),
             location_name=request.form.get("location_name"),
             captured_at=request.form.get("captured_at"),
