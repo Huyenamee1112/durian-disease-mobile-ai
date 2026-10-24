@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#08783f">
+  <title>Durian AI – Nhận diện bệnh lá sầu riêng</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css', v='6') }}">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <img class="brand-mark" src="{{ url_for('static', filename='durian-logo.png') }}" alt="Durian AI">
+      <div><strong>DURIAN AI</strong><span>Trợ lý thông minh cho bệnh lá sầu riêng</span></div>
+      <button class="icon-button" id="settings-button" aria-label="Cài đặt" title="Cài đặt">⚙</button>
+    </header>
+
+    <section class="screen active" id="home-screen">
+      <div class="hero-card">
+        <p class="eyebrow">CHẨN ĐOÁN BẰNG HÌNH ẢNH</p>
+        <h1>Kiểm tra lá sầu riêng</h1>
+        <p>Chụp rõ một lá, đủ sáng và giữ lá ở giữa khung hình.</p>
+        <div class="leaf-stage" id="preview-stage">
+          <div class="corner top-left"></div><div class="corner top-right"></div>
+          <div class="corner bottom-left"></div><div class="corner bottom-right"></div>
+          <img class="leaf-placeholder" src="{{ url_for('static', filename='icons/01_chan_doan.png', v='4') }}" alt="Chẩn đoán lá sầu riêng">
+          <img id="image-preview" alt="Ảnh lá đã chọn">
+        </div>
+        <input id="camera-input" type="file" accept="image/*" capture="environment" hidden>
+        <input id="gallery-input" type="file" accept="image/*" hidden>
+        <button class="primary-button button-with-icon" id="camera-button"><img src="{{ url_for('static', filename='icons/05_chup_anh.png', v='4') }}" alt="">Chụp ảnh nhận diện</button>
+        <button class="secondary-button button-with-icon" id="gallery-button"><img src="{{ url_for('static', filename='icons/01_chan_doan.png', v='4') }}" alt="">Chọn ảnh từ thư viện</button>
+        <button class="primary-button hidden" id="predict-button">Nhận diện ảnh này</button>
+        <div class="status-line"><span></span><b id="model-status" role="status">Sẵn sàng nhận diện online</b></div>
+      </div>
+
+      <div class="quick-grid">
+        <button class="quick-card" id="open-agent"><img src="{{ url_for('static', filename='icons/04_kien_thuc.png', v='4') }}" alt=""><b>Trợ lý AI</b><small>Hỏi đáp về bệnh lá</small></button>
+        <button class="quick-card" id="disease-info"><img src="{{ url_for('static', filename='icons/02_benh_sau_rieng.png', v='4') }}" alt=""><b>Tra cứu bệnh</b><small>4 lớp đang hỗ trợ</small></button>
+      </div>
+
+      <section class="history-section">
+        <div class="section-title"><h2>Gần đây</h2><button id="clear-history">Xóa</button></div>
+        <div id="history-list" class="empty-state">Chưa có lần nhận diện nào.</div>
+      </section>
+    </section>
+
+    <section class="screen" id="result-screen">
+      <div class="result-header"><button class="back-button" id="back-button">‹</button><h2>Kết quả nhận diện</h2></div>
+      <img class="result-image" id="result-image" alt="Ảnh được nhận diện">
+      <article class="diagnosis-card">
+        <img class="diagnosis-icon" src="{{ url_for('static', filename='icons/02_benh_sau_rieng.png', v='4') }}" alt="Biểu tượng bệnh lá">
+        <div><p id="result-prefix">Kết quả tham khảo</p><h1 id="disease-name"></h1><p>Độ tin cậy: <strong id="confidence"></strong></p></div>
+      </article>
+      <p class="warning hidden" id="uncertain-warning">Độ tin cậy còn thấp. Hãy chụp lại ảnh rõ hơn hoặc nhờ chuyên gia kiểm tra.</p>
+      <article class="guidance-card"><h3>Gợi ý tiếp theo</h3><p id="guidance"></p></article>
+      <section id="related-reading" class="related-reading" aria-label="Bài đọc liên quan"></section>
+      <article class="probability-card"><h3>Xác suất theo từng lớp</h3><div id="probabilities"></div></article>
+      <button class="speaker-button button-with-icon" id="speak-button"><img src="{{ url_for('static', filename='icons/06_nghe_ai.svg') }}" alt="">Nghe kết quả bằng AI</button>
+      <button class="secondary-button button-with-icon" id="ask-from-result"><img src="{{ url_for('static', filename='icons/04_kien_thuc.png', v='4') }}" alt="">Hỏi trợ lý AI</button>
+      <button class="ghost-button button-with-icon" id="retry-button"><img src="{{ url_for('static', filename='icons/05_chup_anh.png', v='4') }}" alt="">Chụp ảnh khác</button>
+    </section>
+
+    <section class="agent-panel hidden" id="agent-panel" aria-label="Trợ lý AI">
+      <div class="agent-card">
+        <div class="section-title"><h2>Trợ lý AI</h2><button id="close-agent">Đóng</button></div>
+        <p>Hỏi thêm về kết quả nhận diện hoặc cách kiểm tra cây. Nội dung chỉ mang tính tham khảo.</p>
+        <div class="agent-answer" id="agent-answer" aria-live="polite">Bạn muốn hỏi gì về lá sầu riêng?</div>
+        <form id="agent-form"><textarea id="agent-question" maxlength="800" placeholder="Ví dụ: Tôi nên kiểm tra thêm dấu hiệu nào?"></textarea><button class="primary-button">Gửi câu hỏi</button></form>
+      </div>
+    </section>
+
+    <section class="screen" id="diseases-screen">
+      <div class="page-heading"><p class="eyebrow">THƯ VIỆN BỆNH LÁ</p><h1>Hiểu dấu hiệu trên lá</h1><p>4 nhóm kết quả mà mô hình đang hỗ trợ.</p></div>
+      <label class="search-label" for="disease-search">Tìm bệnh hoặc triệu chứng</label>
+      <input id="disease-search" type="search" placeholder="Nhập tên bệnh, đốm, cháy…" autocomplete="off">
+      <div id="disease-list" class="content-stack"></div>
+      <p class="notice">Dấu hiệu có thể trùng nhau. Cần kiểm tra thực tế để xác định nguyên nhân trước khi xử lý.</p>
+    </section>
+    <section class="screen" id="history-screen">
+      <div class="page-heading"><p class="eyebrow">NHẬT KÝ CỦA BẠN</p><h1>Lịch sử nhận diện</h1><p>Ảnh và kết quả được lưu trên trình duyệt này.</p></div>
+      <div class="section-title"><span id="history-count"></span><button id="clear-all-history">Xóa tất cả</button></div>
+      <div id="full-history-list"></div>
+      <p class="notice">Lưu tối đa 20 lần gần nhất. Xóa dữ liệu trình duyệt sẽ xóa nhật ký trên thiết bị này.</p>
+    </section>
+    <section class="screen" id="knowledge-screen">
+      <div class="page-heading"><p class="eyebrow">CẨM NANG THỰC HÀNH</p><h1>Chăm cây có cơ sở</h1><p>Bắt đầu từ ảnh rõ và quan sát đúng.</p></div>
+      <section class="reading-library" aria-labelledby="reading-title">
+        <div class="section-title"><h2 id="reading-title">Bài đọc chọn lọc</h2><span>6 tài liệu</span></div>
+        <p class="library-intro">Tóm tắt để chọn bài phù hợp, đọc đầy đủ tại nguồn gốc.</p>
+        <label class="search-label" for="article-search">Tìm bài viết</label>
+        <input id="article-search" type="search" placeholder="Tên bài, nguồn, thán thư…" autocomplete="off">
+        <label class="search-label category-label" for="article-category">Chủ đề</label>
+        <select id="article-category"><option value="">Tất cả chủ đề</option><option>Bệnh hại</option><option>Chăm sóc</option><option>Canh tác</option></select>
+        <p id="article-count" class="notice" role="status"></p>
+        <div id="article-list" class="content-stack"></div>
+        <p class="notice">Chọn lọc ngày 24/10/2026. Các bài có thể phản ánh khuyến cáo tại thời điểm xuất bản; hãy đối chiếu điều kiện vườn và hướng dẫn chuyên môn hiện hành.</p>
+      </section>
+      <h2 class="guide-heading">Hướng dẫn dùng Durian AI</h2>
+      <div class="content-stack">
+        <details class="info-card" open><summary>01 · Chụp ảnh để nhận diện tốt hơn</summary><p>Chọn một lá, lau sạch ống kính, chụp dưới ánh sáng tự nhiên và tránh bóng đổ. Lấy nét rõ cả vùng bị tổn thương; không dùng bộ lọc màu.</p><p>Nếu kết quả chưa chắc chắn, chụp lại mặt trước, mặt sau và thêm ảnh toàn cây để trao đổi với chuyên gia.</p></details>
+        <details class="info-card"><summary>02 · Hiểu kết quả và độ tin cậy</summary><p>Độ tin cậy là điểm dự đoán của mô hình, không phải xác suất cây chắc chắn mắc bệnh. Mô hình chỉ phân biệt bốn nhóm đang hỗ trợ; ảnh ngoài phạm vi vẫn có thể bị phân loại sai.</p><p>Lá được dự đoán khỏe vẫn cần theo dõi nếu cây có biểu hiện bất thường.</p></details>
+        <details class="info-card"><summary>03 · Theo dõi vườn sau khi nhận diện</summary><p>Ghi ngày chụp, vị trí cây, tình trạng tưới và thời tiết. So sánh các lá lân cận, theo dõi vết tổn thương có lan rộng không.</p><p>Giữ tán thông thoáng và tránh tưới làm ướt lá kéo dài là những nguyên tắc quản lý bệnh lá nói chung.</p><a href="https://ipm.ucanr.edu/home-and-landscape/anthracnose/" target="_blank" rel="noopener noreferrer">Tham khảo UC IPM: nguyên tắc quản lý thán thư ↗</a><small>Nguồn về bệnh trên cây cảnh nói chung; không phải phác đồ cho sầu riêng.</small></details>
+        <details class="info-card"><summary>04 · Khi nào cần người có chuyên môn?</summary><p>Khi vết bệnh lan nhanh, nhiều lá rụng, cây héo hoặc triệu chứng tái diễn, hãy liên hệ cán bộ bảo vệ thực vật. Mang theo ảnh lá, ảnh toàn cây và lịch chăm sóc.</p><p>Không chọn thuốc hoặc liều lượng chỉ dựa trên kết quả AI.</p></details>
+      </div>
+    </section>
+    <section class="screen" id="settings-screen">
+      <div class="page-heading"><p class="eyebrow">TÙY CHỈNH TRẢI NGHIỆM</p><h1>Cài đặt</h1><p>Các lựa chọn được lưu trên thiết bị này.</p></div>
+      <div class="info-card settings-form">
+        <h2>Giọng đọc tiếng Việt</h2>
+        <label class="setting-row" for="auto-speak"><span>Tự đọc sau khi nhận diện</span><input id="auto-speak" type="checkbox" role="switch"></label>
+        <label for="voice-select">Giọng có sẵn trên thiết bị</label><select id="voice-select"></select>
+        <label for="speech-rate">Tốc độ đọc <output id="rate-value"></output></label><input id="speech-rate" type="range" min="0.6" max="1.3" step="0.05">
+        <button class="secondary-button" id="test-voice">Nghe thử giọng đọc</button>
+        <p id="voice-status" class="notice"></p>
+      </div>
+      <div class="info-card"><h2>Thông tin ứng dụng</h2><p>Durian AI · Nhận diện bệnh lá sầu riêng</p><p id="settings-model"></p><p>Kết quả hỗ trợ tham khảo, cần kết hợp quan sát thực tế và ý kiến chuyên môn.</p></div>
+    </section>
+    <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+    <nav class="bottom-nav" aria-label="Điều hướng chính">
+      <button class="selected" data-screen="home" aria-current="page"><img src="{{ url_for('static', filename='icons/01_chan_doan.png', v='4') }}" alt=""><span>Chẩn đoán</span></button>
+      <button data-screen="diseases"><img src="{{ url_for('static', filename='icons/02_benh_sau_rieng.png', v='4') }}" alt=""><span>Bệnh</span></button>
+      <button data-screen="history"><img src="{{ url_for('static', filename='icons/03_lich_su.png', v='4') }}" alt=""><span>Lịch sử</span></button>
+      <button data-screen="knowledge"><img src="{{ url_for('static', filename='icons/04_kien_thuc.png', v='4') }}" alt=""><span>Kiến thức</span></button>
+    </nav>
+  </main>
+  <script>window.DURIAN_CONFIG = {{ {"defaultBackend": default_backend, "availableBackends": available_backends}|tojson }};</script>
+  <script src="{{ url_for('static', filename='articles.js', v='1') }}" defer></script>
+  <script src="{{ url_for('static', filename='app.js', v='6') }}" defer></script>
+</body>
+</html>
