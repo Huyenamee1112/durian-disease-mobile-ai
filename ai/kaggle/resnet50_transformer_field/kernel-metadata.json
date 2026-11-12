@@ -1,0 +1,18 @@
+{
+  "id": "huyentran999/durian-resnet50-transformer-field",
+  "title": "Durian ResNet50 Transformer Field",
+  "code_file": "run_resnet50_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "",
+  "dataset_sources": [
+    "huyentran999/durian-field-balanced110"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

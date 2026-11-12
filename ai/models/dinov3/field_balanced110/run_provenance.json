@@ -1,0 +1,9 @@
+{
+  "notebook": "huyentran999/durian-dinov3-vit-s16-field",
+  "version": 1,
+  "attempt": 1,
+  "dataset": "huyentran999/durian-field-balanced110",
+  "code_sha256": "312ebce459c7b8a44266bd6b8c598e1dd363f28aa3b76d4bd7bc9b216b6946e8",
+  "checkpoint_sha256": "3f5aaed6149d47b9e6a842b496289e949ede2df47d1610d1ec076d33ba80460e",
+  "verification": "Checkpoint epoch/classes/head shape and all floating tensors finite; test supports checked."
+}

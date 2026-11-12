@@ -1,0 +1,21 @@
+{
+  "source_export": "ai/data/supabase_dataset",
+  "source_manifest_sha256": "4c0883e1fc079717950c17c5f3bed1ce9c36ec7be8d3375c584ce2bc1e7f40a2",
+  "source_images": 327,
+  "excluded_class": {
+    "Leaf_Phomopsis": 6
+  },
+  "exact_duplicate_copies_removed": 4,
+  "unique_four_class_images": 317,
+  "dataset_report": "ai/data/supabase_4class_20260921_clean/dataset_build_report.json",
+  "preprocessing_report": "ai/data/supabase_4class_20260921_processed/preprocessing_report.json",
+  "initial_checkpoint": "ai/models/mobilenetv2/mobilenetv2_durian_baseline.pth",
+  "initial_checkpoint_sha256": "4a766ddc2424b616548de20ae8658f9217422192a1a0f6fbfef17a9df6e7a556",
+  "initial_checkpoint_note": "Existing six-class baseline state dict; no training provenance embedded. Reused feature weights, newly initialized four-class classifier. No previous field-trained checkpoint used.",
+  "comparison_baseline_report": "ai/models/mobilenetv2/supabase_4class_processed_finetuned/mobilenetv2_supabase_4class_report.json",
+  "old_test_images": 32,
+  "new_test_images": 46,
+  "test_images_in_common": 1,
+  "new_test_images_previously_in_old_train": 25,
+  "comparison_note": "Different test compositions; historical metrics are descriptive, not a controlled same-test comparison. Exact file/pixel duplicates checked; near-duplicates and tree/session groups not verified."
+}

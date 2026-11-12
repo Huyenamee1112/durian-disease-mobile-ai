@@ -2,3 +2,7 @@ Flask==3.1.2
 Pillow==11.3.0
 torch==2.8.0
 torchvision==0.23.0
+gTTS==2.5.4
+
+python-dotenv==1.2.1
+certifi==2026.7.22

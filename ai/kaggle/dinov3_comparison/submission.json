@@ -1,0 +1,16 @@
+{
+  "notebook": "huyentran999/durian-dinov3-comparison",
+  "version": 1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "run_seconds": 7200,
+  "script_sha256": "3e79cc91543d536d5a1d6e4de0e49ab0b4bfa4709819b95d852e952d8c9cc3c6",
+  "state": "complete",
+  "test_accuracy_mean": 0.8480392156862745,
+  "test_macro_f1_mean": 0.8471038873683,
+  "local_artifacts": "ai/models/dinov3/comparison_224_3seeds",
+  "checkpoint_verification": "All three checkpoints reloaded, finite tensors, epoch and seed matched reports."
+}

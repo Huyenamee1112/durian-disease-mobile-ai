@@ -1,0 +1,11 @@
+{
+  "old_test_size": 32,
+  "new_test_size": 46,
+  "accuracy_old": 0.5625,
+  "accuracy_new": 0.782608695652174,
+  "accuracy_delta_percentage_points": 22.010869565217394,
+  "macro_f1_old": 0.5255132850241546,
+  "macro_f1_new": 0.725452196382429,
+  "macro_f1_delta_percentage_points": 19.993891135827436,
+  "caveat": "Different test compositions; historical metrics are descriptive, not a controlled same-test comparison. Exact file/pixel duplicates checked; near-duplicates and tree/session groups not verified."
+}

@@ -1,0 +1,5 @@
+actual / predicted,Leaf_Algal,Leaf_Blight,Leaf_Colletotrichum,Leaf_Healthy
+Leaf_Algal,11,0,0,0
+Leaf_Blight,1,2,3,0
+Leaf_Colletotrichum,1,1,17,2
+Leaf_Healthy,0,0,2,6

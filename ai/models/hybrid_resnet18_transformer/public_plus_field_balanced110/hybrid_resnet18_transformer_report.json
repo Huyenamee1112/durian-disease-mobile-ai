@@ -1,0 +1,217 @@
+{
+  "model": "ResNet18 + Transformer Encoder",
+  "configuration": {
+    "data_dir": "ai/data/combined_public_field_4class_20261003_balanced110_field_eval",
+    "output_dir": "ai/models/hybrid_resnet18_transformer/public_plus_field_balanced110",
+    "epochs": 15,
+    "patience": 5,
+    "batch_size": 16,
+    "image_size": 224,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "num_workers": 0,
+    "seed": 42,
+    "device": "mps",
+    "unfreeze_backbone": false,
+    "no_pretrained": false
+  },
+  "device": "mps",
+  "classes": [
+    "Leaf_Algal",
+    "Leaf_Blight",
+    "Leaf_Colletotrichum",
+    "Leaf_Healthy"
+  ],
+  "dataset_sizes": {
+    "train": 1727,
+    "val": 64,
+    "test": 68
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0618914282246001,
+      "train_accuracy": 0.5715112912565142,
+      "val_loss": 1.2528386861085892,
+      "val_accuracy": 0.5,
+      "val_macro_f1": 0.45961386918833724
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8216540488329801,
+      "train_accuracy": 0.7104806022003475,
+      "val_loss": 1.2280870825052261,
+      "val_accuracy": 0.5,
+      "val_macro_f1": 0.4812840607668194
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7579040563927956,
+      "train_accuracy": 0.7475390851187029,
+      "val_loss": 1.0180892199277878,
+      "val_accuracy": 0.578125,
+      "val_macro_f1": 0.574871794871795
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.7082642594305987,
+      "train_accuracy": 0.7730167921250723,
+      "val_loss": 1.2314742505550385,
+      "val_accuracy": 0.484375,
+      "val_macro_f1": 0.4699494949494949
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6716849477772914,
+      "train_accuracy": 0.7898089171974523,
+      "val_loss": 0.9880187213420868,
+      "val_accuracy": 0.578125,
+      "val_macro_f1": 0.5754377859641018
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6791875024855172,
+      "train_accuracy": 0.7869137232194557,
+      "val_loss": 0.9159645289182663,
+      "val_accuracy": 0.578125,
+      "val_macro_f1": 0.5826106326106326
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6674469493860169,
+      "train_accuracy": 0.8042848870874348,
+      "val_loss": 0.9542623907327652,
+      "val_accuracy": 0.65625,
+      "val_macro_f1": 0.6478774020694753
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.631160399267697,
+      "train_accuracy": 0.7979154603358425,
+      "val_loss": 0.988644078373909,
+      "val_accuracy": 0.53125,
+      "val_macro_f1": 0.5301423453996983
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.5834583167955236,
+      "train_accuracy": 0.8320787492762015,
+      "val_loss": 0.8746858686208725,
+      "val_accuracy": 0.625,
+      "val_macro_f1": 0.6292674657465946
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.5963613691189141,
+      "train_accuracy": 0.8170237405906196,
+      "val_loss": 0.8935032039880753,
+      "val_accuracy": 0.578125,
+      "val_macro_f1": 0.5773809523809523
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.5493154342145539,
+      "train_accuracy": 0.8453966415749855,
+      "val_loss": 0.8744850903749466,
+      "val_accuracy": 0.609375,
+      "val_macro_f1": 0.6069367843048457
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5082591368617801,
+      "train_accuracy": 0.8697162709901564,
+      "val_loss": 0.8495996296405792,
+      "val_accuracy": 0.671875,
+      "val_macro_f1": 0.6732238349885409
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.5051247889966584,
+      "train_accuracy": 0.8563983786913724,
+      "val_loss": 0.8653985410928726,
+      "val_accuracy": 0.625,
+      "val_macro_f1": 0.61364522417154
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.5089111929693592,
+      "train_accuracy": 0.863346844238564,
+      "val_loss": 0.8166069835424423,
+      "val_accuracy": 0.671875,
+      "val_macro_f1": 0.6706773618538324
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.49279068343958277,
+      "train_accuracy": 0.8795599305153445,
+      "val_loss": 0.8401325047016144,
+      "val_accuracy": 0.640625,
+      "val_macro_f1": 0.6416666666666666
+    }
+  ],
+  "best_val_macro_f1": 0.6732238349885409,
+  "test_metrics": {
+    "accuracy": 0.6911764705882353,
+    "macro_f1": 0.6946589446589446,
+    "per_class": {
+      "Leaf_Algal": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8823529411764706,
+        "f1": 0.8571428571428571,
+        "support": 17
+      },
+      "Leaf_Blight": {
+        "precision": 0.5,
+        "recall": 0.5882352941176471,
+        "f1": 0.5405405405405405,
+        "support": 17
+      },
+      "Leaf_Colletotrichum": {
+        "precision": 0.631578947368421,
+        "recall": 0.7058823529411765,
+        "f1": 0.6666666666666667,
+        "support": 17
+      },
+      "Leaf_Healthy": {
+        "precision": 0.9090909090909091,
+        "recall": 0.5882352941176471,
+        "f1": 0.7142857142857143,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        10,
+        3,
+        1
+      ],
+      [
+        0,
+        5,
+        12,
+        0
+      ],
+      [
+        0,
+        3,
+        4,
+        10
+      ]
+    ],
+    "class_names": [
+      "Leaf_Algal",
+      "Leaf_Blight",
+      "Leaf_Colletotrichum",
+      "Leaf_Healthy"
+    ]
+  },
+  "model_path": "ai/models/hybrid_resnet18_transformer/public_plus_field_balanced110/hybrid_resnet18_transformer_best.pth",
+  "elapsed_seconds": 266.45
+}

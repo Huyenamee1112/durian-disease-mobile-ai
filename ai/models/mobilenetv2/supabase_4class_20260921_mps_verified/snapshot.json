@@ -1,0 +1,7 @@
+{
+  "device": "mps",
+  "best_epoch": 7,
+  "best_val_accuracy": 0.8367346938775511,
+  "source": "ai/models/mobilenetv2/supabase_4class_20260921_retrained/mobilenetv2_supabase_4class_best.pth",
+  "identification": "GPU run first-epoch train accuracy 0.4; CPU run 0.4041666666666667"
+}

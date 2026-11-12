@@ -1,0 +1,271 @@
+{
+  "config": {
+    "model": "vit_small_patch16_dinov3.lvd1689m",
+    "pretrained": true,
+    "seed": 43,
+    "epochs": 20,
+    "patience": 5,
+    "batch_size": 8,
+    "image_size": 224,
+    "unfreeze_blocks": 2,
+    "backbone_lr": 1e-05,
+    "head_lr": 0.0003,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "preprocessing": "Match DINOv2 training transforms; direct resize 224, ImageNet normalization",
+    "class_names": [
+      "Leaf_Algal",
+      "Leaf_Blight",
+      "Leaf_Colletotrichum",
+      "Leaf_Healthy"
+    ],
+    "dataset_sizes": {
+      "train": 480,
+      "val": 64,
+      "test": 68
+    },
+    "torch": "2.11.0+cu130",
+    "timm": "1.0.22",
+    "gpu": "Tesla T4",
+    "selection": "validation macro_f1"
+  },
+  "best_epoch": 11,
+  "validation": {
+    "accuracy": 0.796875,
+    "macro_f1": 0.7868773946360154,
+    "loss": 0.733681108802557,
+    "per_class": {
+      "Leaf_Algal": {
+        "precision": 0.75,
+        "recall": 0.9375,
+        "f1": 0.8333333333333334,
+        "support": 16
+      },
+      "Leaf_Blight": {
+        "precision": 0.8181818181818182,
+        "recall": 0.5625,
+        "f1": 0.6666666666666666,
+        "support": 16
+      },
+      "Leaf_Colletotrichum": {
+        "precision": 0.8461538461538461,
+        "recall": 0.6875,
+        "f1": 0.7586206896551724,
+        "support": 16
+      },
+      "Leaf_Healthy": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.888888888888889,
+        "support": 16
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        9,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        11,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        16
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.8382352941176471,
+    "macro_f1": 0.8387310606060605,
+    "loss": 0.5011264646754545,
+    "per_class": {
+      "Leaf_Algal": {
+        "precision": 0.7894736842105263,
+        "recall": 0.8823529411764706,
+        "f1": 0.8333333333333333,
+        "support": 17
+      },
+      "Leaf_Blight": {
+        "precision": 0.8666666666666667,
+        "recall": 0.7647058823529411,
+        "f1": 0.8125,
+        "support": 17
+      },
+      "Leaf_Colletotrichum": {
+        "precision": 0.7777777777777778,
+        "recall": 0.8235294117647058,
+        "f1": 0.7999999999999999,
+        "support": 17
+      },
+      "Leaf_Healthy": {
+        "precision": 0.9375,
+        "recall": 0.8823529411764706,
+        "f1": 0.9090909090909091,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        13,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        14,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        15
+      ]
+    ]
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4134346505006155,
+      "val_accuracy": 0.53125,
+      "val_macro_f1": 0.47455027567517055,
+      "val_loss": 1.2701081484556198
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.2344953576723734,
+      "val_accuracy": 0.5,
+      "val_macro_f1": 0.4375252525252525,
+      "val_loss": 1.181367926299572
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.1193405757347743,
+      "val_accuracy": 0.546875,
+      "val_macro_f1": 0.5390968508615568,
+      "val_loss": 1.067978173494339
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.9781380583842595,
+      "val_accuracy": 0.640625,
+      "val_macro_f1": 0.6337667361374258,
+      "val_loss": 0.9917342215776443
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.8817885905504227,
+      "val_accuracy": 0.6875,
+      "val_macro_f1": 0.6753077816492451,
+      "val_loss": 0.9072843417525291
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.758708136777083,
+      "val_accuracy": 0.71875,
+      "val_macro_f1": 0.7085757379875027,
+      "val_loss": 0.8452336341142654
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6830405597885449,
+      "val_accuracy": 0.703125,
+      "val_macro_f1": 0.6865876371690325,
+      "val_loss": 0.8391680978238583
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6391521612803142,
+      "val_accuracy": 0.71875,
+      "val_macro_f1": 0.6991995073891626,
+      "val_loss": 0.8078137338161469
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.5803147301077842,
+      "val_accuracy": 0.734375,
+      "val_macro_f1": 0.7091599726946045,
+      "val_loss": 0.8218497335910797
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.5420482411980629,
+      "val_accuracy": 0.765625,
+      "val_macro_f1": 0.7512772315403895,
+      "val_loss": 0.7667042687535286
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.5160328383247058,
+      "val_accuracy": 0.796875,
+      "val_macro_f1": 0.7868773946360154,
+      "val_loss": 0.733681108802557
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.49273476203282673,
+      "val_accuracy": 0.75,
+      "val_macro_f1": 0.7390528861117096,
+      "val_loss": 0.7837866842746735
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.4868066777785619,
+      "val_accuracy": 0.78125,
+      "val_macro_f1": 0.7738232074438971,
+      "val_loss": 0.7469818033277988
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.43750310614705085,
+      "val_accuracy": 0.765625,
+      "val_macro_f1": 0.7565738151945047,
+      "val_loss": 0.7586695291101933
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.44750276853640875,
+      "val_accuracy": 0.78125,
+      "val_macro_f1": 0.7769108132011358,
+      "val_loss": 0.7267429530620575
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.42986438423395157,
+      "val_accuracy": 0.78125,
+      "val_macro_f1": 0.7769108132011358,
+      "val_loss": 0.7319054305553436
+    }
+  ],
+  "elapsed_seconds": 119.28681063652039,
+  "note": "Test evaluated once after validation-based checkpoint selection."
+}

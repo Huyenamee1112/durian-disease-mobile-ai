@@ -1,0 +1,14 @@
+{
+  "state": "submitted",
+  "max_run_seconds": 10800,
+  "script_sha256": "124c34abbae45300ce056801080c7b2060979784b682c61ee790c3d1123f7d70",
+  "search_configurations": 4,
+  "selected_seeds": [
+    42,
+    43,
+    44
+  ],
+  "training_runs_total": 6,
+  "notebook": "huyentran999/durian-dinov3-validation-sweep",
+  "version": 1
+}

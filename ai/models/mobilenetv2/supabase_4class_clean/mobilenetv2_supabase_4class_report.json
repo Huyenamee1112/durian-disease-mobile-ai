@@ -1,0 +1,166 @@
+{
+  "classes": [
+    "Leaf_Algal",
+    "Leaf_Blight",
+    "Leaf_Colletotrichum",
+    "Leaf_Healthy"
+  ],
+  "dataset_sizes": {
+    "train": 146,
+    "val": 31,
+    "test": 30
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4070812022849306,
+      "train_accuracy": 0.2054794520547945,
+      "val_loss": 1.3813786622016662,
+      "val_accuracy": 0.22580645161290322
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.3109776581803414,
+      "train_accuracy": 0.3287671232876712,
+      "val_loss": 1.3400651985599148,
+      "val_accuracy": 0.2903225806451613
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.2417776176374253,
+      "train_accuracy": 0.5068493150684932,
+      "val_loss": 1.3243061496365456,
+      "val_accuracy": 0.3548387096774194
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.14404520433243,
+      "train_accuracy": 0.6643835616438356,
+      "val_loss": 1.2847411324900966,
+      "val_accuracy": 0.45161290322580644
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.0832225018984651,
+      "train_accuracy": 0.6643835616438356,
+      "val_loss": 1.2350027522733134,
+      "val_accuracy": 0.45161290322580644
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.0369061378583515,
+      "train_accuracy": 0.684931506849315,
+      "val_loss": 1.2140678321161578,
+      "val_accuracy": 0.5161290322580645
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.9745334909386831,
+      "train_accuracy": 0.684931506849315,
+      "val_loss": 1.1839050746733142,
+      "val_accuracy": 0.5483870967741935
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.8982143638885185,
+      "train_accuracy": 0.7671232876712328,
+      "val_loss": 1.126542587434092,
+      "val_accuracy": 0.5483870967741935
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.8664562212277765,
+      "train_accuracy": 0.7397260273972602,
+      "val_loss": 1.1434551285159202,
+      "val_accuracy": 0.5483870967741935
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.7834246599510925,
+      "train_accuracy": 0.7534246575342466,
+      "val_loss": 1.1103494782601633,
+      "val_accuracy": 0.5483870967741935
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.6833893975166425,
+      "train_accuracy": 0.815068493150685,
+      "val_loss": 1.1694421229823944,
+      "val_accuracy": 0.5161290322580645
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.6952490871899748,
+      "train_accuracy": 0.7945205479452054,
+      "val_loss": 1.1753122114366101,
+      "val_accuracy": 0.4838709677419355
+    }
+  ],
+  "best_val_accuracy": 0.5483870967741935,
+  "test_metrics": {
+    "accuracy": 0.5,
+    "macro_precision": 0.31057422969187676,
+    "macro_recall": 0.42403846153846153,
+    "macro_f1": 0.35833333333333334,
+    "per_class": {
+      "Leaf_Algal": {
+        "precision": 0.6470588235294118,
+        "recall": 0.8461538461538461,
+        "f1": 0.7333333333333334,
+        "support": 13
+      },
+      "Leaf_Blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8
+      },
+      "Leaf_Colletotrichum": {
+        "precision": 0.16666666666666666,
+        "recall": 0.25,
+        "f1": 0.2,
+        "support": 4
+      },
+      "Leaf_Healthy": {
+        "precision": 0.42857142857142855,
+        "recall": 0.6,
+        "f1": 0.5,
+        "support": 5
+      }
+    },
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        2,
+        0
+      ],
+      [
+        3,
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        3
+      ]
+    ],
+    "class_names": [
+      "Leaf_Algal",
+      "Leaf_Blight",
+      "Leaf_Colletotrichum",
+      "Leaf_Healthy"
+    ]
+  },
+  "model_path": "ai/models/mobilenetv2/supabase_4class_clean/mobilenetv2_supabase_4class_best.pth",
+  "elapsed_seconds": 295.65
+}

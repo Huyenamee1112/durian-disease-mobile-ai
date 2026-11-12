@@ -1,0 +1,16 @@
+{
+  "max_submissions": 3,
+  "submissions": [
+    {
+      "attempt": 1,
+      "requested_at": "2026-11-06T09:40:11.654547+00:00",
+      "state": "complete",
+      "notebook": "huyentran999/durian-dinov3-vit-s16-field",
+      "version": 1,
+      "best_epoch": 22,
+      "test_accuracy": 0.9117647058823529,
+      "test_macro_f1": 0.911474051986386,
+      "artifacts": "ai/models/dinov3/field_balanced110"
+    }
+  ]
+}

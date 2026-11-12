@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#08783f">
   <title>Durian AI – Nhận diện bệnh lá sầu riêng</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css', v='6') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css', v='11') }}">
 </head>
 <body>
   <main class="app-shell">
@@ -53,10 +53,13 @@
         <div><p id="result-prefix">Kết quả tham khảo</p><h1 id="disease-name"></h1><p>Độ tin cậy: <strong id="confidence"></strong></p></div>
       </article>
       <p class="warning hidden" id="uncertain-warning">Độ tin cậy còn thấp. Hãy chụp lại ảnh rõ hơn hoặc nhờ chuyên gia kiểm tra.</p>
-      <article class="guidance-card"><h3>Gợi ý tiếp theo</h3><p id="guidance"></p></article>
+      <article class="guidance-card" aria-label="Hướng dẫn tham khảo có nguồn"><h3>Hướng dẫn tham khảo có nguồn</h3><p id="guidance"></p><div id="care-details"></div></article>
       <section id="related-reading" class="related-reading" aria-label="Bài đọc liên quan"></section>
       <article class="probability-card"><h3>Xác suất theo từng lớp</h3><div id="probabilities"></div></article>
-      <button class="speaker-button button-with-icon" id="speak-button"><img src="{{ url_for('static', filename='icons/06_nghe_ai.svg') }}" alt="">Nghe kết quả bằng AI</button>
+      <button class="speaker-button button-with-icon" id="speak-button"><img src="{{ url_for('static', filename='icons/06_nghe_ai.svg') }}" alt="">Nghe kết quả</button>
+
+      <p id="speech-status" class="notice" role="status"></p>
+      <button class="ghost-button" id="stop-speech">Dừng đọc</button>
       <button class="secondary-button button-with-icon" id="ask-from-result"><img src="{{ url_for('static', filename='icons/04_kien_thuc.png', v='4') }}" alt="">Hỏi trợ lý AI</button>
       <button class="ghost-button button-with-icon" id="retry-button"><img src="{{ url_for('static', filename='icons/05_chup_anh.png', v='4') }}" alt="">Chụp ảnh khác</button>
     </section>
@@ -65,13 +68,13 @@
       <div class="agent-card">
         <div class="section-title"><h2>Trợ lý AI</h2><button id="close-agent">Đóng</button></div>
         <p>Hỏi thêm về kết quả nhận diện hoặc cách kiểm tra cây. Nội dung chỉ mang tính tham khảo.</p>
-        <div class="agent-answer" id="agent-answer" aria-live="polite">Bạn muốn hỏi gì về lá sầu riêng?</div>
-        <form id="agent-form"><textarea id="agent-question" maxlength="800" placeholder="Ví dụ: Tôi nên kiểm tra thêm dấu hiệu nào?"></textarea><button class="primary-button">Gửi câu hỏi</button></form>
+        <p id="agent-context" class="notice"></p><button id="agent-reset" class="ghost-button">Cuộc trò chuyện mới</button><div class="agent-answer" id="agent-answer" role="log" aria-live="polite">Bạn muốn hỏi gì về sầu riêng? Hãy mô tả tình trạng cây để mình cùng kiểm tra.</div><p id="agent-status" role="status" class="notice"></p><div class="agent-audio"><button id="agent-listen" class="ghost-button" disabled>Nghe trả lời</button><button id="agent-stop" class="ghost-button">Dừng đọc</button></div>
+        <form id="agent-form"><textarea id="agent-question" maxlength="2000" placeholder="Ví dụ: Tôi nên kiểm tra thêm dấu hiệu nào?"></textarea><button id="agent-send" class="primary-button">Gửi câu hỏi</button></form>
       </div>
     </section>
 
     <section class="screen" id="diseases-screen">
-      <div class="page-heading"><p class="eyebrow">THƯ VIỆN BỆNH LÁ</p><h1>Hiểu dấu hiệu trên lá</h1><p>4 nhóm kết quả mà mô hình đang hỗ trợ.</p></div>
+      <div class="page-heading"><p class="eyebrow">THƯ VIỆN BỆNH LÁ</p><h1>Hiểu dấu hiệu trên lá</h1><p>Nhận biết hình dạng vết bệnh, đối chiếu dấu hiệu và xem hướng xử lý có nguồn.</p></div>
       <label class="search-label" for="disease-search">Tìm bệnh hoặc triệu chứng</label>
       <input id="disease-search" type="search" placeholder="Nhập tên bệnh, đốm, cháy…" autocomplete="off">
       <div id="disease-list" class="content-stack"></div>
@@ -109,13 +112,19 @@
       <div class="info-card settings-form">
         <h2>Giọng đọc tiếng Việt</h2>
         <label class="setting-row" for="auto-speak"><span>Tự đọc sau khi nhận diện</span><input id="auto-speak" type="checkbox" role="switch"></label>
-        <label for="voice-select">Giọng có sẵn trên thiết bị</label><select id="voice-select"></select>
+        <label for="tts-provider">Nguồn giọng đọc</label>
+        <select id="tts-provider"><option value="gtts">Google · Tiếng Việt (gTTS)</option><option value="device">Giọng thiết bị</option></select>
+        <p class="notice">Giọng đọc được tạo tự động bằng gTTS qua dịch vụ Google Translate. Không cần API key hoặc Billing. Nội dung được gửi tới Google để tạo âm thanh mới.</p>
+        <label for="voice-select">Giọng thiết bị dự phòng</label><select id="voice-select"></select>
         <label for="speech-rate">Tốc độ đọc <output id="rate-value"></output></label><input id="speech-rate" type="range" min="0.6" max="1.3" step="0.05">
         <button class="secondary-button" id="test-voice">Nghe thử giọng đọc</button>
+        <button class="ghost-button" id="stop-preview">Dừng nghe thử</button>
+        <p id="voice-preview-status" class="notice" role="status"></p>
         <p id="voice-status" class="notice"></p>
       </div>
       <div class="info-card"><h2>Thông tin ứng dụng</h2><p>Durian AI · Nhận diện bệnh lá sầu riêng</p><p id="settings-model"></p><p>Kết quả hỗ trợ tham khảo, cần kết hợp quan sát thực tế và ý kiến chuyên môn.</p></div>
     </section>
+    <div class="cloud-player"><audio id="cloud-audio" class="hidden" controls preload="auto" style="width:100%" aria-label="Âm thanh kết quả nhận diện"></audio></div>
     <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
     <nav class="bottom-nav" aria-label="Điều hướng chính">
       <button class="selected" data-screen="home" aria-current="page"><img src="{{ url_for('static', filename='icons/01_chan_doan.png', v='4') }}" alt=""><span>Chẩn đoán</span></button>
@@ -124,8 +133,9 @@
       <button data-screen="knowledge"><img src="{{ url_for('static', filename='icons/04_kien_thuc.png', v='4') }}" alt=""><span>Kiến thức</span></button>
     </nav>
   </main>
-  <script>window.DURIAN_CONFIG = {{ {"defaultBackend": default_backend, "availableBackends": available_backends}|tojson }};</script>
+  <script>window.DURIAN_CARE = {{ care_catalog|tojson }};</script>
+  <script>window.DURIAN_CONFIG = {{ {"defaultBackend": default_backend, "availableBackends": available_backends, "tts": tts_config}|tojson }};</script>
   <script src="{{ url_for('static', filename='articles.js', v='1') }}" defer></script>
-  <script src="{{ url_for('static', filename='app.js', v='6') }}" defer></script>
+  <script src="{{ url_for('static', filename='app.js', v='11') }}" defer></script>
 </body>
 </html>

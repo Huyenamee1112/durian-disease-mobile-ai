@@ -1,0 +1,3674 @@
+[
+  {
+    "path": "train/Leaf_Algal/028529c8-fb92-47f5-9f7f-dc8780e4290a.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "3853ced9991140c8fcfcd4688f4c86b45628cbe4cce2c8599b8b8e3ce35de97d"
+  },
+  {
+    "path": "train/Leaf_Algal/037a38ae-5446-4891-800b-d8bcf66a79b7.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "95145b0708c4b054ddade9e78b00c0ccebcda28dccd940ac794a3f7dc7ba1ed9"
+  },
+  {
+    "path": "train/Leaf_Algal/037a38ae-5446-4891-800b-d8bcf66a79b7_aug_025.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "d3b80cec17e19a2ddf98619717ac55876748981785aa21918955238e1ba611d6"
+  },
+  {
+    "path": "train/Leaf_Algal/04502e5d-2288-4969-8687-ba0873640173.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "499c49d7820a00746ad3497c21e8fa73e0192dd41c907745db8be713341eb6f0"
+  },
+  {
+    "path": "train/Leaf_Algal/0881f332-d13e-480a-92fe-7dd4ac410d55.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "cd11d1102faf106cce441e5da257f8ab3a6d6651c73035a14e511cb0833d73be"
+  },
+  {
+    "path": "train/Leaf_Algal/0881f332-d13e-480a-92fe-7dd4ac410d55_aug_042.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "6d8758405dc436a06d9df5f102b97af934e23f7ab9d771e62afee4fbf934380f"
+  },
+  {
+    "path": "train/Leaf_Algal/0f56ecbf-d00f-4600-b00d-0720d23a6594.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "4f692736faa588f9779e2bba95b09084c4f47ffd38c1e478eb2a497d72da656e"
+  },
+  {
+    "path": "train/Leaf_Algal/0f56ecbf-d00f-4600-b00d-0720d23a6594_aug_041.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "a65875e1970f700fa7e1c4ca79b3f18eb7c06f4509c361ebf780516de567124b"
+  },
+  {
+    "path": "train/Leaf_Algal/0f831fe6-8d4d-4bdc-ac91-3a89cd27dd4d.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "923a6cdafb33bd1b4cc235215d90a54f4e8b93119f1d1ddf6b3bfd8f4a1fb1bd"
+  },
+  {
+    "path": "train/Leaf_Algal/0f831fe6-8d4d-4bdc-ac91-3a89cd27dd4d_aug_004.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "37d69e21f147117ed995016ebce56daaa78dcb3818b5881dd8dc329aa39e6590"
+  },
+  {
+    "path": "train/Leaf_Algal/0f831fe6-8d4d-4bdc-ac91-3a89cd27dd4d_aug_038.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "5c66e5a30319444161bc5c349693df166f8779f2aeff8c7e00fb5e99a6969b07"
+  },
+  {
+    "path": "train/Leaf_Algal/0fe6f545-6e4e-44cc-ba2f-366359d377ee.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "0e7a9b0fecef0eebd36244c647bc96415ea62e647dff8c6021cacfc7c05c7dd9"
+  },
+  {
+    "path": "train/Leaf_Algal/14916a6b-d795-4a7e-8100-0a7018131455.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "e7649d55679408e64e4b01b1cb09140d39140fc97cc090e8becf7d878fba17b9"
+  },
+  {
+    "path": "train/Leaf_Algal/14916a6b-d795-4a7e-8100-0a7018131455_aug_026.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "74986fe398a5b5b913243ccba721eebaa807a3c318efd4cb7ef9d22384fff930"
+  },
+  {
+    "path": "train/Leaf_Algal/14916a6b-d795-4a7e-8100-0a7018131455_aug_028.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "8755fb2ae5b6c9488bb615894dc35fc6e4b666b499bfe3827b33ff8ce756ae14"
+  },
+  {
+    "path": "train/Leaf_Algal/15648ba4-3887-4b0a-b4be-de3d2d76fba6.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "71cbb38ea2e23371dd8bf170a2c61e821bb11682a82daefdbc015bc254771aee"
+  },
+  {
+    "path": "train/Leaf_Algal/15648ba4-3887-4b0a-b4be-de3d2d76fba6_aug_009.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "be4436cc8cbe5aca5e8ff843cf8ec73451e12dc99ac89bba5f1dd1671d0e35b3"
+  },
+  {
+    "path": "train/Leaf_Algal/15648ba4-3887-4b0a-b4be-de3d2d76fba6_aug_012.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "07d83fe4abc81a513988907eabc5e7302bf5cd5afc9cf155546caf5b5bd3c928"
+  },
+  {
+    "path": "train/Leaf_Algal/15648ba4-3887-4b0a-b4be-de3d2d76fba6_aug_029.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "2cf803c381e2c77f2c2d5d27eefca82a1ee04d2cbea18d64e81770705bb190ce"
+  },
+  {
+    "path": "train/Leaf_Algal/1c1c92c5-2eb4-4534-9e34-e466b518dc26.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "dbeee1d24c558f7f3e10ab2fed05022f00bce70db38493742c74b13299d42ad3"
+  },
+  {
+    "path": "train/Leaf_Algal/1c1c92c5-2eb4-4534-9e34-e466b518dc26_aug_007.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "b6790694cdad19ae35cbdfeed5572c028bf9241aa3cf0d6cb261ff45972057e1"
+  },
+  {
+    "path": "train/Leaf_Algal/1c1c92c5-2eb4-4534-9e34-e466b518dc26_aug_032.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "8dd8aa2a3b9978ae8d7f9d2846e775e54aa6b345636feaeeb91477903c00dfcd"
+  },
+  {
+    "path": "train/Leaf_Algal/20161c79-fe8f-4900-91aa-5af2acf9b35f.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "4faf62485b8ef13cdbf3806d84fbb1ac19ffb1f8886012b8c989b2499b1195b0"
+  },
+  {
+    "path": "train/Leaf_Algal/24e48bfe-b469-4a9a-bd80-4a298e4af8d4.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "62e21c1facd7d8dde3505623dc3081a30478863b4a19afc98c6a263c347dec7b"
+  },
+  {
+    "path": "train/Leaf_Algal/2984220d-1ae1-4972-a74c-a5380701a8f9.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "d32e61dc2cf9b1389505868b7ba13f5b3b8910ae6806d2a98a3c1e51a16da644"
+  },
+  {
+    "path": "train/Leaf_Algal/2984220d-1ae1-4972-a74c-a5380701a8f9_aug_006.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "b637e0196ab5be54902ba3580411e87a3b84820ebaf4ee58d2f7111573581601"
+  },
+  {
+    "path": "train/Leaf_Algal/2984220d-1ae1-4972-a74c-a5380701a8f9_aug_023.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "652dc600338bf1ae4db9b97f08486c9628faa5c670aad5eae82d109d9b89d592"
+  },
+  {
+    "path": "train/Leaf_Algal/309e7205-5f83-4bb1-b0c2-a1fd5fc2f790.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "6482928923cba2286d8ff902b18f8894b39263c0cc76718c90e9d336ea4ae005"
+  },
+  {
+    "path": "train/Leaf_Algal/38c87e02-fd23-4337-954a-634ae1b25938.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "fcd8185bdea564289836515c420782df0e4cdc076f002802f7db5dcdd7355f7c"
+  },
+  {
+    "path": "train/Leaf_Algal/38c87e02-fd23-4337-954a-634ae1b25938_aug_000.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "b6cd40ed651bd9eb8d5960587c77d4269107da0687d8764f104fc7d8ba8885fe"
+  },
+  {
+    "path": "train/Leaf_Algal/3d4c8c84-e62c-46a7-8339-e3506f63935c.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "60f9552e0a4324157d3d6b8de310f3991354ca19c5681d9c74fc6df951695975"
+  },
+  {
+    "path": "train/Leaf_Algal/3e666a98-328e-4502-b635-a2b563fc4127.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "5035a7a3c9a68afaa62ef805cbf7b0377d8af36c1240bd9cc1e88e9857e9ea2d"
+  },
+  {
+    "path": "train/Leaf_Algal/3e666a98-328e-4502-b635-a2b563fc4127_aug_031.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "d40941d396f1037e8425b21535190631959ecfe0dc5b178a918385c61aac4904"
+  },
+  {
+    "path": "train/Leaf_Algal/3f174cdb-afe8-4050-a7ac-ddc0b7f3998d.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "ac5a56efd6bddd543de2fb56964fa73f8d5ae468abc166d6883cf18ee00c92c8"
+  },
+  {
+    "path": "train/Leaf_Algal/3f174cdb-afe8-4050-a7ac-ddc0b7f3998d_aug_011.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "947bff7e8bf1f4812cbf4e277f5da923e379e1fd48de72f8df523a627bd24581"
+  },
+  {
+    "path": "train/Leaf_Algal/472b4bf2-02e1-4d37-be13-6b654fe7291f.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "64a23ecfc38594ad6c9d053d85b7bff167cc8d2cbb96db31d9fa8d752c3d3dbc"
+  },
+  {
+    "path": "train/Leaf_Algal/489f5a03-08e2-4809-833f-0cbd032d1395.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "79f3adad0f74b97a6a3b64f72bb25473352915b673f0bedab1852e50d8cf41a1"
+  },
+  {
+    "path": "train/Leaf_Algal/489f5a03-08e2-4809-833f-0cbd032d1395_aug_003.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "97ead0f6c4481debc367da9a9c2d04ae8a3aa2af251f8916da3221c3909ca4d9"
+  },
+  {
+    "path": "train/Leaf_Algal/489f5a03-08e2-4809-833f-0cbd032d1395_aug_037.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "24d4455069c73887c33fe8c03947105620a03db842be1a283d48c8edbeb0502d"
+  },
+  {
+    "path": "train/Leaf_Algal/489f5a03-08e2-4809-833f-0cbd032d1395_aug_039.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "d9d3d1101506b7b56e5bab977c0b7ce8663c42a4e33cabd4c9f2598b13387390"
+  },
+  {
+    "path": "train/Leaf_Algal/4b476811-40d4-420f-b9db-31fb9786b95e.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "e7444f51512077223bc6b3ee88806fdfc3c59ed5f7b1c04d3414f8e833eb56f6"
+  },
+  {
+    "path": "train/Leaf_Algal/4b6c2445-7593-4e48-80a9-6eb16ee0d79b.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "547f77cd649123f29560a56f6421ad51a6ccb6e61f12924999a535c044c2dc14"
+  },
+  {
+    "path": "train/Leaf_Algal/4bb60f85-8f53-49b9-a387-35bb9825ad03.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "9c3915e2ed444467a07ea979ad63b24538efd2dbd677c2c386c1740629abd7a8"
+  },
+  {
+    "path": "train/Leaf_Algal/4df14b89-e85d-4f69-81f7-b2d2f23d465b.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "b248649ce9380c23a3c143209743e7ef454715081a5fdc65aded3bfd27cc7271"
+  },
+  {
+    "path": "train/Leaf_Algal/4df14b89-e85d-4f69-81f7-b2d2f23d465b_aug_024.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "81401e7cd982044c4b30e144147a5e0c2ac54b9a0d61c9d3ee0e8629ecee2c02"
+  },
+  {
+    "path": "train/Leaf_Algal/4f2393a1-c04b-4675-b263-753108e821c8.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "5f9e4c0669e3b7a4b23117801404781c3b048fd2514530360dcd6ae41dd719e2"
+  },
+  {
+    "path": "train/Leaf_Algal/4f2393a1-c04b-4675-b263-753108e821c8_aug_022.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "609ef5e12cc7d3642d52e5bfb3e88c64af4ee8bbce6a601e38151f2be0c08fa2"
+  },
+  {
+    "path": "train/Leaf_Algal/4fa552c9-633a-4c4d-a09f-bd8a5eee7840.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "a450d75580df4e9a234ee8675cc785b39691894aa7c909e212377e12053932e4"
+  },
+  {
+    "path": "train/Leaf_Algal/50522e1b-1eac-44ac-81b6-3748f6906784.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "9728ec4c7cd038846f61bd9466819f2b89ca3e0e691d2907f91e6ffd9767a4b3"
+  },
+  {
+    "path": "train/Leaf_Algal/52045525-f204-4c5a-b44a-fc2f2d814d14.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "4443f09d5f7534b77c6470dda8c55f0bb7979a8fb4d99f626a62f43c7b9ec647"
+  },
+  {
+    "path": "train/Leaf_Algal/5477c93e-31d0-4f5c-8952-3bd6fe42d7a6.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "f95be6b2faf36a92db9ed74b5d931fa3093426a592d0ff65ea1552cbe1c452f0"
+  },
+  {
+    "path": "train/Leaf_Algal/5477c93e-31d0-4f5c-8952-3bd6fe42d7a6_aug_020.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "5e447f9875515b5150e02bdd2668cb96310a64bff247dfc945f54987ecf0d5a2"
+  },
+  {
+    "path": "train/Leaf_Algal/5c46f42e-945c-4919-869b-2a48c9268bf6.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "5baebdf5c3d36ddd36f9e9a1aa56a508a87d64dc958be8bd3758989841eae6f0"
+  },
+  {
+    "path": "train/Leaf_Algal/674594d3-7924-45c9-a234-3730b63f7bfb.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "a9ce79a044c145cd4fa977be6bf9170ed82aa7e1bca39079c14fbd1dcfc6e2da"
+  },
+  {
+    "path": "train/Leaf_Algal/693f9f2e-5ee2-4397-9867-8a597bf32b69.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "0165d80147ff0dfae18c56215619ba93e2962c1d9cb07435b54c9fde8a63781d"
+  },
+  {
+    "path": "train/Leaf_Algal/72e581f7-82e8-4a93-a7a5-b719955cd97c.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "ac8ccef42819d473692e9c620a27fb15e030f800d8781fb95cf1a71d94aa6eed"
+  },
+  {
+    "path": "train/Leaf_Algal/7c2d9f5e-c93c-43f8-abd2-450c1dc0d956.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "b967c82dbc756ddae6c8de23d90b1928af2b2ff71349cebbade938ada13793ec"
+  },
+  {
+    "path": "train/Leaf_Algal/7c2d9f5e-c93c-43f8-abd2-450c1dc0d956_aug_034.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "cda9ead02586b9a2a7be9e89fafe87589ad3953de87af3a52d97dff5d5cec7cf"
+  },
+  {
+    "path": "train/Leaf_Algal/7c2d9f5e-c93c-43f8-abd2-450c1dc0d956_aug_035.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "715e42480ac9927cff14e71574a72ff995a4ab0f815fbb52b0b4253a041a8045"
+  },
+  {
+    "path": "train/Leaf_Algal/7c884dcd-93a9-4760-a19c-afd4c796ac8c.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "53ca0d9a6c637adff44bd9da381366711b0ddeb7bf9c495e5ae4cd48e0fd1555"
+  },
+  {
+    "path": "train/Leaf_Algal/7c884dcd-93a9-4760-a19c-afd4c796ac8c_aug_013.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "958c0567129d53be2eaf88a72fc7277bfc4ab46deb5c93d13e7e118922ffd659"
+  },
+  {
+    "path": "train/Leaf_Algal/7dcd12f2-aa8c-4198-80f3-e080e1047ce5.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "0e2f80ef908f4b07ef291f3ce7535a897369846ba0b762aad69f0dfeafa21660"
+  },
+  {
+    "path": "train/Leaf_Algal/7dcd12f2-aa8c-4198-80f3-e080e1047ce5_aug_021.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "82c707d46969d6b49e9c20b8522b36ae9094df8d4264ca04d42db78afa0d9d5d"
+  },
+  {
+    "path": "train/Leaf_Algal/7fb2169b-d3ad-43c1-b506-23498e10305f.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "e4d7a53b9fa25171643b10423e4be96f760ff5cbaa1ac7f9abff5793e8fb8af2"
+  },
+  {
+    "path": "train/Leaf_Algal/80a5708c-c51b-496e-8297-f5685e2b79ee.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "252805bb8b57a8771fd4792ba4a49efc8f3aac2f5c5c19f2ef929db0bbaecc0d"
+  },
+  {
+    "path": "train/Leaf_Algal/815d0edd-79d8-4946-a2bf-3c3e86503c1b.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "89a91415316818b77f93b30f45d5ee27769145fed5346046b3e542784dc8fd75"
+  },
+  {
+    "path": "train/Leaf_Algal/8bea58c4-f190-426a-8224-235fcdb976ea.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "07d34adf973c4c2a1b7822f145a91ae921a680e5be2840ad7cd94d52ca7bc5ce"
+  },
+  {
+    "path": "train/Leaf_Algal/8ede6153-dbe8-4829-a5d9-fbedf830ff41.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "a287d92296fed48027df642ec1575c811c12f965de143140a67bd41c5305c77f"
+  },
+  {
+    "path": "train/Leaf_Algal/92441cd6-b4a2-47aa-b36f-281e449e2540.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "ac9f85b4b9994bb00d6b328df38ea40dc4fb86c4b6b2bb222fc1ccf531053333"
+  },
+  {
+    "path": "train/Leaf_Algal/92d5e08a-bc35-4a60-9130-0f24c4bc4c00.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "c2b7c4cf2822c698f4bb2302c428d37fecdf0bb7b4fd3c14d3ff09ee45b4441b"
+  },
+  {
+    "path": "train/Leaf_Algal/92d5e08a-bc35-4a60-9130-0f24c4bc4c00_aug_036.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "002572f6628502975d08a372b51124afef1fbec8872af148e6693a69ad803d9b"
+  },
+  {
+    "path": "train/Leaf_Algal/92d5e08a-bc35-4a60-9130-0f24c4bc4c00_aug_040.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "6376eee43e6a9d4dcdeb66f73fd512a28b64c84c06b875020582476e74a899b0"
+  },
+  {
+    "path": "train/Leaf_Algal/938862c7-5415-4e3e-958e-b0929e771f93.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "9e98476e739cf8a7eae26a05d052e4111d12e42fb26dffbbb691fadea5b25443"
+  },
+  {
+    "path": "train/Leaf_Algal/954d0ff2-835c-45ce-9670-b50e8b98cb3a.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "61ae560cbde1f36e43473e317e65ad818dae3813522554483c6747a4fae45b94"
+  },
+  {
+    "path": "train/Leaf_Algal/95901c95-6bea-4ae6-854f-972eb0b054b0.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "0e45ddd3fc75ec8a575878a946636e487398a936541169a59c0fd99144ba6aec"
+  },
+  {
+    "path": "train/Leaf_Algal/9636ab2e-29fb-4429-8b98-9a67ac9daca9.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "008f31d7e234c98c736e4bcef4574d709166d2c4346f9ed13cb6c6c4b041e3f0"
+  },
+  {
+    "path": "train/Leaf_Algal/9636ab2e-29fb-4429-8b98-9a67ac9daca9_aug_005.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "064b88ed439a0f8d649a9457c40761455aae09f476c2e3b8488ebac5143841c4"
+  },
+  {
+    "path": "train/Leaf_Algal/9636ab2e-29fb-4429-8b98-9a67ac9daca9_aug_016.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "7bff43eba4afe5f619ef9aadb6db57f3a1cdfaa81ad0413020b3c39cb7e7ba1a"
+  },
+  {
+    "path": "train/Leaf_Algal/96ac2914-d6a7-4d31-900c-6cdbe4aef28f.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "20978c4e83f4eddf7bbf89e0b7b0a5564bc11a180901e4b47cb742d878baddc7"
+  },
+  {
+    "path": "train/Leaf_Algal/96ac2914-d6a7-4d31-900c-6cdbe4aef28f_aug_015.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "bcf81ff7dfbd5eb8aacfe05db364346f7165491f9c8bbd36b298a3a9c5b8b44b"
+  },
+  {
+    "path": "train/Leaf_Algal/96ac2914-d6a7-4d31-900c-6cdbe4aef28f_aug_019.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "ad144190ad2567649ad2be4a1f45aacce5d8caf60c227407e48d0010b5502591"
+  },
+  {
+    "path": "train/Leaf_Algal/9c9c797d-ef99-4518-b7cb-09f71beeec17.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "b95a4b47d99dad73738f5e679f2dcd29cf1618351218166f7861c9abb69f9949"
+  },
+  {
+    "path": "train/Leaf_Algal/a1875c3a-5de4-4dcb-82ef-9c12df751a4d.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "0d2230a97ab2e0b4f00f0b32b3c4b91c7b43bc18f65c2057eeb366232f4d2254"
+  },
+  {
+    "path": "train/Leaf_Algal/a3a62843-f489-4be5-9013-747049e72f81.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "3a537718335fd6da8e1d025586e29e0ccf55d97d51040cdd4cf8f18e179163be"
+  },
+  {
+    "path": "train/Leaf_Algal/a6b24f86-9315-4ac8-bca6-34e29f74f026.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "970a6e080aac5bb562b874eb3f0a0aa9c157fed2ee993e4f49ffaaa7ac4e4f3e"
+  },
+  {
+    "path": "train/Leaf_Algal/a7909672-6c2a-4ff9-89df-ed0b3f594568.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "e1c4dbfa8dba77050550da97a7429c81bff285704b864bf611d1ac944c1b7af2"
+  },
+  {
+    "path": "train/Leaf_Algal/b094ddf7-d3c9-4ce3-9c20-bc7a2d220cb1.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "3a1f4b8f1ad28d063fba0c220fcc6b96731b1a5900b8beac53f1fce98de3a829"
+  },
+  {
+    "path": "train/Leaf_Algal/b094ddf7-d3c9-4ce3-9c20-bc7a2d220cb1_aug_002.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "e4c72cd02f32417918326c6d2b0c0c04779399acc5b198fd16c5019c7dff5808"
+  },
+  {
+    "path": "train/Leaf_Algal/b094ddf7-d3c9-4ce3-9c20-bc7a2d220cb1_aug_030.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "8a31b060e9b3dab01db4f513dfa2f6d5025bc40169027bcd2dc2bce0a0aa75e5"
+  },
+  {
+    "path": "train/Leaf_Algal/b441c1bd-1477-4814-8d4d-d072381f07c9.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "29b78588b012c511d09f7aeeb47fe12b1bc78630aea88b1d09085c588708a2c9"
+  },
+  {
+    "path": "train/Leaf_Algal/b441c1bd-1477-4814-8d4d-d072381f07c9_aug_001.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "931bffc8627435f5153142f6710d5f810b140d4c1fd3ba796c1ece0815fcd307"
+  },
+  {
+    "path": "train/Leaf_Algal/b87d3434-6d0e-4d97-bb28-738e8151fedb.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "cbdabd18c2b82bb58e58e7c2afc92e012f3b5779594f5ba3efa7fdc1a088aa0e"
+  },
+  {
+    "path": "train/Leaf_Algal/b91bb43f-6950-46d4-9eb7-30deaec536cb.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "1fd0f385c2c7ccebb2cb56297bbe2d7bc9c3b65bfc225766d139d641b637ba65"
+  },
+  {
+    "path": "train/Leaf_Algal/bbb7ebfa-05a4-4df3-932c-6bf1a9d3a449.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "2deb49d795cbb3901f683ad77eb2683263da2f13adf682a8ede2d622647e41e4"
+  },
+  {
+    "path": "train/Leaf_Algal/c001eec0-89e5-426b-be4a-b13b6c141631.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "85b4fbc9087213d25a8b07be8326cf52f5ea686a8acd51cd79e52a3afb23296a"
+  },
+  {
+    "path": "train/Leaf_Algal/c001eec0-89e5-426b-be4a-b13b6c141631_aug_010.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "374d6b18bd08ac3a1053576d3de3593b1e48686ed2d61efc092dba3c3bfa114f"
+  },
+  {
+    "path": "train/Leaf_Algal/c0a65808-fd98-4ad2-93a4-4ae6810f4a6b.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "e5691a687070f54575e6b26df0a730cd6f2d6578b236e7e8d6c5b9a29abe4ac1"
+  },
+  {
+    "path": "train/Leaf_Algal/c17663ec-eee5-40f3-a8b7-500f6d2f43aa.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "0052643686c69c7da3675a1452c04126a0ca0079687b2bcddab4a41b17d383ae"
+  },
+  {
+    "path": "train/Leaf_Algal/c4f28dd2-5263-44f8-9def-944368c0714a.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "002f4aec5156d3639d9c90d41c7576b8b6e76021720ca7e27764c224c346305c"
+  },
+  {
+    "path": "train/Leaf_Algal/c5eab03f-5ead-4e19-9781-a14a41745c80.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "add6612f6e3c3c69c669669e38eaa8ecb7df237570ee98267efa044f3c15f3b4"
+  },
+  {
+    "path": "train/Leaf_Algal/c5eab03f-5ead-4e19-9781-a14a41745c80_aug_017.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "39cc8e3c18d2d39a64d5a29429a0f7ec81ff495608f68bb796f4fc1a9e4aa9ba"
+  },
+  {
+    "path": "train/Leaf_Algal/c8fa72ea-e622-4757-83e7-96d4322ba81b.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "e75fd74281990615d4fdafab1a4ece4cb50e0eef84938f8c0173450c5d25b7cd"
+  },
+  {
+    "path": "train/Leaf_Algal/c9e7cad7-6838-4e8e-8dc4-44969ebcfd12.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "ab48039e5da2175b3c1a64bef78468a4aa9d6e3ec12dcc91e5bd577a8b35ee7a"
+  },
+  {
+    "path": "train/Leaf_Algal/c9e7cad7-6838-4e8e-8dc4-44969ebcfd12_aug_014.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "38a8d9266015d115bba01177ce207210ad2eb9bdd995e3ae2d0288eae76fef7f"
+  },
+  {
+    "path": "train/Leaf_Algal/cf84f5e4-2ca2-44bc-ba76-7a27336eb380.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "daa89808eb36e1f7b6d634e7f2da8f79f7dbd09aba381981109232136170a955"
+  },
+  {
+    "path": "train/Leaf_Algal/d3e2a361-4bdf-4bfa-9165-a57c364fa2d2.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "95918786054b1f6b6bb793e793ee68f77bfae05d2195948122f1e17e87f1e107"
+  },
+  {
+    "path": "train/Leaf_Algal/d6e09331-6ae8-4e0c-9abb-bae95a43c08f.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "9d895472d6b52ae061febb7ccb107389b3bbaadf72c56a8395b59ae842259fc5"
+  },
+  {
+    "path": "train/Leaf_Algal/d6e09331-6ae8-4e0c-9abb-bae95a43c08f_aug_018.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "1283016d2762a502733799cf7a5e1fc79debe228aeb52572157265a6b631b4c4"
+  },
+  {
+    "path": "train/Leaf_Algal/d8804320-6ffc-47b5-bcbf-8a0eafba777d.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "7806b9abca785ad95e8b4814d4c176a480800c73ce2ae44b9c7eb581632e6d8f"
+  },
+  {
+    "path": "train/Leaf_Algal/d98270c4-0cba-4083-accf-816ee6b682da.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "1ab180abd8160d6ffe7c8a6fc25c0a17d6cd457a5dd42a147ce526bb8f47cf0c"
+  },
+  {
+    "path": "train/Leaf_Algal/d98270c4-0cba-4083-accf-816ee6b682da_aug_033.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "1f3eef06007e49ad737755aadfa0ca8499c59d0a3c80028944063b000b88b4aa"
+  },
+  {
+    "path": "train/Leaf_Algal/dbec015d-22fd-4ad2-9907-29e49720e11a.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "fc10f58c427d8154a8ca2d638e08b7e76e84b3b4b52141f49798c40695a92644"
+  },
+  {
+    "path": "train/Leaf_Algal/e1c8032b-df2c-48ef-89cb-e5751ce17f17.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "9572be655e1f0bd85f8bbaa9445e7c14360904f256b385bd1b0cc71e719e9fe1"
+  },
+  {
+    "path": "train/Leaf_Algal/e1c8032b-df2c-48ef-89cb-e5751ce17f17_aug_008.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "c3c1707530fd949c1374262ef7310e0e7dbcad6f1f1d2b4efb458224d6d2c5c8"
+  },
+  {
+    "path": "train/Leaf_Algal/e1c8032b-df2c-48ef-89cb-e5751ce17f17_aug_027.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "904521d1e88b501bca39e8349871dce7db1db2c4b311720e423f877434f9d5d7"
+  },
+  {
+    "path": "train/Leaf_Algal/e659cae5-ac27-45ea-af0f-07eb487a0720.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "6cbb149cb84771bba05d9d05356261e2094ea8599742fc0ab88647c6800e6001"
+  },
+  {
+    "path": "train/Leaf_Algal/ebb47111-25e5-49ed-88c6-23b5d406ea16.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "a8f3fe6f2576f222fc5f84e81cf2208d08268ea7fd6eb6684971425b8c59c873"
+  },
+  {
+    "path": "train/Leaf_Algal/ef01bc99-0094-4a7d-9fdf-7fd995dfc8ff.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "68ecfbffd0a3e58ca1a8e3605ab3d0b494f4e002da2e102b0a954c9fdd15aefe"
+  },
+  {
+    "path": "train/Leaf_Algal/f0b59079-aacd-4515-935f-3e0a8531c32e.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "7cca626e512c7200f5ceba54c4e44145232d1c716a122555cdadacefa6d62292"
+  },
+  {
+    "path": "train/Leaf_Algal/f51e4923-c0d1-4452-8db7-c3623d52809b.jpg",
+    "split": "train",
+    "label": "Leaf_Algal",
+    "sha256": "c8ca165787e5d84866cfd761df919c7cd43ed664657caad882682049c032f32d"
+  },
+  {
+    "path": "train/Leaf_Blight/012b123a-8025-42d1-a85d-2f99f236a7dc.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "ae3de5fb5ccbce4bfd4b09dda8c74d5bc1d1318f4a2139636a50576852e7fdc9"
+  },
+  {
+    "path": "train/Leaf_Blight/012b123a-8025-42d1-a85d-2f99f236a7dc_aug_009.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "86d3602f338af1beca8568a91b55cd8c1eb0d967b40d9148c5b3ff9256b8a531"
+  },
+  {
+    "path": "train/Leaf_Blight/07e0271c-be8f-43e2-926f-1eb4c6701e06.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "8826524e0d5bb3de8ae9c55cb304f1b671be745ae1ca6da251040b772f18f65f"
+  },
+  {
+    "path": "train/Leaf_Blight/07e0271c-be8f-43e2-926f-1eb4c6701e06_aug_026.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "9f43ff3537ac1b432b076527ddf63d416f857c91d176b9eb3fbf3f7edf9f713e"
+  },
+  {
+    "path": "train/Leaf_Blight/091a8e4e-516f-4f45-8de0-b5ad43af5b64.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "1bcc587c49a9ab9cd68484325aa998ba54ab9adc3303476673cb7a246c63bece"
+  },
+  {
+    "path": "train/Leaf_Blight/094e9485-e514-4596-80ef-0d95a51272f3.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "a755a939eec6d0054dab0e75300cb239e5c1b9cf0c8c0245d93141fa177fa805"
+  },
+  {
+    "path": "train/Leaf_Blight/094e9485-e514-4596-80ef-0d95a51272f3_aug_021.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "6bbc458cf13bfd002d3cdd726d82583c684f0b5936dedbe48cfa2e4cff24f368"
+  },
+  {
+    "path": "train/Leaf_Blight/0beaa23d-837f-4b94-9bbe-89641cb66077.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "5e57fa7da75970ec2dc1400f981bf9f47c8735dddc66cac5771ed3a604741948"
+  },
+  {
+    "path": "train/Leaf_Blight/0caa00be-e7a1-40d3-bbf9-7c134615e639.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "6d5a1b11ddc2a73e2bb3cad211b2af03e219f800cd000adda76ca6ac8ac16dc4"
+  },
+  {
+    "path": "train/Leaf_Blight/0caa00be-e7a1-40d3-bbf9-7c134615e639_aug_002.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "03092df564e99108b600d2081e7e141826cf1ed3b15a1fe10502c3beef2e77d6"
+  },
+  {
+    "path": "train/Leaf_Blight/12697eca-5a6c-4a1f-8ce1-933d640750c0.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "0597d790b6db2a30b5b0db4732396cc3d510e126cec3606fee4c409baa82cbb9"
+  },
+  {
+    "path": "train/Leaf_Blight/12697eca-5a6c-4a1f-8ce1-933d640750c0_aug_010.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "3a11bcd1cbeabc9a5c73ed88430e45ae2057a6cf2f5442563859c262d22766ef"
+  },
+  {
+    "path": "train/Leaf_Blight/240efd3e-5dca-4c0c-bf00-6cabafa14c15.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "4cf2f62010a6d9cd3959819f6fc5b71eb10aec0eca68f8dbdcdc5feb162ff276"
+  },
+  {
+    "path": "train/Leaf_Blight/26d09900-0a03-40bb-9a15-60565570aff3.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "57bbc3d438a52b98a150f749e1b121ee46a8f48ab02207889e3f41acedb12d11"
+  },
+  {
+    "path": "train/Leaf_Blight/2b3b3e70-22f3-432a-8928-fd84bdfae0dd.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "673d4d5b2ca937b8e082ae9f1079e7de842ac8300b4632db8ab3e2174e622e3c"
+  },
+  {
+    "path": "train/Leaf_Blight/2e10bda1-1556-4b53-9db4-187fb824bea4.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "8d49960d9184ab55611bd4d9337701161a7a8bfdbfb9fd1cf70ef102658b299e"
+  },
+  {
+    "path": "train/Leaf_Blight/2e10bda1-1556-4b53-9db4-187fb824bea4_aug_020.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "780b1220d39573cabba3af83f8e61aa6e1c4038d0285384a3968862660c6e2db"
+  },
+  {
+    "path": "train/Leaf_Blight/32d64922-e820-42c2-a9d7-1cc0868a84ae.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "7e5bc16dcfff0212ae3ff92865eabf34e390c3e2dd57e0140a6c17f4face27e1"
+  },
+  {
+    "path": "train/Leaf_Blight/37e43a23-1ad4-4242-8e71-130f809480c6.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "3367e7b67857ac040086cc79f43c0da3c8dc4b55067eee8597281f8e545205f4"
+  },
+  {
+    "path": "train/Leaf_Blight/444e81ff-8b81-46f1-b44e-fd610ce240c3.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "504cf90890e87c585b4a623a2ec488b493edeb8623eb91c102a0e99804230e1d"
+  },
+  {
+    "path": "train/Leaf_Blight/44b448dd-dc88-4b9e-9bf9-644c5a2c08b8.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "fa38a6829b0191591cfc60c2246c4e43af6af886e7c7f149dfe1d2cc0f68191a"
+  },
+  {
+    "path": "train/Leaf_Blight/477b2853-fa2f-482c-afdd-26e06f489cde.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "b442b2898bb0387561c9205e284e32d83bc1e69a223c4d9f18cec74c5dc73110"
+  },
+  {
+    "path": "train/Leaf_Blight/477b2853-fa2f-482c-afdd-26e06f489cde_aug_025.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "c10f1d3be382dc458ccd225d56f5ca90049a7f9bc7b91d0c2bf2629b1873d8b5"
+  },
+  {
+    "path": "train/Leaf_Blight/50e7c8f2-cede-4494-b838-0798920cfb13.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "9676784fee067b744bd060caf10dca5983c551831ec88edf51255887f65de30a"
+  },
+  {
+    "path": "train/Leaf_Blight/511f3fc8-7b97-4aae-8332-27da10bb1b76.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "b86ea5f58ffc067985f9cdf3546029debf28417a125481184ab9b0a63f236ec6"
+  },
+  {
+    "path": "train/Leaf_Blight/611a549e-fe8a-46e9-82b8-01d959ae526a.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "3f3ea8cfa4e5d4df52c3a23c43bd2e3030aefea7275fc5448d13d72476e110d5"
+  },
+  {
+    "path": "train/Leaf_Blight/669d9155-0b06-43c8-9d4c-b6ecddeb6676.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "c62da135d96df1f54bd21607e74012390c91afa84c6f9703ce9a4fd032c5a624"
+  },
+  {
+    "path": "train/Leaf_Blight/675222a8-9bd9-4eac-ba9c-5415b85682ba.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "994b07aa1ffa31e50767915cc57094cdf9b66c8da9392e22687f79f014f34d22"
+  },
+  {
+    "path": "train/Leaf_Blight/675222a8-9bd9-4eac-ba9c-5415b85682ba_aug_012.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "333043f761b002c1e1a23a0129d3006a55fab610b85f325fb1737e05c702f505"
+  },
+  {
+    "path": "train/Leaf_Blight/675222a8-9bd9-4eac-ba9c-5415b85682ba_aug_023.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "631e8d3a09f38d3327c119eece6f45a11df06515618b665a279a832b6f891cf7"
+  },
+  {
+    "path": "train/Leaf_Blight/6999dcbc-7b1f-4f08-8c25-52d2b37ba777.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "b8d73e097856b4dcbc864a14b84dadbaa4afd84d96945dacc37c975a5746383f"
+  },
+  {
+    "path": "train/Leaf_Blight/6e83b93f-ae98-4444-b204-2b2ef1845a2b.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "080a0973b07b9b912982ec439260e53ecab10f98cbfb2eef81baa192d1dd9db6"
+  },
+  {
+    "path": "train/Leaf_Blight/6e83b93f-ae98-4444-b204-2b2ef1845a2b_aug_005.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "ec792a239a0fcca450120a25d5079a81f03ebb614dc5bd71d2e0f66b67146107"
+  },
+  {
+    "path": "train/Leaf_Blight/6e83b93f-ae98-4444-b204-2b2ef1845a2b_aug_027.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "5c285221a3821241b2806d67c6d833b257550301a45774b46289c2116218fc90"
+  },
+  {
+    "path": "train/Leaf_Blight/6ec2f91f-1241-4bae-abb5-8bf2fe9eea85.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "fd6cd6cda2df077bc77d82b82ad92f0ce7e1b50e4e0a48881c7e37001d180e79"
+  },
+  {
+    "path": "train/Leaf_Blight/70e74c09-7ec6-44dc-9781-d12ff6159c0a.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "ae6037db140c6903cc0b6a96ab2d5813cabb2eec2653b6d9b2aa5366827f4354"
+  },
+  {
+    "path": "train/Leaf_Blight/712792d7-e079-4bbe-9489-d2c106ccd65a.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "59728b416f97e8073ede846bb73ace7233629f2e0ca9be64fef94ff05508b187"
+  },
+  {
+    "path": "train/Leaf_Blight/712792d7-e079-4bbe-9489-d2c106ccd65a_aug_024.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "55539fc41f6fb213ed3724c537d173be7a66bb63ee6229214e5016b74760016d"
+  },
+  {
+    "path": "train/Leaf_Blight/78df4ec8-27b6-4e64-911a-770b3d2e1577.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "5346dd0c255b6cc4e28aec1005e27ea44b12787b2c3e90854679a12a80fffa96"
+  },
+  {
+    "path": "train/Leaf_Blight/78df4ec8-27b6-4e64-911a-770b3d2e1577_aug_040.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "033215e0136c871a9f4da2298f549768356359655288dace97a2218ff6022539"
+  },
+  {
+    "path": "train/Leaf_Blight/794f79fe-62e8-416f-89f1-625f77f77483.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "4d1011e279be5613084bee76f82144a635e5a0d714dd207490e3b8bb71cf9819"
+  },
+  {
+    "path": "train/Leaf_Blight/794f79fe-62e8-416f-89f1-625f77f77483_aug_022.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "8ff9294e8a941e93290692c9ae3bca76941b2f61349a15ae47217ec0bae3ed4c"
+  },
+  {
+    "path": "train/Leaf_Blight/7bf292ec-2928-4200-b545-4dc1a8597f38.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "873efc1767e6c64c61ae46fc5c2bfd50abdcb502820ab2a9cfed94aea5801076"
+  },
+  {
+    "path": "train/Leaf_Blight/7d3f22e3-1748-4faf-92df-acabccc246c8.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "fce662cb55e43363ebcf91674b57df1418ea810635808f5864b8b24f095dba34"
+  },
+  {
+    "path": "train/Leaf_Blight/7d3f22e3-1748-4faf-92df-acabccc246c8_aug_014.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "d96a1f018ba432a37d80ec6262fad2bb975f3b0bac83be4333d3f2b78aac6685"
+  },
+  {
+    "path": "train/Leaf_Blight/7d3f22e3-1748-4faf-92df-acabccc246c8_aug_033.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "3e94bcd6d6d7afa9b2339d2b0b8382feb0376f25e4f33abee36a4c2ef682d772"
+  },
+  {
+    "path": "train/Leaf_Blight/7d3f414e-2909-451e-8b35-894badb28c3c.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "1dd25408f1a47bfe4287710e2cd0ad9bab0aac18201db7a3d62a1a86d24be370"
+  },
+  {
+    "path": "train/Leaf_Blight/7d3f414e-2909-451e-8b35-894badb28c3c_aug_013.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "e184162076fdb3ae5e34df5b2c9e4b970ccdc874a975ecac330f03bc403f270a"
+  },
+  {
+    "path": "train/Leaf_Blight/7d3f414e-2909-451e-8b35-894badb28c3c_aug_031.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "97ef2eba48f3e342c16658674bf4e27e15197aa15501fd659dc849add5851a1d"
+  },
+  {
+    "path": "train/Leaf_Blight/7e2a438c-b089-458f-b6b2-9a0427fdf17c.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "33210301af250a5acbd86afe5e2b537d90e8309033a804507fb4fec18b4d1c9a"
+  },
+  {
+    "path": "train/Leaf_Blight/7e2a438c-b089-458f-b6b2-9a0427fdf17c_aug_038.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "7c6862ddeb22888a9b0fcdc6e0bd354453d1ec4442d22292fdecd4f389706edb"
+  },
+  {
+    "path": "train/Leaf_Blight/847b9a98-28ea-46c6-ac77-9498d2520a22.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "f37bb484cbad11b2bc436fe9655a21202630954c3ae320dfa030e9d818139fe8"
+  },
+  {
+    "path": "train/Leaf_Blight/853f4ec0-b9af-4fee-9bae-a527d10fd1be.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "c15b0cb415f48f3f5fb1cc8ba74520b50ecc378c3101d0c92f3a1bcdd66057b3"
+  },
+  {
+    "path": "train/Leaf_Blight/853f4ec0-b9af-4fee-9bae-a527d10fd1be_aug_042.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "fc35a3289a2647add7b3224a8d230144792beaba3f124113c123b1255cb695c9"
+  },
+  {
+    "path": "train/Leaf_Blight/85f82c06-15c2-40f1-92ca-fb15b0c2dab1.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "cbcffe7d3ef61ddc9a46a45f4f2fa01993cb22b87ce895428c1340874780b49b"
+  },
+  {
+    "path": "train/Leaf_Blight/882a1674-19f0-41c2-9ea7-63536364a180.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "d0e924c80aea4407fe9b5f17bb4d6a5a714d4e6b0a45e96175aab3497b64739b"
+  },
+  {
+    "path": "train/Leaf_Blight/882a1674-19f0-41c2-9ea7-63536364a180_aug_034.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "6ca0f342c18fb862ea54903cbd33a9ccdea0e6aabfe353e82f1b6e056f42bfbe"
+  },
+  {
+    "path": "train/Leaf_Blight/88e2cf15-1fd7-465b-b9c1-def8b0007c53.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "5bd425fc4a52e67ac3e12e8efc30376d1573727b3af9b1ff344b45416f4d3543"
+  },
+  {
+    "path": "train/Leaf_Blight/89e32314-374d-44d6-ac10-b1f22273a8f8.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "e15073c485d9cc83cdf4ee7533598e8bc3f3c47668d501d97c70560eeb063055"
+  },
+  {
+    "path": "train/Leaf_Blight/8b7b4c84-20af-4c98-a46e-c05972539c0a.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "aec6ae9715e3e4eef13651fff7ca6e57dfaa6675e3c2771aeb67c6248c1121f4"
+  },
+  {
+    "path": "train/Leaf_Blight/8b7b4c84-20af-4c98-a46e-c05972539c0a_aug_035.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "46129555784c72501ca7fcf53545c79247d2ee1956729f2b66acd14b7276b704"
+  },
+  {
+    "path": "train/Leaf_Blight/8c7f543f-285d-48a5-88f7-c2b46f073f64.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "ac771daf82462bd75c3e3f8fdc62e9d3d37b8303954c052f4f9680533aa6530a"
+  },
+  {
+    "path": "train/Leaf_Blight/8fd274fc-4884-481f-ac6a-95e429b22af9.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "fc568894f15d9f6ec7fa7fa522560a2343886bf7958d4a483ff0eadb3d8d30c6"
+  },
+  {
+    "path": "train/Leaf_Blight/8fd274fc-4884-481f-ac6a-95e429b22af9_aug_011.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "83e59969fc08eb65c23ca62e4ffe812c0266018dd1bc1515e847eb2fc92cd9f3"
+  },
+  {
+    "path": "train/Leaf_Blight/909b8b7b-8759-4fdd-b0e0-68ec770445ba.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "64d97c5dd4c2bcefbfe07c8d84f670e5c590d6a26ff54d432bf70b5ab6fc552b"
+  },
+  {
+    "path": "train/Leaf_Blight/909b8b7b-8759-4fdd-b0e0-68ec770445ba_aug_006.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "e22834bc1a422c8e006a8eb85cc75d3bdeaeb2b4239d138b439e6eeec2382def"
+  },
+  {
+    "path": "train/Leaf_Blight/909b8b7b-8759-4fdd-b0e0-68ec770445ba_aug_019.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "4b1c592370616b813a73bd6c41ca378a4dc055aa4644283741567fb6e2241972"
+  },
+  {
+    "path": "train/Leaf_Blight/909b8b7b-8759-4fdd-b0e0-68ec770445ba_aug_028.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "dc6956047ef9a2a85e8b270c2ecb8ba8a68cc9ab798ca520193de53675eb273f"
+  },
+  {
+    "path": "train/Leaf_Blight/91afce07-ebd4-4dcf-a319-ba140e0a1c3d.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "73f273eff62b555fbcb34a304b55eec746793fb75119da940f71479b7283aa92"
+  },
+  {
+    "path": "train/Leaf_Blight/91afce07-ebd4-4dcf-a319-ba140e0a1c3d_aug_007.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "fb72d12a37fb79a08052827152ce60a1b16365797641debd20d153a21f01329a"
+  },
+  {
+    "path": "train/Leaf_Blight/9d0dd989-296f-4dc4-b933-2efd49d43733.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "4257ab675ce822bfa06b1094fb910986476c32b503dd15c4a282c2d7f4866bbf"
+  },
+  {
+    "path": "train/Leaf_Blight/9e2378a6-c02d-4701-8794-5c818fe9462e.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "d4ed6bec3f25c4634a169aeab65cc1cbb5d68f745142c395842cac3bcade8bc4"
+  },
+  {
+    "path": "train/Leaf_Blight/9ecb1d2a-7125-4e29-860e-361a48fe29b3.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "178fa1fa2cdca43847d98add7a8c5ef9e27d16b6a4b4c9f07f30202ce9c0f1a4"
+  },
+  {
+    "path": "train/Leaf_Blight/a2ce5633-add3-4d8f-9789-f687f063de47.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "291b4bba6cebfb7bb3ddf572534aa2233e334a02fb711f35345a4fd24a70ef28"
+  },
+  {
+    "path": "train/Leaf_Blight/a2ce5633-add3-4d8f-9789-f687f063de47_aug_003.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "3166099172c8a30fb8faf2e2723702faf81b4709426c6d649d6136f1851d0a77"
+  },
+  {
+    "path": "train/Leaf_Blight/a717e61e-fda9-4508-a286-22f0ccb6a16e.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "c8e8312db9da3c52e73923567df2b5f78db09ea409b8fb95b1a0cc13d5967ea2"
+  },
+  {
+    "path": "train/Leaf_Blight/ab732e77-5d57-419e-966b-4ab466788245.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "4e5e2b2697a7938bce3ab1f554dff7b2146a3cc67f7a6547c1ce1f038be2ca07"
+  },
+  {
+    "path": "train/Leaf_Blight/ab732e77-5d57-419e-966b-4ab466788245_aug_029.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "35846a275d856752a8c713e55280e65d4e24a99f9fe369c92bd052c4b05a4365"
+  },
+  {
+    "path": "train/Leaf_Blight/ac31e70b-b8de-4866-9e04-13be3b71660e.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "a6bdd7f54ef9ec43189948c53a204b73bcad44ae520cdb196fb83994ce124c4b"
+  },
+  {
+    "path": "train/Leaf_Blight/ac31e70b-b8de-4866-9e04-13be3b71660e_aug_016.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "ea98eafada611c1b73058426c4fb13df5c36107a90194673ddba9cc711d740b9"
+  },
+  {
+    "path": "train/Leaf_Blight/ac31e70b-b8de-4866-9e04-13be3b71660e_aug_017.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "d3175101528f2f118f5b37a404054fe1868322599aae68a75e6c9ee8e8a9730a"
+  },
+  {
+    "path": "train/Leaf_Blight/b90d5ad4-b413-4f55-9883-770df854c46e.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "cbe18897bcf3f66fc937438ebaf3763cd1494d3d40833f543a667769516bdff9"
+  },
+  {
+    "path": "train/Leaf_Blight/b90d5ad4-b413-4f55-9883-770df854c46e_aug_018.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "c7f69bfbdf90ceed1054facd29289aabec0284153057992ef39a16dacf581ba2"
+  },
+  {
+    "path": "train/Leaf_Blight/b93f2b2e-aa14-497d-948e-91a990862d2c.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "dab5334a8ea9a8fbf51612ec5d1816a8b4b7ace776fef7aaf88ced3bb3d93118"
+  },
+  {
+    "path": "train/Leaf_Blight/ba41c40d-d349-451f-9fdd-2c90a0d5a529.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "6785a6baf15373ee9ea62dca4a26c2ac57e785d8b64563ea904f0d6422c5bff9"
+  },
+  {
+    "path": "train/Leaf_Blight/bc2d8f1c-afe6-4580-b7dc-bc74640674dd.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "5a084cba2b6bd193513085f7de545db4a29bf5bfad24b7ca8e37c459bac4b6da"
+  },
+  {
+    "path": "train/Leaf_Blight/bc2d8f1c-afe6-4580-b7dc-bc74640674dd_aug_015.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "d88ca8456f40fa0db6a74e9ca272cf4bace9f2dac0ad6b81252d53389b185d50"
+  },
+  {
+    "path": "train/Leaf_Blight/c17d5ae1-fe6a-4a42-ad2e-8f2590c4a525.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "7a4ecd0637ae03ce138c4b39d830696559160cc83d4d3d31270b798b55167acc"
+  },
+  {
+    "path": "train/Leaf_Blight/c1a738c1-44ca-4fb3-8428-a75146d9a842.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "920951ba10bc5b6fc7ed061dc2c53265a1a83597f2613d79178543e21d46025f"
+  },
+  {
+    "path": "train/Leaf_Blight/cbdfb708-c169-4b1b-a256-2c80a172f894.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "f2d33bbedcd5c68c414373b8f31d9dfd7c3a6f0aec3563c7dbbffe44c29a37a8"
+  },
+  {
+    "path": "train/Leaf_Blight/cbdfb708-c169-4b1b-a256-2c80a172f894_aug_039.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "450b64ce7929913fc194fb5b27e6d9c425a862692f605cbc4311fb66b99c0df6"
+  },
+  {
+    "path": "train/Leaf_Blight/cdfb2b75-40fa-4e59-9613-46c60fc092bd.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "71c7180a425f514ab2e4731cf54b44ecf4dd12ab17dc5d1520ea5e6e4a8b3b01"
+  },
+  {
+    "path": "train/Leaf_Blight/cf0bdcf7-4fd6-4963-ab23-39c26d7f6670.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "9d4ae5bfd065e3d0c52fa17b230d133b569f49fd45b83572e24cb2d5c6556761"
+  },
+  {
+    "path": "train/Leaf_Blight/d4bff40b-2390-4c60-a486-3fe1780c42cd.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "b3e7fb9f4358895837d4fad13247ae829a7076f75482d55a4ffd6f6193dfbeef"
+  },
+  {
+    "path": "train/Leaf_Blight/d759ab09-ebc7-4b7f-aab5-dd57bf69fed7.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "8698e9b3530e5113522e6543cf5e274f1d9eef6e014eb57be45f1dd393025943"
+  },
+  {
+    "path": "train/Leaf_Blight/d759ab09-ebc7-4b7f-aab5-dd57bf69fed7_aug_008.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "4d0c1634f35fcf7da7b7ca05e984259bb60329a837077fc08f67889121fe747d"
+  },
+  {
+    "path": "train/Leaf_Blight/d788b40a-14b4-453a-a1be-3d2ea5d35eb5.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "f7e3432107a4f062962e498ffd602a00c276000c1ae89e7ed41227fa47d12a30"
+  },
+  {
+    "path": "train/Leaf_Blight/d788b40a-14b4-453a-a1be-3d2ea5d35eb5_aug_037.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "438fdd35ffb3a24df79b8db77156b79d0d3da8bf8f1976f5cc2a19530a70c1b9"
+  },
+  {
+    "path": "train/Leaf_Blight/d9e7ae0e-388a-46ea-b833-2862567bbb70.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "a4af2560a81fb23b16c5f7642405d53cf4193d6338759bed525a7d88d31c7b63"
+  },
+  {
+    "path": "train/Leaf_Blight/d9e7ae0e-388a-46ea-b833-2862567bbb70_aug_036.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "996bbd521fc8e18f85a630b1535882f1e06f86287ed816c47bdcb0de7e02061b"
+  },
+  {
+    "path": "train/Leaf_Blight/db57e2a6-20b0-4a8e-b541-060bdffbc69c.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "1877216f3cd5820e3e6522c28bfd01a776bc84c4bb9b1868d123c2811f44ccd5"
+  },
+  {
+    "path": "train/Leaf_Blight/dc4bd309-cf19-4728-9040-4b5b500b4fb1.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "5832736cd732a048fc4f59ea246ebeabebae3d84c7d13f5e2f2d18ab79ac3a75"
+  },
+  {
+    "path": "train/Leaf_Blight/dc4bd309-cf19-4728-9040-4b5b500b4fb1_aug_004.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "60817c3ffef51bf30f465dbf871d60d2aeafce48a6f10a7981bb27780640ef50"
+  },
+  {
+    "path": "train/Leaf_Blight/dd617fc7-3713-4ea0-9580-d2a09e764ec4.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "db8f23ec9e14e27167c70d681118166547157ccff97a9d6c60af829194921d8b"
+  },
+  {
+    "path": "train/Leaf_Blight/de71da1b-7bf0-4724-8da7-bfd03e63fe4a.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "c00e76414cb5e3c7c6164a4f1dcea134cb34a196e4cbdd9b840295489bac31dd"
+  },
+  {
+    "path": "train/Leaf_Blight/de8200d0-0f60-4c39-a8c4-1ac7c39808e3.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "b2b6096ac0c0df5e51c42a78c163760c0efaf0feb5872f81e20a9722ad3a1e39"
+  },
+  {
+    "path": "train/Leaf_Blight/e51e84bd-e9ee-4e0b-b129-0d5bb1419c8b.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "4d3100815f76e6aeac4ef5f171f3a8a476b98911af333884eddd0a5cb8b311c9"
+  },
+  {
+    "path": "train/Leaf_Blight/e51e84bd-e9ee-4e0b-b129-0d5bb1419c8b_aug_000.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "995e88845887604fcb7e5f584e6181c8ae37df297a3c87622b85007a7cba0538"
+  },
+  {
+    "path": "train/Leaf_Blight/e57a9a45-e26e-4210-ad8b-d33833065c00.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "4a519d28d6df3dc5e754b637387e59f0bd4febc73406f33c6642198f215bebf3"
+  },
+  {
+    "path": "train/Leaf_Blight/eb1e4beb-4504-4397-94b9-e8380aea6dae.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "dd564f8f72d0b1f82b03888a0050ac5bab5506b5fbfe2cdc7f26102374517c37"
+  },
+  {
+    "path": "train/Leaf_Blight/eb2af4fb-dc1f-4f13-ab9e-69a7c19402ba.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "07f0ce2d63e5b2133dd62194464d6af2a4b035c0f4e550e18f8e81a835c11ab8"
+  },
+  {
+    "path": "train/Leaf_Blight/ed03de9a-a9d2-4d87-aad5-f6527ccc5708.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "6bb7b36a805b76831df916a945fb5fed258f8855e5c0c8ff856ad3e5b6cdd420"
+  },
+  {
+    "path": "train/Leaf_Blight/f469f758-5345-4079-b803-fb2a5c2fb04b.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "b0fab3bbf7cf95ce93813596d1e29c435c64d478a89907a56b6e24a936cbefa1"
+  },
+  {
+    "path": "train/Leaf_Blight/f472a54b-a5f4-4b65-872b-86ec201dd453.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "798d1bcadb80a05d56e773fff109fad3109dc980ee78a1dacd3079f7092a642c"
+  },
+  {
+    "path": "train/Leaf_Blight/f472a54b-a5f4-4b65-872b-86ec201dd453_aug_032.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "2a772f312ea25f7e9c602361e02476122a4b7a0ec052683d075ae078f1165c30"
+  },
+  {
+    "path": "train/Leaf_Blight/f4bf2f6c-2dd7-455e-9278-8185358b6ad9.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "0c26ec82d77428dacc747ede014ce0e47903739ffd9ac52b5ba7f0755eb47082"
+  },
+  {
+    "path": "train/Leaf_Blight/fbd62acc-4093-4ff8-9d66-e17e5f1cac07.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "5edf0ca4695fb5a76f345fe0946fddce9526b5fbb0e319af2a81ba4dba4bb784"
+  },
+  {
+    "path": "train/Leaf_Blight/fbd62acc-4093-4ff8-9d66-e17e5f1cac07_aug_001.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "0dcabb6fd1602969873e0a6275a6735d82823ec77263bcbc4a4f538ac115c386"
+  },
+  {
+    "path": "train/Leaf_Blight/fbd62acc-4093-4ff8-9d66-e17e5f1cac07_aug_030.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "7301b7b4b0ce98378bd8277cbc0b0c7e1456d35559e3dcef83694155b4fb4816"
+  },
+  {
+    "path": "train/Leaf_Blight/fbd62acc-4093-4ff8-9d66-e17e5f1cac07_aug_041.jpg",
+    "split": "train",
+    "label": "Leaf_Blight",
+    "sha256": "9a8ea535f82b9c76f60ed980f772051d1d133cf8a350456dad9353185ec2d8a3"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/025747c8-bc99-4ee8-9b0f-93999b63a0f0.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "4d2f4126a22eb09d8224b5f58b8d9c705b997684f822e4ac989748d033ffe3e6"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/025747c8-bc99-4ee8-9b0f-93999b63a0f0_aug_012.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7ded3d8ec7efb66a48b8a7a65511a234c5d6ccd27bf9a3a9742bb9be492bfa5c"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/07f23d71-4a3f-48f3-ac48-7b79207009e5.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "b3cc2dd54feeefef2fc53e17694e0a7699a8c0a2df1714f48ce540cef80a3a0e"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/07f23d71-4a3f-48f3-ac48-7b79207009e5_aug_009.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "9e28bf124d3aa7e221bb9a498edfc69f2fe852f07ad7036479a86355aa75b601"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/07f23d71-4a3f-48f3-ac48-7b79207009e5_aug_025.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d0b0e35f2f5c2013f9de4a5a6faf4e6a973445610ed2eb9a48f5840b7d70ac9d"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/0b084bc0-32c0-4f5f-88da-193ac55be1e8.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7dc5f15337ca03d0296928a97568ca3c6d2b453973327c25099b3da1c42dba32"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/0b084bc0-32c0-4f5f-88da-193ac55be1e8_aug_041.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7451b1ba95b4ca5f9071d1533495031b7a5653b19ef3b8ec256c729305e17864"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/0bcb17b7-3153-4212-9ec7-742caea021ef.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2b7aac1f6769aa9ecb20c8f4889002b90628e52c39447e277a85d1e8848025b2"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/0c3e274b-3063-4a70-bc87-fbac00a56879.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "4f9e6b6bedadfdf8a1c0918cc2d8d75d94720412ec68af3fedf6d358f9b76817"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/198157bc-ac5b-4ad2-bd31-8d5ffbd13362.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2e56a17d8cd8b1d23c7fcac23ded7c652660de5d003cfc8e95bbd2a1d7357503"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/1b7a0a48-66a6-4cbf-a7e8-f4d67bd5ca3e.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "33f8ff2576f1634d646ee49afb1f9690740952bf8e8b131c5c6ba10c287d218e"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/1cd376ce-b048-40f6-8f3a-2bfd7f0ae293.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "cf3d399e8fef64132e2403e2ecef393eff75b7ee2f5d94cdbfa89a0f4c618416"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/28abf673-a8b7-4d75-b6cc-c27fef136a44.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "82fa93c854a809a7fffd18d33d95bb44f1e2cb1644145eedd7fd135583a8c48c"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/2d162a3f-d061-4f0d-855d-5a93640dda59.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "c73acf5ed71e496be6fc38a862a89a307bb488ab1df5664b2eaf2a4c1ef3d916"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/2d162a3f-d061-4f0d-855d-5a93640dda59_aug_030.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "beaafd9556f0ebaac94ed13daa4fef2acd8c6f24191d717835a7a1c7c87cce9a"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/33a513ca-00d6-46bd-80f6-65979a42dd6b.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "0475386bf8198fbda2c15a917ef6ca4508ff42e2ccc1b1a7f7893b1565c7f94f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/340fe60d-f94d-4db1-a1a3-2cb554488a56.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "b068bf7653c41dca3f1c5b0828f5d9b5a9d729e0dfd360d7a3b81590591f06d2"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/35ea3dad-e2e9-43aa-a7b5-f181182f4212.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "be343a6a65b0154ef1bb9c88b436460d11de4b8958f1d8111ed8bed7cbe7660c"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/35ea3dad-e2e9-43aa-a7b5-f181182f4212_aug_035.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "ab1344a6e1f78d49a948663a4730187414802536eafa3731336b2ca8fce4a9aa"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/36b5a207-9a14-4592-9c73-480c21343adc.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f36d62bf3fe2d4660eee136c7ae2a17ab4ef090d3b9dede5ef605d9274b4fdc9"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/3b29300b-50f8-4d0a-b731-e5276b0ae4f2.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "25fffec145560695c3bb6dad70208c2ae89cf41ab74548bcc94b93c494df34c1"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/3b29300b-50f8-4d0a-b731-e5276b0ae4f2_aug_006.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7b3021816419fb7402928ba7e6f2d27c0e1ddf0efd75ab860a33b4b095bcbe06"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/3cc19d8e-b73c-4c12-8bd8-2c3ae6ca4b64.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "809e191f88252e6c8cdb2c3ecea522b25c0ec56ae91b9aa2bd7e1459eb24e877"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/3cc19d8e-b73c-4c12-8bd8-2c3ae6ca4b64_aug_001.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d41a16ad2297b342db84502b7452b2edff0c88b9e62f03da0eaf61ddfcf84057"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/3cc19d8e-b73c-4c12-8bd8-2c3ae6ca4b64_aug_037.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "9a3c938b5e2b281a4f9211e3bba8798e1ed5f74c8913620d3c7941163410b128"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/3ea49ec8-cc81-40ed-b6d8-9de65c842838.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "a4d060834143651d40e0ed3f74b61130a36246c1efaafc05c62a4ad711cc27b0"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/424e993a-7d86-4eda-aa46-d1d575040038.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "0141b43b97fce738906757c5259651cf9eed4e5885d63eaadae52bd078b4f5a2"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/424e993a-7d86-4eda-aa46-d1d575040038_aug_027.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2e4cef15ac0dc826c75d52d197303f7eed4e1f60c1417d00274e672fa2c3b9da"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/44a89295-eec8-4ea0-b688-6a4e5272b1ac.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2233f44eb1e6d05261ecbf9dd0b88b893dd39785906f3ea2f88e2964146ad2fb"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/44f12984-109b-4fa5-8db7-c48e6e7ce03b.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f2718f9ef5678bb8b67982751cae6a173bdd8a4dba4c846fd7b0aa5a8d656d25"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/44f12984-109b-4fa5-8db7-c48e6e7ce03b_aug_015.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "77cc2b7e79c2dd69a487ee12e10d389e0ece807a9397dd442c0d7b3b44525cec"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/4c59bfef-fdb9-4da4-9ba8-560c2a79575d.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7fbe86eb350060b22f461b8e3b8c8098cd64990637dc625779e89a45a764a803"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/5165f0a2-aa99-4ab6-a85a-955e09fc73c3.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "8b5eb49444c4f3ee3b23b67803cc419ae28d4261a80edae9db4b4a5e36d0692f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/5165f0a2-aa99-4ab6-a85a-955e09fc73c3_aug_021.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "627c88b7c1acbe50eb9fef0058f351e02ebaee6912160d9005c5cce683d31b6c"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/58a22b32-d021-47a6-8d34-76b847db5cef.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "617a7cfe837361f6058e2afedfa73d94165b13449d5a7ffb50892e5dda4f979f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/59030154-480d-4a47-90e0-33f8c3cfd365.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d1fd18bdc8ccaffffc416062b7e587e88bb9c9ff83bc1962cbaaf01cd116191b"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/5bbd38bc-65d1-400d-8f52-30e40a19f975.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "aa75913e4db271218834ca7b9f15154fb1d5bd9d985a75f04366a21e0f6dbb0e"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/5ca0ad3d-46ae-44e2-83cf-b9059161e68a.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d79877ac717a8d7ca9a8b2e98c372c3fb36abc59aa3e142f0375104f7b7c958e"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/5ca90db9-def4-4e46-bfe3-3a17adab9bc7.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "ad6c8dcaffac365735c46f0744469174c527b701b4edb6e9b040d391412c9f65"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/5eca2ee0-c768-4cc7-a442-e67af602bae7.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "e81993f9c4175eabbedaa9843d05199678da5adc4b154329140053e3bb8f9462"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/5f01f19a-5cd3-4b9d-9e26-38036cb95402.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "e847c54212853de1b073572d89f16d19e3cfc9b17c13ae3107b610cca38e80ba"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/60df75ee-e840-41de-bd06-85d8dcf76455.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "74628d13bed9ffb381506a601562151a40c7f57af77d3cbebdeba6395b1e54a7"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/60df75ee-e840-41de-bd06-85d8dcf76455_aug_026.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "537e5aaaeb71398a2d0eae1bb1e64d44c4ab350d771e823567fb4e6d2bb0df33"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/60df75ee-e840-41de-bd06-85d8dcf76455_aug_032.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "0ba29ab086bd60e10b2f11cd409a106bf578c49197f14cffaa557cdc219ccc9b"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/60df75ee-e840-41de-bd06-85d8dcf76455_aug_039.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "45ca1688031b80061a43f780567b0e28fa334f847591406ae5a7871882ff5713"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/617b352f-38c4-4320-8467-987c83e9245f.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7443577306bb16f1fecd8763dfbf766c24b1c68aa903f76739db9486fad588ed"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/617b352f-38c4-4320-8467-987c83e9245f_aug_036.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f7f7269ec3c882187b615601c13ca8db78a192003b6a403f2136b1bcf8e40ae6"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/6288dad5-0540-447d-8b65-f6be3324db38.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "556d928c3fd1951f062d53d243d8d84252734806e34c105fc2d950cc4e7f3573"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/648264b5-3630-4e3b-b0fe-6dc594a979f1.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "9053015fef1ef2e76cdd951ad9c3b4c6532ce48ffa45f30caf2822ae30ea7418"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/648264b5-3630-4e3b-b0fe-6dc594a979f1_aug_022.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d286833520cdf31460535e3cb60b4c569f2330dea6c69c89d6e781768d5eb88c"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/648264b5-3630-4e3b-b0fe-6dc594a979f1_aug_040.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "65c395e0359db5f20428e0218040bf4c8ae3fd479cb85a48cb729aa37af0e950"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/64e62e8b-e0a3-4937-9593-77cf2850525d.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "cb7f669fa16ced0e987120d54c48eb7c022fd2ac053558c6f89b61461a2a935f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/67098592-b43a-477d-b633-13cf9d68cf89.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "5e5c9f7a6c6853e154ccc112490cb7a4bea46aab8f382d45b6f8b13232455643"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/67098592-b43a-477d-b633-13cf9d68cf89_aug_000.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "216aee67ecd3bc99c79469e03dc82dbe52573b1f542ab46e60abab03922db12a"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/67098592-b43a-477d-b633-13cf9d68cf89_aug_003.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f818510626380af12bcf88af46b189565b138486d51bf1db1db1855ebb6a7129"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/67098592-b43a-477d-b633-13cf9d68cf89_aug_029.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7ad4a6f691493df5901e520fe5ddcb701cf3815d52d8c950e1d1d889ab6a6f7b"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/68cb994b-701a-40ed-912b-05b4107f8868.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "c294cc1f4ef50a978480e51310c84134cdb702d1e0df08dbc28ef3e4fe7447cf"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/68fa613a-d515-49f0-8d3f-639170223d5e.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "fb045ce8aadabb27b179008198f1a05acf7ce7bf6f375f6087687d6f67c93083"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/6c24ca6c-b39a-43be-9d0b-a08c8b008436.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f3194834b38e6c54b9f01c1d56ea3965a54134affefeea165a61bc8c31b083a6"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/6c24ca6c-b39a-43be-9d0b-a08c8b008436_aug_010.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "c03ee1d7d35804aceff337127c678d9ee48e7b50c510d44d8ec0d12825f0b0ee"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/6c24ca6c-b39a-43be-9d0b-a08c8b008436_aug_028.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2d76927e2cb9cc8a897755742f34373c5ce3c34436fbea1da0e0eab06ee194ea"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/6cee04e5-d8c9-4fb6-881c-0b5f1e4afd12.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "845997450b2ad6cc3bb51481d5dec88f4835a3436e1fdd1137d3a4db16b3967e"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/6cee04e5-d8c9-4fb6-881c-0b5f1e4afd12_aug_033.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "84ca214edbadbd498117a6ad24f61a057c0ce55641134c406b156611b5152a62"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/6dae20df-8d27-4c06-a3c5-c93b6276222b.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "3a2fd8d71cf5bc5183db05def636b3c395eb66c4c19fddfdf48f5f1706552c5f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/70f634c6-da6c-4832-a2bd-3809301ad85d.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "b3f39542fb16f643d400fd17e18151a9869b7e75d0178dfa7b5ed949ef60b631"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/73b5911a-7551-48b2-b275-deb71b82308a.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "3b08a33f4bb2a4e177df8303a05e93c0f2ef3016d560b1f85ca9961c0b252cdb"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/73b5911a-7551-48b2-b275-deb71b82308a_aug_020.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "abb25d72d63c63386c82453ad3aaea84875352892f0bcd2ab1afa322e6536944"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/8213110f-7749-4d0d-a792-690ea11c6b53.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "bd10824d04c0752c1cd1c40eb077e13e80f7b8272bfb4a10301f01b9f27b56e5"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/8213110f-7749-4d0d-a792-690ea11c6b53_aug_005.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2903b591958ceed6658ca51bd47741423f40d76315887315551d12b59f0bdd1f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/8213110f-7749-4d0d-a792-690ea11c6b53_aug_013.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "6c309e8cf96d657853318ba48034cb32d99dca09da64aa9391fe95fcb78bc75b"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/8213110f-7749-4d0d-a792-690ea11c6b53_aug_038.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "e4beb0e727733201d5a1aa7cdfbf00ce92c8c52b2a6b6305854fdec2b0b9ba56"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/886fb1da-4f7a-4c3b-8f27-0c256b146447.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "b7db24cb8b095436ac4652aff365e3c95383ce2e6af0247937aef092dceaf491"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/8bb13cc5-f83b-4f2e-9976-8c1d784a83bb.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7abac0bf42758d36ee5b733daf8b9d28b55d4c43b069456fb7430cf9aa072614"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/8bb13cc5-f83b-4f2e-9976-8c1d784a83bb_aug_023.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f88dd9177982ec2b3ee59dd7bd252e5366bb1c0017883620d5eff59ec79cf4b3"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/90f6ffa1-f6fd-415b-b589-0927a2624c80.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f119e9fbc328265d2597015ce2f1b4d52b0b84a2bd133e9018b8521fc7137269"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/9102507a-a232-4f44-a5f1-24da2c2e2cb2.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "1deaf3fbf57dc05d8e4c187d636b832366b25a9b801bb6550fa62141c956a6d0"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/910c89af-60bd-4a0c-8b5f-95920716d225.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "89a22d4848ce8e09b86f60996d23bba2d216eeb457eb08863fc11db11beef28c"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/92b9d5f3-8e3c-4951-ba2a-988ce31b9d1e.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "e6176ec08eea44cd0b925c502edccffef6a282162d2f7c95274ff567f52b7e14"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/94fb4240-07a4-4b37-b832-b2f7345d5c04.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7262615258792bf396e12a214ca3f479839168483918b5d4dc62e50f94b33bcd"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/9d8cbda0-b175-4323-96ee-3d1059fa18fb.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2563b3e5c149ad39f42f5e4f0062e195e514dc87a3f3c6461466c4f5473188d4"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/9d8cbda0-b175-4323-96ee-3d1059fa18fb_aug_017.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d325b87dd7eaea644107848c42593f75b6bd5ef89dee0ed420c9d49149a16178"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a04895f7-98ca-43f1-a9b4-2fac1b87b155.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f8c781e27dbb6e3b5529296d9066c61723d2800a77725228de6c8ca47bd639af"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a0c7980e-6b70-4821-8891-259ba09e44e4.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "c4f1adfd57c6df09b376af2db75ffa8106781a7541f1640b61c0e443ab196cca"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a0c7980e-6b70-4821-8891-259ba09e44e4_aug_014.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d80e18ef1210097ff331940991aeb6de6b2c84141942a8c7ca815db1cc967481"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a19a0300-5b32-4b38-8610-70675014811f.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "b58d3bf522ae235d922e295325275e72f4d63b2ecfbddcb9de27d747ebcf3c2f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a21abdca-2476-48ca-9b73-8401420cb38e.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "9f00fd0fccfd1055f372433c3f455735a92098057d69de11dfdfa23b3653101f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a412a377-3b9a-40ba-8fb7-9ee60e9849ab.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "b722da3335c41d59b071491991fe901f90dddfeb1137989fa9c4e14620fdae7a"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a412a377-3b9a-40ba-8fb7-9ee60e9849ab_aug_002.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "e20e451a5bd4bf824ccefb976d8a4776908b4ebc91ea634a896e8fc40f598bc5"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a412a377-3b9a-40ba-8fb7-9ee60e9849ab_aug_004.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "cce1994beb2e7a57e97654a3649b53aec739df80c3163d4c8fd955927b5372c4"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/a412a377-3b9a-40ba-8fb7-9ee60e9849ab_aug_019.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "46b1d2901666616be8538c4926e63bc80d1d9b8b9e4d4cbf6c66ac5a67f3d21f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/ac528968-ca8f-4e06-8a05-aa640c922c96.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "173b3b9f670cfad5781d0bcaff3354709930311deacf04bf52e2a7253e77cdd1"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/ac528968-ca8f-4e06-8a05-aa640c922c96_aug_008.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "db1698bb1e517d7fbee96d90fee2bae39c1d6e49c9da5bf22382e2a2e24f02f1"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/ad2f6a5c-a891-4182-b72a-6191ce764531.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "c24c58952e90a5ce825660cb385ecdf4e641e7095405c42f0bc7abf6e4c92e47"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/af95a400-5cdc-4601-9865-e6686f93d53b.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "145f6182b54192b575d4757dac21b65d2200bc184bcc755451e2b06fc8159664"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/af95a400-5cdc-4601-9865-e6686f93d53b_aug_016.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "1c8bb3cc88315ffec2f0e42a03c302176a85299166e411986ccefe97ef49ecdf"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/b2273383-1872-47fd-bc9f-973e8a00790f.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "9548802b493722bb2865442abe023c1a95c38ba657092145db2c1897a77089f4"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/b3822e44-ce5f-4ff5-b8a7-0ced4d2142ff.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "a62ed7f11b5811673e1eb6a5618ca3b5bae5f73ea710183e950bb67c77cceaf4"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/b82c0fbe-cf25-4221-8aea-91aa4f95d45a.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "bfbaced278c364afefcbf7dd73d84f08270d9b5a5e706f292f6874eb402ebe6f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/b82c0fbe-cf25-4221-8aea-91aa4f95d45a_aug_024.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "5db8d3c625ed0f55d469de033848f11962b90aad7e0928101235e2f2d093455c"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/beaf277c-773b-4083-8424-bc343358d94d.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "37807614fe0c427289ae801baedffa397de7cc84821a90a3af34c8c2307ea8fe"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/beaf277c-773b-4083-8424-bc343358d94d_aug_018.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "4b7aab098e095782856c5492afd4bf4e4f6f0ef074f1e6b8dbe5fd25409dda2f"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/bf41c422-b606-4a43-a4d1-9d086541292c.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "8ab4418ea39d1a7703b167128d3f83c039708cdc2fba1a230fd0f64e4e4080fa"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/c79d4d58-eeb9-4816-b535-3832b040567b.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "785ffb984bf2ad372b0f2717a32854d316a038a751b151a3d6229f3d029e8a57"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/d0868af3-021f-46fc-b99a-c225e6b022be.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "76e16d103b359d99bebd9afb96580ec3551e77688a96b1122842c3d8e5cc47f2"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/d0868af3-021f-46fc-b99a-c225e6b022be_aug_042.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "a171cc5e737c103827798fb97545a8104181b5a2a68011a835132804dfbb32df"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/d2141382-2f29-472d-a58b-e118cf7ff1b6.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "c7f0f511a0ed741ff894f062e834f08e7c8525b6828371638988c03d1c7d4041"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/d2141382-2f29-472d-a58b-e118cf7ff1b6_aug_007.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "e8c73eff475577ff96631eedf5e2aea0fe541b1546e860974d767dff2a6f8d73"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/d23b03a7-3f04-4415-a443-81e80665deaa.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "13cd1c290ace433dbf0c0d8b65e14f82843316dfa1b6efb8b8d94ff341d76c92"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/db70ee30-3f59-4a2c-a354-28a21a176afb.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7b90204993d2a6108761c050a7cd16b722fddbe98abbf7a9cfb6631bee6576a4"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/db70ee30-3f59-4a2c-a354-28a21a176afb_aug_031.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "53058d3a96a8365a37df880e03848284d5c8a3657c3c942bcc0c2e9786916b8b"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/db70ee30-3f59-4a2c-a354-28a21a176afb_aug_034.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "3b89ff3bf893e162e70ba8e6fe09aa9eb039053f552381562b8fbe59b8345ed4"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/dbba8b23-cddc-401a-b0d2-c110abcbe374.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "a39a92f7e78d04fefcb61366eee2849b5a43f0504f6615082bd72a085fb31370"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/dcf4d624-7f7b-4a45-96e1-3ddc151e59ec.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7a97cfe224502fbd1a2c3cc95a5dc4332a62160b2eea1e13ce4b12007fe7bb9a"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/e1e47b3b-1865-48da-9df0-4dc20aedb820.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "4033d0818a9d40c6b61c34b4d913a89234bf2346ffc236093f4ade083dc1f027"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/e502cf99-e190-4f40-b585-61da37f32878.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "233dd106337f4e3ca2692cfc75bced67859501843e8aa94421eddf4a3d8e5f7c"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/eb80801c-d5c2-4db0-82a1-2cc3bbc48ecf.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2f2356d5d7833e8802a24e35654bb81ada57b5d9bf089ac333c77637a3a0881e"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/eb903c64-77b0-4529-8130-7571839a1e09.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "3f8262f6dfd78e621ff2cc2a2c29aceae92ff6e82135f0c1b33080d6cddb23a8"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/ebe34fbc-b4a6-4542-b5ad-4884bef92115.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "495afb8187002842db5c67a60c13c0f938cca4173e0c8090af6f9a5dfc56734a"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/f7d7343b-f09c-4998-9a8c-e945cbd974f4.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "31c8c232afeab53b320e571631d6e66c3b70ad33ce88c55f401b47ddd0dc31db"
+  },
+  {
+    "path": "train/Leaf_Colletotrichum/f7d7343b-f09c-4998-9a8c-e945cbd974f4_aug_011.jpg",
+    "split": "train",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "013ac597829fc07daab71de8ed95b1f0ea7174e8443dee66615f7f99c5ba1a10"
+  },
+  {
+    "path": "train/Leaf_Healthy/00afdde2-6f42-4627-9f6c-83583a337e97.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "a64699bb9f4174624f3a16f3c895f09693f80f2c1acd6b5b2cecca9b7dd6e7a9"
+  },
+  {
+    "path": "train/Leaf_Healthy/00afdde2-6f42-4627-9f6c-83583a337e97_aug_040.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "2b013ef49d2cf012f1d051abf10d4c4c735c4f548ae22943ceea479e35f9b18e"
+  },
+  {
+    "path": "train/Leaf_Healthy/046d5bec-1cbd-4345-be9f-e579f0a23bd1.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "9317cd2506f8e79074af7b12e08427079581d50e80701163ebb6bbdfe92d3892"
+  },
+  {
+    "path": "train/Leaf_Healthy/098a2c75-81e5-4840-b406-52ee2e818ddc.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "1699a8af60800c2ddc905f90cb306f7e6db1171369b2044cb22c47b1a142daa5"
+  },
+  {
+    "path": "train/Leaf_Healthy/09ab2488-2a33-43ca-8cf1-f6f56175d8df.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "fec45d5f630d7e0f85fe9f90acdb898decb3951ebc504d073cbcc8af473f9c24"
+  },
+  {
+    "path": "train/Leaf_Healthy/0c9cae3c-fa30-4c91-9ac4-2a704865bcac.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "716100ef09c451587868ba51c5d33fe9995b858d12b659b39915629129151057"
+  },
+  {
+    "path": "train/Leaf_Healthy/0e0b0ab6-1394-4657-92db-db706e4e147c.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "d30128a57d44c2512f1238c801e8c225b0ae52a57b4b57ef7dd74a5f6fbdf268"
+  },
+  {
+    "path": "train/Leaf_Healthy/0e0b0ab6-1394-4657-92db-db706e4e147c_aug_016.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "ef332f0bc393ad208659f5ee676de5f08684e35886923a3e0f13ceba6e753e93"
+  },
+  {
+    "path": "train/Leaf_Healthy/0e78d3b8-23bc-4d07-9ecf-e3f0c55ebada.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "16227241562937d92fde1d4618b65d03afd5f8993684a09d36f56f7b20db7ee9"
+  },
+  {
+    "path": "train/Leaf_Healthy/0e78d3b8-23bc-4d07-9ecf-e3f0c55ebada_aug_012.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "d26cfa3476cd9d4ee947b9bbfe64dfeac66011a5f5e603425ce3fa5a4fa931a5"
+  },
+  {
+    "path": "train/Leaf_Healthy/152d0ff8-ca4d-45dd-a863-43670a840e34.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "dd2c1767dc345718f1b87ae47708cd93fe019c4d62b59637c36278fb3726bbb3"
+  },
+  {
+    "path": "train/Leaf_Healthy/172e70d2-4b1a-4128-91d4-aaead4088585.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "3d6900ff5dfff405a81b7eeef71ea640586caf7105d2ac62d0f9b1b91e3a851e"
+  },
+  {
+    "path": "train/Leaf_Healthy/1864f3dc-642c-4b66-8ff6-a5556e41d8ae.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "25702b056f9b86e42b38e545e43186cf00d383820f2d47b161aebdb281c1a762"
+  },
+  {
+    "path": "train/Leaf_Healthy/1f26f8ee-7662-4d48-8b87-a75e01cafe7e.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "6e54163a3b88adb682ed5747a92565ed56f207d7fbe6212e577bd7ff231df53f"
+  },
+  {
+    "path": "train/Leaf_Healthy/256b5f75-a8ba-48fa-a06a-cd0937aaa25d.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "e65614dce398e4c623695093e25fdf434d88b6323131577fbdbbbd2cbc79da41"
+  },
+  {
+    "path": "train/Leaf_Healthy/256b5f75-a8ba-48fa-a06a-cd0937aaa25d_aug_005.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "43d7973c945f84c5fdbf7958fd7bd6b717ad146c81e4148e797c21caa73f2b7f"
+  },
+  {
+    "path": "train/Leaf_Healthy/2ab75ce8-e16a-43ba-a7f9-7179f690217a.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "3ef012fffd4145554907201fb137f1696aa8ec608b174f4c58be23f254f03012"
+  },
+  {
+    "path": "train/Leaf_Healthy/2ab75ce8-e16a-43ba-a7f9-7179f690217a_aug_004.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "0139646d0a3324950270da5ca10e06a9e999f452cfa59ebbc8549f9740983c0c"
+  },
+  {
+    "path": "train/Leaf_Healthy/2c93cde8-34ff-4441-9e7e-fb9c54034f22.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "d917a4c25c9f54d4bfd52304d8f98ebd54d8b27de8949bf2487b523784c51091"
+  },
+  {
+    "path": "train/Leaf_Healthy/2c93cde8-34ff-4441-9e7e-fb9c54034f22_aug_018.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "8809c207aceecac1aadaa519495d1ca46ec1e2bd71841e1e04145b522086ce67"
+  },
+  {
+    "path": "train/Leaf_Healthy/325a0d88-202b-4b32-907f-4918455e97bd.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "e5f27387a5287dcf33b76f3b2dbe511dde688fe3802163b65b55812660ffa8b6"
+  },
+  {
+    "path": "train/Leaf_Healthy/325a0d88-202b-4b32-907f-4918455e97bd_aug_013.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "67adbe740adf2053c887dd4655f836d2f2aeb7405eba99cab0b4308cdd22de4d"
+  },
+  {
+    "path": "train/Leaf_Healthy/397c6aff-f482-42a0-b2b0-fc1133a5c371.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "77406e4f0ac1c577668d1580329a7a7e70473c23a9f905c5c4b7f89298237d1f"
+  },
+  {
+    "path": "train/Leaf_Healthy/397c6aff-f482-42a0-b2b0-fc1133a5c371_aug_006.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "b1c4cb0e533cfd8b96573d254528b7ace6954e9e849494162bb16852b65504a5"
+  },
+  {
+    "path": "train/Leaf_Healthy/47999993-4a61-4c7a-88c6-6c95d0267070.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "2f67dcf367ff1ec8565894841ad6b962422d9d0dbea1d9187ae369a6962c0a22"
+  },
+  {
+    "path": "train/Leaf_Healthy/4ad5003f-077c-4ad0-ba5e-9bdba6f51d5a.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "499417df13a514196b61d9a2a2e1465cb417f2a5671f71c3fa68b4a4682e9195"
+  },
+  {
+    "path": "train/Leaf_Healthy/4d579c0f-2173-4867-bcec-8194e550b247.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "71ae5ab1bac7a930497dd9dc45f2d7f19a1b96cb2144c5ec552cfa814865a082"
+  },
+  {
+    "path": "train/Leaf_Healthy/4d579c0f-2173-4867-bcec-8194e550b247_aug_020.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "2f4cdfdb5d560fa7e1f5e60d5c99266ef7b77113d2293bcce505b02d8380ead6"
+  },
+  {
+    "path": "train/Leaf_Healthy/5397f8a9-fc7e-4ed7-a018-d7ce374a6245.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "6f8045c98efba3e88c57399cc26009e8154ff9bc9466773707f30ae860d809b6"
+  },
+  {
+    "path": "train/Leaf_Healthy/5397f8a9-fc7e-4ed7-a018-d7ce374a6245_aug_028.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "dbc0eb291cd47d8ce996914d649ac293f330869d7c35eb72c7b0a542dd37ce19"
+  },
+  {
+    "path": "train/Leaf_Healthy/5639be54-a913-4af4-936a-14c8c7104713.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "e0ed65bfd4ea3c108c5a8a439064d588e431962b990689b8c8432c1d31414ed8"
+  },
+  {
+    "path": "train/Leaf_Healthy/5639be54-a913-4af4-936a-14c8c7104713_aug_011.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "6e2d93a1a117df3a080ffe7ac236d0d28391063128c4ffb000bd0b8565025997"
+  },
+  {
+    "path": "train/Leaf_Healthy/57960982-39b9-46b2-a081-da7b4f9b052a.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "5daf85893f1fa4d4df48250922180c796afb0f0fe28f28840585b543ecc6aaa2"
+  },
+  {
+    "path": "train/Leaf_Healthy/57960982-39b9-46b2-a081-da7b4f9b052a_aug_019.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "ce329766093d3123de2f4940bd5b1bc55d42b134dcbd458653905fdb98c5a0f9"
+  },
+  {
+    "path": "train/Leaf_Healthy/57960982-39b9-46b2-a081-da7b4f9b052a_aug_033.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "08ffa60ebaf8a89832f6902fd52544af63d788f5660b1931d4c4443a9626ad70"
+  },
+  {
+    "path": "train/Leaf_Healthy/58321f51-e8a0-4e68-a3ce-00e0755e4e36.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "cde44b72670f4d1fd314775a7cfabd774a5b52d363db07e890388f1852c51ece"
+  },
+  {
+    "path": "train/Leaf_Healthy/5e9dc598-dc21-467b-b25a-26f95fb36897.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "b73e918408b6e467e2e803f1b37d9b1c5574574b28ee8979995669fd7d669eec"
+  },
+  {
+    "path": "train/Leaf_Healthy/61c7e15f-df1e-4c04-8c8a-fa14fc628566.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "d9c1746be58f3df71cfec5a05ce1ac00b7c9702aeadd8448507da36524d432fa"
+  },
+  {
+    "path": "train/Leaf_Healthy/623565f9-5e13-4e47-89c7-3651e588f67f.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "68229b1a932dba01b95149430c0296a5e2a2f78a087077b5bd668b48a169081e"
+  },
+  {
+    "path": "train/Leaf_Healthy/62f8b41d-4300-453c-a742-47ebbc37ff6c.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "b85f474ddf7a4a71acf657a12077ff76ebc2c2d1f4804688cb8cc99dd1c51e1a"
+  },
+  {
+    "path": "train/Leaf_Healthy/64369444-5d08-4c8a-8c1e-b412ff77a718.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "3ede199684078aa169d19447c6d37d6924a42b7ae1cdafed503858efa9666981"
+  },
+  {
+    "path": "train/Leaf_Healthy/66015a28-4bd9-4f9e-abde-b776f2a05c2e.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "d770e85840afae78b0aa692ba37fa78f4a8973e7436e4137652574e1bab110e8"
+  },
+  {
+    "path": "train/Leaf_Healthy/69ea252e-eccb-46b7-a41c-af1346408745.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "40b753f8c553123614089833ca4404f4e779318e8d3042208034da738fce08c3"
+  },
+  {
+    "path": "train/Leaf_Healthy/69ea252e-eccb-46b7-a41c-af1346408745_aug_034.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "9a006226198d2f9cc4a039b103d3c7c8e232ddf735523a877c4e92b63228d33a"
+  },
+  {
+    "path": "train/Leaf_Healthy/6b05a99e-1f0b-4f4e-92da-613fb82b3c23.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "dfe10adb4f38a8d99775d865b079dd5c0a02ef33ff20a8a911f6507138004bff"
+  },
+  {
+    "path": "train/Leaf_Healthy/6c9293b4-637d-4788-83ec-e23e612a9be8.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "3762d30b8fa259ed6a4b1218c45caf3e2001d7dabeea8b5c3168cc34b005e742"
+  },
+  {
+    "path": "train/Leaf_Healthy/707aca38-81ce-46b7-8654-1f2947317cd0.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "8253806b02fa9439990bb659d7b23c348dde7356f4fd33991fddea9e493e8dcf"
+  },
+  {
+    "path": "train/Leaf_Healthy/707aca38-81ce-46b7-8654-1f2947317cd0_aug_036.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "cb5daf85c7cfe655c5785fc57c0b7e5fe747e882a101b7e296254d555482e75c"
+  },
+  {
+    "path": "train/Leaf_Healthy/70df2e07-dd11-4819-95e7-5d4e987c09a0.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "89e3fa8bb8c2b55c91426da1d54fb2fd62af05dabdc722ca67acfa7c15c65d40"
+  },
+  {
+    "path": "train/Leaf_Healthy/713bd3ff-1ea0-47d2-bed5-df321e1bbf91.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "6f01afb51e723cb7f27c9108443cbef881b2c3aea82b51be96865c728824cef0"
+  },
+  {
+    "path": "train/Leaf_Healthy/713bd3ff-1ea0-47d2-bed5-df321e1bbf91_aug_009.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "603e787abc1cc05cc351d807aeb013092c61c2f62107fc4e9e88b65ae2f063b7"
+  },
+  {
+    "path": "train/Leaf_Healthy/713bd3ff-1ea0-47d2-bed5-df321e1bbf91_aug_037.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "81b23887fe5e53cddf8604d7f89e60f02cfcb2852b05fc58aeeb498c9d2cc75f"
+  },
+  {
+    "path": "train/Leaf_Healthy/759b2289-62f2-4068-a3c9-2467a9d1e52c.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "e4f0872550adb234c8998c69c673bf69fe1e6502b6846ade86001caa4152de33"
+  },
+  {
+    "path": "train/Leaf_Healthy/7e9022f3-ab97-4ade-8468-ce7f08ed8b10.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "6bd87680eb0e7eca673c7a7f51546fd89b9372f66a922742b3fc9892091fe132"
+  },
+  {
+    "path": "train/Leaf_Healthy/7e9022f3-ab97-4ade-8468-ce7f08ed8b10_aug_041.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "edfe7ba38049a0074f8b08bad75dffac9358f84029719a175c08e18e5d7f7350"
+  },
+  {
+    "path": "train/Leaf_Healthy/81e2cd8f-cb6f-45c3-a7cd-3d75d8f98812.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "4daa2d4689863b72d5dbf83a650772123bd7679e5bfe11dedacdc559ceed7990"
+  },
+  {
+    "path": "train/Leaf_Healthy/81e2cd8f-cb6f-45c3-a7cd-3d75d8f98812_aug_017.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "d56c52dd2216a85fe99f0c49227d55680fb378af9d7020befc37ee9cb24a93ef"
+  },
+  {
+    "path": "train/Leaf_Healthy/81f60779-0a10-4f5c-9f9c-f0ca6ba029e7.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "d6ff390c0fc4d1cb3ad4902c84ba53a365b25b8c9b56d773bfb7939fd1a06c80"
+  },
+  {
+    "path": "train/Leaf_Healthy/81f60779-0a10-4f5c-9f9c-f0ca6ba029e7_aug_000.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "8275a3dd846e00ca7eabf8d146cbb05fa9436dec7508649e59d1eb3feb273767"
+  },
+  {
+    "path": "train/Leaf_Healthy/839d3614-cc80-4a24-b5d9-270232db9178.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "504853ae71f9ef59e9d3802a6f100a78bc510478e875ba8068fdf59b120e4541"
+  },
+  {
+    "path": "train/Leaf_Healthy/858286c4-64e5-4a69-9b2e-6499ec0dc05c.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "6242cfb4dddc32a76a8bec833565a1dda94965b5c6db6e91fa7c0bd722de3e18"
+  },
+  {
+    "path": "train/Leaf_Healthy/858286c4-64e5-4a69-9b2e-6499ec0dc05c_aug_022.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "96764470996177eb369022e64367ac4f6d28ff6994cb584e7c211869891be3ea"
+  },
+  {
+    "path": "train/Leaf_Healthy/87ae55da-71e9-417e-9e1e-6f27fc4a6fc0.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "e371cd2527abc97a69a267b07033c343920a32458f1c0d6865b61e58a5612d4b"
+  },
+  {
+    "path": "train/Leaf_Healthy/87ae55da-71e9-417e-9e1e-6f27fc4a6fc0_aug_002.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "b893feb423bcdc1bef8c5370da39df4ae94c122a97dfbe6f92ed8d548c74d543"
+  },
+  {
+    "path": "train/Leaf_Healthy/8c0cc7e8-e965-481b-8c7c-9d763c90904e.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "07d52d1cad6cf564e405ead2f56902631577559d48292efcd9f60fd125ba2121"
+  },
+  {
+    "path": "train/Leaf_Healthy/8c0cc7e8-e965-481b-8c7c-9d763c90904e_aug_039.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "f50d583d53f80397f304aad1fb6d4a5b4349fdf7056258b034473a2c5f951aed"
+  },
+  {
+    "path": "train/Leaf_Healthy/8f1a59e2-6eb3-4b6b-a6f5-eb4b3bd9a160.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "460a1d6fb1470123463567630992ed032cac5679840c35185b58ed041186184e"
+  },
+  {
+    "path": "train/Leaf_Healthy/92235afb-697d-4ba0-84f5-634b3c3b9aca.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "899392ef48a9e511bec159f3b5a79248ba96f0d4025965918725c8af79efbb16"
+  },
+  {
+    "path": "train/Leaf_Healthy/9771b958-31bd-4ae2-8dca-361ae1e6e854.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "92b25e7d9d629a42eab56203a671068ca34e5ad268daacfab2d574a11991ed55"
+  },
+  {
+    "path": "train/Leaf_Healthy/9a7316e7-32db-4fe7-b5db-f89253ad41ea.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "66542eb7341c2b042d161666cda464015486a436e4c70f3391efdd1470ca1185"
+  },
+  {
+    "path": "train/Leaf_Healthy/9be85a43-4e21-42fa-a1bc-ee5fe2cbec26.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "abe263f93f5586abb77c5ef8e394a1c608f9bb33d491f0bd1faf29677869e3ff"
+  },
+  {
+    "path": "train/Leaf_Healthy/9fa63e1d-c599-41d4-a94c-f61952175920.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "bc9052bdd44f0cfc635b46f8cfd2abf6101558ce93cccb2c7619c6184b260b64"
+  },
+  {
+    "path": "train/Leaf_Healthy/a6682706-db7e-439f-b818-274f62390f69.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "3bfe9b6057081efa963432736ba19b627f70588e3f783d61aa7b9be93e187daa"
+  },
+  {
+    "path": "train/Leaf_Healthy/a849786b-13ab-4ad5-b474-8268d53c0e25.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "4a4ec74a5d19870c6d45db996fcc7226a7066c60b59ae187606b816df5bfb3a4"
+  },
+  {
+    "path": "train/Leaf_Healthy/a88a483a-f770-45c5-b615-6423fad7be52.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "333907b76ab0873b0fc55c1c0306f1e2f2c9c4b192d36c5fa46a22908bcbaaa2"
+  },
+  {
+    "path": "train/Leaf_Healthy/a88a483a-f770-45c5-b615-6423fad7be52_aug_010.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "bc5fb9b1d95cf207132f4e3ad43ad38c84c3ca9fc9761bde781e4a24579f4e90"
+  },
+  {
+    "path": "train/Leaf_Healthy/ab9d35a0-9b2f-4ff6-b4df-c355d82f8e4a.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "4345fb370d2adfcce87a3de42d43817848988bd8351b36631e99391671d6b466"
+  },
+  {
+    "path": "train/Leaf_Healthy/ad3f1b2e-531e-4a03-8b31-a1916e776c6e.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "2cc3d9a585196de1c8838b2e41f6ff49db980a0d44bd752df0b2ba437d890f79"
+  },
+  {
+    "path": "train/Leaf_Healthy/ad3f1b2e-531e-4a03-8b31-a1916e776c6e_aug_038.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "014be394d5fda461c10908b44dd41dde4582397c9a4910ec47a40ded16d380b8"
+  },
+  {
+    "path": "train/Leaf_Healthy/aed3b91b-c70b-43a0-8931-e9ce1db951fe.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "514fe5c6f880378447bb1474b70170178eab247d61b3bb7e220cb0a0a4e3223f"
+  },
+  {
+    "path": "train/Leaf_Healthy/b6025501-d20d-4046-bc33-d45dd8d50c8d.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "97393168a5ce9aa2840a435bc0acaf6574e735a42a15b1128c939de7d58751fa"
+  },
+  {
+    "path": "train/Leaf_Healthy/b6025501-d20d-4046-bc33-d45dd8d50c8d_aug_015.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "ecd60a67e8b201c1d611c7494037e9c2a6beb821e058ba9a1f05d57858203edc"
+  },
+  {
+    "path": "train/Leaf_Healthy/b6d5a851-aac0-41fa-863c-5eb7ca31197f.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "41708e9de997dee08e61e9281f35a2e323991866fec8e9cb65a11c2db4efbf69"
+  },
+  {
+    "path": "train/Leaf_Healthy/b6d5a851-aac0-41fa-863c-5eb7ca31197f_aug_001.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "485e41445e41d4e9515463927c4f081056afd4c77b93677ee226a4001394cd70"
+  },
+  {
+    "path": "train/Leaf_Healthy/b6d5a851-aac0-41fa-863c-5eb7ca31197f_aug_026.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "49e8949f4629607dfc7390ad5594215ad963529bd7cadd5a3f7ae826a530cbf1"
+  },
+  {
+    "path": "train/Leaf_Healthy/b6ed0dfa-b839-4569-a061-a871810b5cef.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "ff544a7d00bd7856f1b10f4569c0d5916d275c8e784661aefbcfd5bf7bcd3de9"
+  },
+  {
+    "path": "train/Leaf_Healthy/b8f758ac-b977-4801-80a7-61762b4c3974.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "2e9e3c12994a297b36e8daa9d47b98d7d41758ecbc7bdce5035f0bbdbe534f0d"
+  },
+  {
+    "path": "train/Leaf_Healthy/be310695-7a00-4443-8ead-c1241bc21c97.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "c51fcc3b99d48083af5db578d0d2f1e24feb2fb9f9a8fa4909a4acf73c61b771"
+  },
+  {
+    "path": "train/Leaf_Healthy/be310695-7a00-4443-8ead-c1241bc21c97_aug_023.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "07bc3f625fd1f92c079031548cfbbc51b7ac88a0e9c185b21c0103841cac4124"
+  },
+  {
+    "path": "train/Leaf_Healthy/be310695-7a00-4443-8ead-c1241bc21c97_aug_035.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "43a75af5e371e29dec931bc341ab21f411c76608f9cb1c1b4b925acf722df364"
+  },
+  {
+    "path": "train/Leaf_Healthy/be818224-04d3-4a8a-81ed-fa6f8caad45c.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "e42ec3afe98bfb8e894f89eb12a26bc339da4ad698777b704f67756c3a2c8913"
+  },
+  {
+    "path": "train/Leaf_Healthy/be818224-04d3-4a8a-81ed-fa6f8caad45c_aug_025.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "87ca8e52be76fad02d4d39663de9326f2c8996a83cb07a11c7680f2a98d5a872"
+  },
+  {
+    "path": "train/Leaf_Healthy/c16f8af3-d669-4870-9a4b-afa138f13dac.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "2ed46a447682ae5384da4978d9bd298caf47aaa7e9d7fcbb4a422c303c2dd262"
+  },
+  {
+    "path": "train/Leaf_Healthy/c2ef0803-a9ae-43b3-a542-1eb0e65fdec6.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "97a80edefd33228963f13b487d8533493369c2513bb6306cb6b9413953dd41bc"
+  },
+  {
+    "path": "train/Leaf_Healthy/c2ef0803-a9ae-43b3-a542-1eb0e65fdec6_aug_031.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "02fc5db0f6ff64a5201d4ef222f9f9159ae77c3b033edeb1babc08234f8b2209"
+  },
+  {
+    "path": "train/Leaf_Healthy/c4fe45b9-1fe5-444c-b214-d850c6b94b98.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "4dc857463ed72a14e98c661612f6923fa8ee34d13b3c3e2d3fd44599cdd964d4"
+  },
+  {
+    "path": "train/Leaf_Healthy/c4fe45b9-1fe5-444c-b214-d850c6b94b98_aug_021.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "566f9d4deeef2c3eab5ac4d434c85965b4a0c48686984b7fb27058cb5d3a6062"
+  },
+  {
+    "path": "train/Leaf_Healthy/c8d31eec-c502-4f8f-b67c-ad6fdc3a6512.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "67a8eab1b2b777e0af6ab216054fc10bd9a57b28553b98b55b3206f0577cc269"
+  },
+  {
+    "path": "train/Leaf_Healthy/c8d31eec-c502-4f8f-b67c-ad6fdc3a6512_aug_024.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "6ec151f268b56dcc8e554e9cca867cfe8a48704cff264579d3f1a05451dd4586"
+  },
+  {
+    "path": "train/Leaf_Healthy/c8e3c570-0b26-4583-ac96-b0c391e1f5bf.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "3a32e846bc1d7b9765c32a77c7c19111c2ce7a96d35958f141016cd294554db6"
+  },
+  {
+    "path": "train/Leaf_Healthy/d0ff41e4-d34f-463b-8fa8-b966e1ded112.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "ff334662f61000c2b28d3a565fb8e7fe5113d13c7fb333bda9bd3c52fa12b61f"
+  },
+  {
+    "path": "train/Leaf_Healthy/e1c7bffe-fd1f-4159-86e0-99925a7b7a89.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "670e99870921f950833d9e99ccbfab7dab8ed52a047dc3969917e71c7ebc6c62"
+  },
+  {
+    "path": "train/Leaf_Healthy/e1c7bffe-fd1f-4159-86e0-99925a7b7a89_aug_030.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "c7caa7319fdd633f6338269531a790afb929a0e52c5a7eae32a2e4a94b967f78"
+  },
+  {
+    "path": "train/Leaf_Healthy/e1c7bffe-fd1f-4159-86e0-99925a7b7a89_aug_032.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "e818a7a2ee48d0302c423b394b258f3457753e6b882c23c321555f82ee2c9bfb"
+  },
+  {
+    "path": "train/Leaf_Healthy/e2db17de-b843-47c2-b227-344c21c041b8.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "244d458d6f319c04356e53f5b3a243a117513c228d538e8caa9ea2e40dc15ceb"
+  },
+  {
+    "path": "train/Leaf_Healthy/ea68e82f-2ba5-488b-9636-1bccf760739e.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "12d7a4386d9d466bfd502e9e3de0d247c90e26d91fb6bd774ef97f51f499ade8"
+  },
+  {
+    "path": "train/Leaf_Healthy/f241d146-7e42-496c-91d1-4a6c35a56faa.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "28d691ee91d9bdb18089e8fadb5ab481eb3b711c76c9a845144e5dc0fe033aa3"
+  },
+  {
+    "path": "train/Leaf_Healthy/f241d146-7e42-496c-91d1-4a6c35a56faa_aug_003.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "7a605ca1b77ae51f68794439cb92bc8a03f245d8e1793f2c845c7045f7cb39e6"
+  },
+  {
+    "path": "train/Leaf_Healthy/f2abec12-3618-48c8-a84d-5f11bd380c5d.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "4e7b7800d1a3aeaa4637418916ac9605fa2182ecd432aab9e516cfb63026dd0e"
+  },
+  {
+    "path": "train/Leaf_Healthy/f478480a-92c6-4d3f-a327-f89cb49b5ab9.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "c76c7a768fb7eeb6d8f89f8b9daca3ada5523c22de7a004f56581184e2926246"
+  },
+  {
+    "path": "train/Leaf_Healthy/f98434b8-a2d4-44b2-ada1-44f420ead161.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "465fadb727883deb6b190fd89c5382f36804c499e169e3371b94456e22ec9284"
+  },
+  {
+    "path": "train/Leaf_Healthy/f98434b8-a2d4-44b2-ada1-44f420ead161_aug_007.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "97d6db718b4cd4d76adad454631dbdfc43cb50348937513c0a1ee6b5073227a7"
+  },
+  {
+    "path": "train/Leaf_Healthy/f98434b8-a2d4-44b2-ada1-44f420ead161_aug_008.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "ded5156e130888c12410a6809a36699e860ce05ece3d753426759d799a733680"
+  },
+  {
+    "path": "train/Leaf_Healthy/f9e4aa46-60e8-4b79-807a-65ce6d60a324.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "7890e13f81c1d88850ba73f4fab042a1e8418fa1df4bac2790ed1a15853ef40b"
+  },
+  {
+    "path": "train/Leaf_Healthy/fb077eee-aa27-4454-b4ef-91a7c111542b.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "eedab31d713a28e22882576831a24e338e8e8b187272b5214eca60ead309ffef"
+  },
+  {
+    "path": "train/Leaf_Healthy/febf0a91-4701-44df-9d5d-a4a9dae69016.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "2adc6e7808f23eca8df04453db134f954a86dbcbddb9c559bc7da5bfa556db6f"
+  },
+  {
+    "path": "train/Leaf_Healthy/febf0a91-4701-44df-9d5d-a4a9dae69016_aug_014.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "10378b40c2cc43fc3b98977e5b0bf0a35d10f97cbb56e0c5435f7b355399a46c"
+  },
+  {
+    "path": "train/Leaf_Healthy/febf0a91-4701-44df-9d5d-a4a9dae69016_aug_027.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "f352d416b51b88053c659078c1b64894641a88ce185c862afc9101223378bd1e"
+  },
+  {
+    "path": "train/Leaf_Healthy/febf0a91-4701-44df-9d5d-a4a9dae69016_aug_029.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "f70a48194168c6019e05146b48b68f94d53f3e829672aaba0a8afc44edc70e1b"
+  },
+  {
+    "path": "train/Leaf_Healthy/febf0a91-4701-44df-9d5d-a4a9dae69016_aug_042.jpg",
+    "split": "train",
+    "label": "Leaf_Healthy",
+    "sha256": "d3424e64159f0e1d7e3e04e1a0a0f56bfe0c767cbd50cf6f784a46306b55c3f9"
+  },
+  {
+    "path": "val/Leaf_Algal/0022f37e-05f6-43cd-b895-a7a7c9dfc1cf.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "16cef66378d1cea1556ecf203e330071b9c9023cd2d1a3fae21554bb4a540db4"
+  },
+  {
+    "path": "val/Leaf_Algal/0b4b0216-acf2-45a8-9b49-0d6c0cae9977.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "44044f6ad038cd22c7bbda36fcecaacf76a019bb8c2350f6a1a29bf3c331289a"
+  },
+  {
+    "path": "val/Leaf_Algal/0e79401a-6768-469c-91be-ad319d191e6c.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "f7a693462beab2b089df161c902efebd61471914248cd6fcd5e094335785caf3"
+  },
+  {
+    "path": "val/Leaf_Algal/16e6a82a-6fa5-46ed-accd-4d60e07b78ad.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "838ba30808aba175e1160ed065e350b84697a685dc3b0eca901aaaca16d90ad6"
+  },
+  {
+    "path": "val/Leaf_Algal/4711971d-b4ae-45bc-8f07-ab9499dfb703.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "ec5339a7465c2fdc59d0ba2814d56059ce4b0fa505cbb79519a4103a80d6c9bb"
+  },
+  {
+    "path": "val/Leaf_Algal/540a4f47-480c-4e65-a332-07a7ef57b36a.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "6011544d00a67263731b357f2ce1e6fce64e1431227fff0b2f8d1bcbb92ab396"
+  },
+  {
+    "path": "val/Leaf_Algal/55772326-3d02-4994-a7ac-2cc2ec758dbb.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "f3868108ffd1646ba6a79e9be4a5d14b39c1252e4174bf18daa00fdfe400156a"
+  },
+  {
+    "path": "val/Leaf_Algal/5c03e857-d06e-47c7-8319-37ad003e5203.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "fbae86dd6e8a128340c21bea8f20cb46016a779c1c27f5b70109d51cde9e30e9"
+  },
+  {
+    "path": "val/Leaf_Algal/afc52e8b-5eeb-439f-b26e-69ef33449467.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "e99b9312b537a7130e6d181dc13ec289379518adec1fb67f3a04fe1405288e9f"
+  },
+  {
+    "path": "val/Leaf_Algal/b5d47498-fe4b-4f89-b2b5-e6b7cfa076c6.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "3b0f66ffcc74c884ab73ea4070496fea74403b93b5ce155d8849d790c56ba336"
+  },
+  {
+    "path": "val/Leaf_Algal/bfff2be0-a497-434e-802c-f7cd7ae5bff0.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "136c4776d4e03b61aef25631e7c7c7af03d510057be3efa0cbc72b9cec8cdce2"
+  },
+  {
+    "path": "val/Leaf_Algal/c12d39e5-757d-43b1-9b45-14668b879b2a.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "bfc97d0ca599e4b54683a294c8a652ca809161535c893c9798be2fbb1f12dd6f"
+  },
+  {
+    "path": "val/Leaf_Algal/cb9ae052-4b71-4379-9883-0502e59ef3dc.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "72e086bd24d0e0f7053537752aedad80298f31bb4f2e6a78927b5922f7714cb5"
+  },
+  {
+    "path": "val/Leaf_Algal/d8d7ba67-b43b-4361-98ce-c2aba55f7379.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "1742cec5f4f18a367a7cddce7c3e8f63b27267e2c7b5f39ef727121200d16cb2"
+  },
+  {
+    "path": "val/Leaf_Algal/df1f63c5-d481-454f-adaf-3917820fe104.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "4524cafa0773b7eb72727fba597780dc26ebdacff2e265ef2f531cf93ea2caff"
+  },
+  {
+    "path": "val/Leaf_Algal/f81b96b2-d542-4f09-b2c6-c6a8ef668807.jpg",
+    "split": "val",
+    "label": "Leaf_Algal",
+    "sha256": "0add7495f7a77df480befb48ef2c199bed0fbca950941fd6a443b11614ed25c7"
+  },
+  {
+    "path": "val/Leaf_Blight/29ac2814-5aab-476b-a27e-1cb11f6d0a08.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "c117fa52235994d60f1b63422b97487294f71aedcc0a8492dabb899b6d4abc08"
+  },
+  {
+    "path": "val/Leaf_Blight/2c46113c-99cd-4c2e-b50c-a333c1026e22.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "86f26cf2b26fc2de6e488cc36bad949a5bf7fba607415fe3a155fb71cbdf51d4"
+  },
+  {
+    "path": "val/Leaf_Blight/38e10596-86fb-4d5a-9b08-c1c8e4e988d4.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "6f1bee51c6b70ef0e95d23fa52c050ff2180e80ddbb2891ad088ba0f8684e055"
+  },
+  {
+    "path": "val/Leaf_Blight/460ca3c1-575f-440c-bbf8-92a9ffb61a83.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "8ea15bb980255ae96f2b8fb22ef8be958139ebdbf42da642061971bb605a5019"
+  },
+  {
+    "path": "val/Leaf_Blight/58d1e60b-9d27-45f0-a53f-1f10def262d8.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "564d4ab9ccbb5ed4627500ec08d99114369fa7951b821f88669c2b0df0635bf0"
+  },
+  {
+    "path": "val/Leaf_Blight/5c0219c6-8439-4486-9a5e-6b444e9a6358.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "23bd1ddef14c7c3a2978fcd4912181318429db8d3a601d4de666f0fd4ea92ad3"
+  },
+  {
+    "path": "val/Leaf_Blight/5e08da04-e179-4e0b-88a0-6d739e34e9a8.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "f63022b70608f81e32481c4d732572d2be145be5c38812a3b3bee75752089c8e"
+  },
+  {
+    "path": "val/Leaf_Blight/646b215a-6a1c-44ce-8fb3-66c0837fa1f9.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "4b9dbfcefea04a86081d90748a8f553e457a00d44b06c346ca11a0d34bedf359"
+  },
+  {
+    "path": "val/Leaf_Blight/65905f15-9a36-46f3-9157-111ddca6291c.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "60eb4e67fd49a56529485c736905d70750dd7bf568e16ad8644310cd90d64f30"
+  },
+  {
+    "path": "val/Leaf_Blight/74293878-813d-4f0d-b412-58e4cd660253.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "18b0cd2190e7c9389cba88825a74fdec82545a7104fee484af087b199f790428"
+  },
+  {
+    "path": "val/Leaf_Blight/a45b16bb-6037-4cc2-8332-eef62f75dd0a.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "b69a9b739b426391790ec4a209f12d2aa62f2833ad85dd94d1cd33662461bb25"
+  },
+  {
+    "path": "val/Leaf_Blight/a71c0a84-569f-414b-8144-0bc93c4782c2.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "b1606c13aa5cf9afbeda52c09b9d7510563beb0160ddeae368c41b79c21af04a"
+  },
+  {
+    "path": "val/Leaf_Blight/c7f5a842-d9c5-496d-9d3e-cbebdad3bda2.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "a5f86640caf17a26a0e44202630b339281483025592f6a74b07ad0b121dbb68b"
+  },
+  {
+    "path": "val/Leaf_Blight/d9281f1c-34a1-4811-ba2c-fd976849814a.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "795bece67f5177eeacd88751e94b2bde5fe413b640e971d4826b66a737131246"
+  },
+  {
+    "path": "val/Leaf_Blight/db8d812a-e1c1-4870-897c-3d542f4b83cd.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "270c5c6e59797fb264657bdca421837e8e07a62241fe6328da84e783727c7c6c"
+  },
+  {
+    "path": "val/Leaf_Blight/fa7b1ab3-0e0b-4f87-aea6-bdbeae26052e.jpg",
+    "split": "val",
+    "label": "Leaf_Blight",
+    "sha256": "0916daf5a15cb30f2489902f3213db19b861a7e80aed04245bcbf787df1ba3b1"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/133530c0-13eb-4c66-bc3e-3a689bf0947d.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "beb4d08cd3ce3d57e22e5f4f6a2d33c5ec1f23b8b47c16b719d5a51b9bf134fa"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/1a65c56a-9011-4c94-bf95-4a01fe5e1627.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "280c1449d6197149a7a47bfc2a3b4b1b49b8b1d801df9c94ad7361e56d9c01f8"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/2cafc7a0-4de7-42aa-b0b9-68a1bb4f6269.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "7da889ba9bc3c30890929f17f4b1d3b28c7405eb7272a3071a1cec215ebb7329"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/378fcdc2-711f-468f-9d36-ae7c82a1003e.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "fccb2b2b84c85f7b31b8b8440a60e5d7e9cc7a8caa345cd6a5f4716f6940d464"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/44b46b0a-92bd-48cc-aef3-f40e72d006fe.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "33e7f820708b7947139533dd9ada2faa60d72b8d2c47431a66e523a93e1f55c0"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/558e7644-e726-4dde-9d38-72a7a98d4dfa.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "a954ee761bcdb6512cf918e79a70f69c101d6dbedbaed5673889164c9915f22f"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/5c350e8d-2e93-47e9-b22c-9fc84b4c592b.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "cd33bd5d41593293a7a3af36a4425a06570f05edc18bfd9cfc5cded75b8312f0"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/7b8ceecb-e0e6-40b4-a865-2f2545561712.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "1101e546cc740d227e0f79a9a268279640cfd2c544d956e492a82266bcbe67ab"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/90d85518-179a-4ca6-98a7-921e656e4818.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "e8a65aa490ca18d541e1916f0a37d5784012f7f234c081f92a33d17938d7a9b1"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/96709fd5-850e-4c0f-8510-0fc6657204e3.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d8071563f8f8335aeb410ce0ca5e8b3cd3bf4aa9d2c6b89f156986d621872596"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/9a0a0b04-866d-4df7-9cb0-6bdf573434db.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "64ee7256d9c530b3b7ea0404378896448dabde0ad89e200dace0e9841743a67c"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/9aedaf33-0c51-4f2f-b18f-a0ad289a1bd5.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "22ba59e2dcbd26f063a284245c91375fdeed74b1f654bbd7226f74698b0075e0"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/9dc6d3b0-1655-413b-ab9f-1a2a288e6e9c.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "1cfc6926618775448e222bd12689e5102205febb762127eef8f9f6be266a02b1"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/cca5fddf-ea89-4b30-9dfa-3df330473c86.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "cccd97d7b8224d007e82bd1b78ef857bb4e612bcacfb5bfd0c2babd0bb5e64d0"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/e6967f12-241e-4a2f-b94c-20f34aec6db9.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "fec807e4de366b1dcdc6e9519109a9955e551a2aad553031a0bb4da52db3ed61"
+  },
+  {
+    "path": "val/Leaf_Colletotrichum/f06ec6e9-78c7-473d-8cb2-169d7495c094.jpg",
+    "split": "val",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "0f79ad6408a57ca08fb09e201ec64c691308cebf14dd8b514dbbf28a9d00d740"
+  },
+  {
+    "path": "val/Leaf_Healthy/0fbefe03-3c77-4ff2-bb8c-6e2a46ffe1c0.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "0a68e683f454fd3b62f046c604cc70be85befd383f335f94de60b2d683b3099f"
+  },
+  {
+    "path": "val/Leaf_Healthy/1e6c8521-cc75-4313-9dbd-e2f54f2867d4.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "c41c34ae9afb4763f4046797afadd813f4a142111aad1dde4fc6451ac8a0fdb6"
+  },
+  {
+    "path": "val/Leaf_Healthy/2656afa7-0d07-4568-a0e0-5aaf6caaee87.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "c464c79c4929a0098d24ee639d9e5dbfad92c2c63b0d683a0e5edcd817417fe8"
+  },
+  {
+    "path": "val/Leaf_Healthy/33c267ad-dd5a-45eb-8ff4-2c8d7a010746.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "274d1774ebe1e24e578e6f33b14d440e50d9bb9512734b1fcdc0eca4b0018424"
+  },
+  {
+    "path": "val/Leaf_Healthy/3430bb8f-a7f7-4987-9f2f-d89f343e2352.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "cdcfb963767c3388f4b6ceb364a891762ebaeb5af47f7892c834f0e542e729a1"
+  },
+  {
+    "path": "val/Leaf_Healthy/36edbf18-c56b-463c-8007-e9354f3108e1.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "5241f61379f2646a8b2cfe8f5cae2836d90c888043aed61650f9d49514e42462"
+  },
+  {
+    "path": "val/Leaf_Healthy/38731e4d-7a17-4c16-9d27-8527c8dfef0f.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "95eaead640642f086e5a9882c21e90fa108ed91ec79fa00e97d8c59ec6cf6e15"
+  },
+  {
+    "path": "val/Leaf_Healthy/45cb6230-9609-4147-8a8a-886c2b15d0cd.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "ecc3c1457921f5573a9deacb6e230ad951b926d88eadf4edf3bb32c3da317669"
+  },
+  {
+    "path": "val/Leaf_Healthy/6a50c025-0564-4872-8802-56eaa027af0c.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "ad584eaaa91ef902a58b7f8b204676f991f988268bc31594d784c8e60f1918fb"
+  },
+  {
+    "path": "val/Leaf_Healthy/80ec6e37-fbfc-4ec4-a35b-548fdd588a3c.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "50ad4c1682d8bd8bda7cdc76e2a82923824a4421fce5051dcfd75665cb27ed55"
+  },
+  {
+    "path": "val/Leaf_Healthy/9ae422ee-395a-4dbc-94ff-59ee1bf0fc38.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "0c9c6a2b5b91cbc1b0e302dd4282c29ddddb5236bc8139088bd33b93c7642ff3"
+  },
+  {
+    "path": "val/Leaf_Healthy/aba66c4c-acc9-4bce-b110-0748fb952c57.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "173143581c3b64d748d38f85aaca68cdf41adc0e3e10f8ac1dc0e8488569fe66"
+  },
+  {
+    "path": "val/Leaf_Healthy/ca512d54-278b-46f5-ad7f-f24806fb35b0.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "45df1bec6f4f606a79e4e30c3b5202c0eeefabcfbe67bcaac634071cbf8abf72"
+  },
+  {
+    "path": "val/Leaf_Healthy/d49cecec-3579-4415-ba22-cacba9ee14d4.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "97e9af293225602c922336c7a241820bfaa8446e7e45e381f8006f35ee5779cb"
+  },
+  {
+    "path": "val/Leaf_Healthy/e1e70a32-eceb-4442-998b-1ff4c89cf8e4.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "3f56482212474eb0fe13358c57c4239e47bc0b9518421a63d018c9fd6191574b"
+  },
+  {
+    "path": "val/Leaf_Healthy/fa8a017b-402d-4261-ad5b-931d302f90f5.jpg",
+    "split": "val",
+    "label": "Leaf_Healthy",
+    "sha256": "3bb1c23df59474640ed75bfc27a033025eec04636275513cacd5335bcb98ece9"
+  },
+  {
+    "path": "test/Leaf_Algal/0cada76d-1c92-4f39-8a47-f25cf7cee0d1.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "79f4ce6da754c6cf59de4355c0367bf5c4dc19b04da7edeaeb41b31fe40911c8"
+  },
+  {
+    "path": "test/Leaf_Algal/0ed6594a-69b0-4c1a-afda-52ae4e8a69d3.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "f62cab8149640c603ee2de407d561e66cc47c23d63da554e995a9bd0253ef5a6"
+  },
+  {
+    "path": "test/Leaf_Algal/32ecc739-534b-4a73-bf1d-3272908df50b.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "8910aeee01a4a58892a482c6c7d3ecbc88dcd1edbad8d16f7c3dbe3437821a3d"
+  },
+  {
+    "path": "test/Leaf_Algal/3bda005c-18e6-44cb-a908-22ebb14e37e9.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "c157ecb1c07b918e516f9e1b8a8a489ad8fc6791334fbba12b39e97e305a5243"
+  },
+  {
+    "path": "test/Leaf_Algal/3c1d8e63-9278-4de7-9446-7cadd9ebaf26.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "d6d0ff9ba5f53d3d8a75bcfa70c31c880c5ac787e18bc7e303fee53d57a3bba2"
+  },
+  {
+    "path": "test/Leaf_Algal/43c1bf83-2521-4d0a-bbb3-c2699de805df.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "150f093348d7a0ad0468f672603c34d7663aff788fcb17e21950a74a88e7ca60"
+  },
+  {
+    "path": "test/Leaf_Algal/50fcdfc9-f791-413e-90ee-b08c89f12121.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "414673b3478d7c15f7bd3867cb878a802003d41cfd87a2e839bfbc1e6dbaeb24"
+  },
+  {
+    "path": "test/Leaf_Algal/58210fd8-9075-4549-bc56-9de209b6442d.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "42436de6c30bcf3bc4f9087b5bc909c6be7561f248a110cfcafd33e83a899abe"
+  },
+  {
+    "path": "test/Leaf_Algal/612f4198-4c03-4ac9-b655-08b9750b082b.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "9217524dc39540d4b46234696c17580ea0d9e53850b6e1ff9897694510986418"
+  },
+  {
+    "path": "test/Leaf_Algal/646e75fb-0b92-4b9e-8f23-0d0a65248882.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "b5f6349f48d192ef6ddf2b235d99c2d0b87fe6734a2e81e83f09b8456569fd06"
+  },
+  {
+    "path": "test/Leaf_Algal/73457d2e-9c33-4766-8d68-e23c2a749a20.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "d3f730e85ada642c1d4acd977b32cc3556aabda1f9f913ecd926ce34b0401196"
+  },
+  {
+    "path": "test/Leaf_Algal/b62f3b3e-cce2-40e3-87ad-dff0d3905ffd.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "05245d2c203c0efa58f6e3bdafc885171c2c91941e15bc95fc2bde34e3312437"
+  },
+  {
+    "path": "test/Leaf_Algal/c809d47c-21c2-4917-90f9-11d6326a9f5b.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "1eb5bf4e0f04ac8c1f46626df7088d3778b8e6ca9918bc5465fd300377b1fdfb"
+  },
+  {
+    "path": "test/Leaf_Algal/cfca35be-1468-4833-b804-c3532fa9b7f8.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "6a374df28bbf77a7e928638902ff6cddf27bbafc859353369df8b155c03e5f7d"
+  },
+  {
+    "path": "test/Leaf_Algal/da5add60-494e-49ee-a2b4-8eb08724b5ec.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "7bf70485abb02c9b48ccedd03b46b42bbff78c0ab5ae216bc2e5b888ae5839f2"
+  },
+  {
+    "path": "test/Leaf_Algal/e6e0fd2b-e1fc-4a8b-b3a5-3c147e4c7f59.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "ce042dc215879f939cf45db364ecc3908e47d256cf023a86c38c90999d8195e5"
+  },
+  {
+    "path": "test/Leaf_Algal/f2b75bdb-b23f-4350-a15d-f7a96490498e.jpg",
+    "split": "test",
+    "label": "Leaf_Algal",
+    "sha256": "12dc42d3a387e75a03ad77c4d0b10a3c6a8b765e724a5e10b0c1196912b18030"
+  },
+  {
+    "path": "test/Leaf_Blight/516e9ebf-525c-4e9b-ade2-e259869a180d.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "556b29099f1667323367f453732e377c917c914f27dc352e8313cb8933836463"
+  },
+  {
+    "path": "test/Leaf_Blight/54209301-f4c7-4092-894c-57c244214b47.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "9dec4cc4799ad655952cee5c59440d9e7c8d1a2aca26de9aeaa471764ce37822"
+  },
+  {
+    "path": "test/Leaf_Blight/559e3b6d-7734-402f-a87d-f788ba4f5649.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "96c16344cefdf45e47b674dcfb93179878a4a057131e4a30f010c4fbf6383669"
+  },
+  {
+    "path": "test/Leaf_Blight/59141626-99e7-4bc2-88e4-da41a06ee351.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "140b1a072543a98a563d810348ddfa8c7617a1203e0205c34ea0446ecee48359"
+  },
+  {
+    "path": "test/Leaf_Blight/666a23f9-67ad-4133-9bcc-b1b262d28126.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "38b6e7d893a1e4b8c00f682f7bd6fb50dfc2aaa0733b55118f3e70870612f073"
+  },
+  {
+    "path": "test/Leaf_Blight/7cee3bd4-805f-4f77-a625-f4d035928e7b.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "f06694b0a327c915f80e975b54ff63a4682ddc4f311fa36743333660caedec82"
+  },
+  {
+    "path": "test/Leaf_Blight/7d79ea45-a9a1-44fa-bd1c-8584d2c5159d.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "5c45a3f6fe650446248bd867d6f4c16733eb29feece485aba63a5522fabe7b24"
+  },
+  {
+    "path": "test/Leaf_Blight/a08121af-d8aa-40fd-8a5f-dff05c615402.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "007dcdbbc3c85528b4fc3b2eb9a63636c45d6b915ac90cbbc91a9ca54a10a14e"
+  },
+  {
+    "path": "test/Leaf_Blight/ad8325f9-272b-4b6b-96af-5e9f93444de3.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "7b50874021cf00689abc490b9051b0e0c2a20790e6326edcf0b30cfc217e509d"
+  },
+  {
+    "path": "test/Leaf_Blight/b0464e97-d5b5-492e-bfa8-2c1a0d1d897e.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "a6c5d1c92d269b09011b6e000be2e0eeab487c6cfe526c13569f84e40b974808"
+  },
+  {
+    "path": "test/Leaf_Blight/b84e4174-1cc0-46d9-8851-d87c0775357e.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "fcb0e1f94170f29a8ec5e9c8e1c0f19c4ad0677c0997ab535fbb25eced0d702a"
+  },
+  {
+    "path": "test/Leaf_Blight/bf134a1b-1911-48dc-bbfd-3b3039bb3c74.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "062133542b588f11c6d9f5746f2911da36450af4a3a0ae2e912b6f20e9780d3b"
+  },
+  {
+    "path": "test/Leaf_Blight/c9ced69d-9bba-47b5-94d6-b1dafa07993b.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "464597e206097e7bc7da22b2b2c5ea4954a1d20da5eff1326aaab76fe056f0c6"
+  },
+  {
+    "path": "test/Leaf_Blight/ce98a53b-0d0e-4960-a525-04b62d74b303.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "08415e124b780e085729a71a57ff26b8bf7aa1cce1f2f2e9717e4d47707a7488"
+  },
+  {
+    "path": "test/Leaf_Blight/de3fb849-bb3d-4784-ab40-7f9b81d70d9d.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "4a3427148b47ea541519b467b604eb9eedce0778fcb3fa9da94a33bc670002d9"
+  },
+  {
+    "path": "test/Leaf_Blight/eacbcdba-a561-4aa6-83fb-1f1c1056c59f.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "51626941307b3272e91643a252cedd786b408f9942daaec62eb348ccf6c6e960"
+  },
+  {
+    "path": "test/Leaf_Blight/f3604780-a92f-4ffa-a9b0-91525f8186db.jpg",
+    "split": "test",
+    "label": "Leaf_Blight",
+    "sha256": "af81cc77ba703bd03f57a9a00ebe6ac89eb34521b8e31c0a7e29c6bb51ef79b4"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/10835e52-89a5-45d7-9fa1-f523d874ba12.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d935d589f65f96200a115891530cca9ed77063aec2d68f6b02dd127dac9c5a57"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/13cd3215-190d-4982-8764-f73b200ae77a.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d0133472d6bbfa0a0834d06f6242e296735b8d900b715749027ffd4932695816"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/18a2563d-3dbb-4820-9b95-321f6ecf933c.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "f2e5f1b65660fdaf82ba7255d31777c4e706b3b29690f0d60e0a08faf6f9b79d"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/287f312b-fb73-4c79-ba60-3db99ea10917.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d23ef744877e84cb8d7a46dc7704070fee9e3ae6dc724d858005c09306cc8cc5"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/4e63dd77-d9ab-4ff9-a9f8-72adc35233a0.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "1182c1ecc2f2ef6e3c8ba9f11708877849e26c7be092c498b5fed18837963ea7"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/647f0cbf-480e-4c89-8163-ad2f1b2095eb.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "959672b2d0a134d1b53d4810ffcacf1ebd3c7319b2013a99a5853476cdbd0dc1"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/65361d4f-6caa-422c-a772-c6e34c82751e.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "db1ba6e9eaa7032965f4ce3c72c8121e047b93748951a6dab4c35dbeef9de1a7"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/6eefaf68-b519-4dc4-a91a-394e0c25dfda.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "9c6c40afba8607679e221b1c137eb61f1676d747f263a9bc7768f88715eb93cf"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/75ffcace-47f3-451e-9c33-42b02c75fba6.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "4d9a51856bf61deffb60b98b32f86fa5228ea4637b52e8ec746d2b51199e52eb"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/7f53d433-b8bb-49db-baa0-262663e56913.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "0c61323912b6aecabb8a30f60b2f1760c855fbebcb10ac455bfda4d741f4f4da"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/81e1f099-5aa1-4498-8dcc-5dd90154c23b.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "a6d7d05541b4305d19d613dc44dc55b0879266416dd3c5dac0525bde876d451c"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/942be333-ad29-4ebc-b9ca-7839e26f77ce.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "94ffb78f8c95f295aa828167008266f0c0a05d2622072a2bb0def9e6339f0f8d"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/ad7cb369-bba6-4eab-b488-9faa4b46e723.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "0ab3b15d05111a1f57531c22469b77f8300ba763788086957bcd2f81b42b02c3"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/cd79c5fa-269b-4e46-ab78-cfa8755b0f51.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "2c29d7cbaed8f264fd658f715581834d433b8f8dfa9bca787d959be43cae4c56"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/ce7702ef-5967-4b3a-800c-53764229f493.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "b287bbe5464da3a6e1666b218828bfb44929a812b300087854e9f3d5f5fea819"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/ddfe25c3-a145-4651-80ce-0f59ff7b3d3c.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "61d1ea1576e4b4a3e4bbf33ae384a4a305bbf326a4c36ba0b97216c270464417"
+  },
+  {
+    "path": "test/Leaf_Colletotrichum/ee33c13a-ed91-41d6-81f0-98268c27182f.jpg",
+    "split": "test",
+    "label": "Leaf_Colletotrichum",
+    "sha256": "d4e0db302a436849881a94f2408faa29a5853cb8d4b479ffaf5ba6e7ea7ead07"
+  },
+  {
+    "path": "test/Leaf_Healthy/12b90f2c-cb6a-4626-8589-5d33e3b73324.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "bac75c3a57828d5d8c65c5ea3758750f850eeedba5a2a6e9bd0df7c0a5fdb85e"
+  },
+  {
+    "path": "test/Leaf_Healthy/1507cfb0-3025-4816-ac16-2ca7a25598a4.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "0def83f2a2571345c82da48701dbf564d347c32cae6dbb9fead291c1584aee08"
+  },
+  {
+    "path": "test/Leaf_Healthy/178055f9-9478-478a-916f-206b94cfe5bc.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "4fd2eabce71b7fe8f2e6b78b0afc1b030a254f0549d637046d4ee528a441f00f"
+  },
+  {
+    "path": "test/Leaf_Healthy/1ab44e6c-cef8-432b-840e-2c636adc1382.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "73314fe811752d213278c2b20a54dc67515b35f58c9270057bec9ab73f7cdcf1"
+  },
+  {
+    "path": "test/Leaf_Healthy/32d060ae-1488-408c-ac98-03d4c15e02e2.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "78d20e387bcb0716ddedb45d6f12672cc1dbe1c86147687c4e92ffbf27072ef8"
+  },
+  {
+    "path": "test/Leaf_Healthy/48b7e679-55e5-4098-962e-8712b03285d9.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "3e107f4c796ecdd0a391d4062ba952b95e873ac35b9ba89ae26c0484e23fa57f"
+  },
+  {
+    "path": "test/Leaf_Healthy/61b2e7d1-c774-4a71-a75d-e39ea64e762f.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "08d26c0da486203d6a02a162821294db16b44e43be97e6148e16b6d359e1a341"
+  },
+  {
+    "path": "test/Leaf_Healthy/6b7dbf2c-4119-441e-9f71-53f853350937.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "b9ec879bbc2ac5a75ba63bdf750fdf30f0182bada08bdfae62862ff1ff86e3fa"
+  },
+  {
+    "path": "test/Leaf_Healthy/702fdfb9-5258-4dc1-a5f7-1216094b2d3a.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "b23bad7e0fce48ee931e044fbf6a7437f05c28e070be22830c2ab78bbcbc7b8e"
+  },
+  {
+    "path": "test/Leaf_Healthy/7c2bf8c1-2a83-4586-b14e-f26e8e9f2952.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "4c259ee1363909258a11cda8af2f686425abe6b90143081aea6d02d7c523af15"
+  },
+  {
+    "path": "test/Leaf_Healthy/8dac3d4a-44eb-42b4-a1e5-4f7f58a4ee72.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "594ea6f7a1c89f807cab1ebbcd03bcf8e3cfe9b369cdb20972ffe819bccf2df5"
+  },
+  {
+    "path": "test/Leaf_Healthy/9e3de96f-919a-4b1d-b1f7-59bcf1cbd8b5.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "eff760412021672466c7b10c204b3e6c6be6067b194eed02e68d070dcacd301f"
+  },
+  {
+    "path": "test/Leaf_Healthy/b6fa151c-753a-4d88-b3b5-f9e8ac10f87d.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "ee7e5107f3131fab47c73b17a4135a254819c242cd26b83309ad27acae74f0d4"
+  },
+  {
+    "path": "test/Leaf_Healthy/bca76f29-3948-4080-b18d-eef00c2273de.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "dd68155f8ad7a1e970f982189b9ba3843f0df58d5590cf728891d84ebc23a0b1"
+  },
+  {
+    "path": "test/Leaf_Healthy/c6032dc0-f631-4ca4-8edf-e86ab8658996.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "f3ee7d83e40d13dbba40fef0b79aa9e4789f86a16fae0507f35a7c4bc03d4527"
+  },
+  {
+    "path": "test/Leaf_Healthy/cc42b7a6-99d9-4901-b0ab-0854c4de0b04.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "5a84877e96adc0b630b5a06214e0982008acd6bd232f0bf2cf7a3a946311d534"
+  },
+  {
+    "path": "test/Leaf_Healthy/ec1f8804-f71e-4d0e-8caa-99e6b7537ece.jpg",
+    "split": "test",
+    "label": "Leaf_Healthy",
+    "sha256": "826cffd3cb172273203908fa41f00c68fc4b86eef261a2d683986afc37e745d5"
+  }
+]

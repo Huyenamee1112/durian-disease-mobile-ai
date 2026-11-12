@@ -1,0 +1,313 @@
+{
+  "version": "2026-11-12.2",
+  "checked_at": "12/11/2026",
+  "editorial_note": "Hướng dẫn được biên tập từ tài liệu, không xác nhận bệnh từ ảnh. Các bước ghi nhận ảnh và diễn biến là gợi ý của ứng dụng.",
+  "sources": {
+    "vietgap": {
+      "title": "Sổ tay hướng dẫn kỹ thuật cho nông dân về canh tác cây sầu riêng theo tiêu chuẩn VietGAP",
+      "publisher": "Cục Trồng trọt · hỗ trợ kỹ thuật GIZ; bản lưu tại Khuyến nông Lâm Đồng",
+      "url": "https://khuyennong.lamdong.gov.vn/UpLoaded/files/2025/STHDKT%20canh%20tac%20sau%20rieng.pdf",
+      "published": "",
+      "checked_at": "12/11/2026",
+      "type": "PDF"
+    },
+    "ppd2025": {
+      "title": "Quy trình canh tác sầu riêng bền vững, bảo đảm an toàn thực phẩm",
+      "publisher": "Cục Trồng trọt và Bảo vệ thực vật",
+      "url": "https://www.ppd.gov.vn/tin-moi-nhat-289/quy-trinh-canh-tac-sau-rieng-ben-vung-bao-dam-an-toan-thuc-pham.html",
+      "published": "Quyết định 1899/QĐ-TTTV-TTBVTV · 30/06/2025",
+      "checked_at": "12/11/2026",
+      "type": "Trang công bố, có liên kết tài liệu"
+    },
+    "water": {
+      "title": "Phòng chống hạn mặn cho cây sầu riêng trong mùa khô",
+      "publisher": "Trung tâm Khuyến nông Quốc gia",
+      "url": "https://khuyennongvn.gov.vn/khoa-hoc-cong-nghe/khcn-trong-nuoc/phong-chong-han-man-cho-cay-sau-rieng-trong-mua-kho-23220.html",
+      "published": "03/01/2024",
+      "checked_at": "12/11/2026",
+      "type": "Bài kỹ thuật",
+      "scope": "Tham khảo quản lý nước; dự báo mùa khô trong bài là bối cảnh 2023–2024."
+    }
+  },
+  "guides": {
+    "Leaf_Algal": {
+      "name": "Đốm rong",
+      "intro": "Đối chiếu dấu hiệu ngoài vườn trước khi xử lý.",
+      "symptoms": [
+        {
+          "text": "Đốm tròn màu gạch tôm, hơi nổi trên lá; có thể gặp trên cành.",
+          "source_ids": [
+            "vietgap"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tỉa tán phù hợp để vườn thông thoáng.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "text": "Nhờ người có chuyên môn xác định cành bệnh cần cắt bỏ và cách xử lý tàn dư.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "text": "Ghi ngày chụp, vị trí cây và ảnh hai mặt lá để theo dõi.",
+          "source_ids": []
+        }
+      ],
+      "seek_help": "Nếu lá rụng nhiều, ngọn khô, cây héo hoặc thân chảy nhựa, liên hệ cán bộ bảo vệ thực vật để kiểm tra trực tiếp.",
+      "caution": "Không chọn thuốc hoặc liều lượng từ kết quả AI. Nếu cần thuốc, nhờ xác nhận đúng nguyên nhân và đối chiếu đăng ký, nhãn sản phẩm hiện hành.",
+      "source_sections": {
+        "vietgap": "Mục 1.11.3.5, trang 49–50 (PDF trang 49–50)",
+        "ppd2025": "Mục 3.6 và 5.1.4: nguyên tắc BVTV và quản lý tổng hợp"
+      },
+      "summary": "Giữ vườn thông thoáng, ghi lại diễn biến và nhờ xác nhận trước khi xử lý cành bệnh.",
+      "short_description": "Đốm tròn màu gạch tôm, hơi nổi trên mặt lá.",
+      "appearance": [
+        {
+          "title": "Hình dạng và màu sắc",
+          "text": "Đốm tròn màu gạch tôm, cỡ 0,2–1 cm; hơi gồ lên.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "title": "Bề mặt vết bệnh",
+          "text": "Nhìn kỹ có thể thấy lớp sợi nhỏ trên đốm.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "title": "Vị trí",
+          "text": "Thường trên mặt trên lá, đôi khi trên cành.",
+          "source_ids": [
+            "vietgap"
+          ]
+        }
+      ],
+      "differential": "Đốm lá có nhiều nguyên nhân. Màu sắc trong ảnh có thể thay đổi theo ánh sáng; không xác nhận chỉ từ màu đốm."
+    },
+    "Leaf_Blight": {
+      "name": "Cháy lá",
+      "intro": "“Cháy lá” là nhóm dự đoán, chưa xác định nấm, côn trùng hoặc nguyên nhân sinh lý.",
+      "symptoms": [
+        {
+          "text": "Lá có thể khô, co lại; lá bệnh đôi khi dính với nhau.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "text": "Kiểm tra thêm ngọn, mặt dưới lá và lịch tưới/bón gần đây.",
+          "source_ids": []
+        }
+      ],
+      "steps": [
+        {
+          "text": "Kiểm tra thoát nước; tránh để nước đọng quanh gốc.",
+          "source_ids": [
+            "ppd2025"
+          ]
+        },
+        {
+          "text": "Giữ tán thông thoáng và thu gom cành lá bệnh theo hướng dẫn địa phương.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "text": "Nếu có nguy cơ hạn/mặn, kiểm tra nguồn nước trước khi thay đổi tưới.",
+          "source_ids": [
+            "water"
+          ]
+        }
+      ],
+      "seek_help": "Nếu lá rụng nhiều, ngọn khô, cây héo hoặc thân chảy nhựa, liên hệ cán bộ bảo vệ thực vật để kiểm tra trực tiếp.",
+      "caution": "Không chọn thuốc hoặc liều lượng từ kết quả AI. Nếu cần thuốc, nhờ xác nhận đúng nguyên nhân và đối chiếu đăng ký, nhãn sản phẩm hiện hành.",
+      "source_sections": {
+        "vietgap": "Mục 1.11.3.3–1.11.3.4, trang 48–49",
+        "ppd2025": "Mục 5.1.1a và 5.1.4: quản lý bệnh, thoát nước",
+        "water": "Mục 1–2: theo dõi và quản lý nguồn nước"
+      },
+      "summary": "Kiểm tra thoát nước và nguồn tưới, giữ tán thông thoáng; cần xác định nguyên nhân cháy lá trước khi dùng thuốc.",
+      "short_description": "Mảng nâu khô, lá co lại; có thể kèm khô ngọn.",
+      "appearance": [
+        {
+          "title": "Vết ban đầu",
+          "text": "Đốm nâu sũng nước, có thể lan dọc mép lá.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "title": "Hình dạng lá",
+          "text": "Lá co lại, khô rồi rụng; đôi khi dính thành chùm bởi tơ.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "title": "Phần cây bị ảnh hưởng",
+          "text": "Lá non, ngọn hoặc cành nhỏ có thể khô.",
+          "source_ids": [
+            "vietgap"
+          ]
+        }
+      ],
+      "differential": "Đây là mô tả dạng cháy lá chết ngọn trong tài liệu, không có nghĩa mọi lá cháy đều cùng tác nhân. Nhãn AI chưa phân biệt được nấm với nguyên nhân sinh lý."
+    },
+    "Leaf_Colletotrichum": {
+      "name": "Thán thư",
+      "intro": "Vết lá giống thán thư vẫn cần kiểm tra để loại trừ nguyên nhân khác.",
+      "symptoms": [
+        {
+          "text": "Vết nâu từ mép hoặc chóp lá lan vào; vết cũ có thể có vòng sẫm.",
+          "source_ids": [
+            "vietgap"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "text": "Tạo độ thông thoáng cho tán cây.",
+          "source_ids": [
+            "ppd2025"
+          ]
+        },
+        {
+          "text": "Chỉ cắt bỏ phần bệnh nặng sau khi được hướng dẫn; xử lý tàn dư đúng cách.",
+          "source_ids": [
+            "ppd2025"
+          ]
+        },
+        {
+          "text": "Giữ ẩm đất phù hợp, bón phân cân đối.",
+          "source_ids": [
+            "ppd2025"
+          ]
+        }
+      ],
+      "seek_help": "Nếu lá rụng nhiều, ngọn khô, cây héo hoặc thân chảy nhựa, liên hệ cán bộ bảo vệ thực vật để kiểm tra trực tiếp.",
+      "caution": "Không chọn thuốc hoặc liều lượng từ kết quả AI. Nếu cần thuốc, nhờ xác nhận đúng nguyên nhân và đối chiếu đăng ký, nhãn sản phẩm hiện hành.",
+      "source_sections": {
+        "vietgap": "Mục 1.11.3.2, trang 48",
+        "ppd2025": "Mục 5.1.2a: quản lý thán thư; đối chiếu theo giai đoạn cây"
+      },
+      "summary": "Giữ tán thông thoáng, chăm sóc nước và phân cân đối; nhờ kiểm tra trực tiếp nếu bệnh lan rộng.",
+      "short_description": "Vết nâu từ chóp hoặc mép lá lan vào phiến.",
+      "appearance": [
+        {
+          "title": "Màu và vị trí",
+          "text": "Vết nâu đậm bắt đầu ở chóp hoặc mép lá.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "title": "Diễn biến",
+          "text": "Vùng tổn thương lan dần vào phần phiến lá.",
+          "source_ids": [
+            "vietgap"
+          ]
+        },
+        {
+          "title": "Vết lâu ngày",
+          "text": "Có thể thấy các vòng sẫm gần đồng tâm.",
+          "source_ids": [
+            "vietgap"
+          ]
+        }
+      ],
+      "differential": "Cháy mép lá và thán thư có thể giống nhau. Các vòng trên vết bệnh là dấu hiệu tham khảo, không phải phép xác nhận qua ảnh."
+    },
+    "Leaf_Healthy": {
+      "name": "Lá khỏe",
+      "intro": "Mô hình chưa nhận thấy rõ ba nhóm bệnh được hỗ trợ; không loại trừ bệnh khác.",
+      "symptoms": [
+        {
+          "text": "Kiểm tra toàn cây nếu có lá khác bất thường; một ảnh không đại diện cả vườn.",
+          "source_ids": []
+        }
+      ],
+      "steps": [
+        {
+          "text": "Theo dõi vườn và giữ nhật ký ảnh, ngày chụp, vị trí cây.",
+          "source_ids": []
+        },
+        {
+          "text": "Duy trì nguồn nước phù hợp, theo dõi thông tin hạn/mặn tại địa phương.",
+          "source_ids": [
+            "water"
+          ]
+        },
+        {
+          "text": "Chăm sóc cân đối, bảo đảm khả năng thoát nước.",
+          "source_ids": [
+            "ppd2025"
+          ]
+        }
+      ],
+      "seek_help": "Nếu lá rụng nhiều, ngọn khô, cây héo hoặc thân chảy nhựa, liên hệ cán bộ bảo vệ thực vật để kiểm tra trực tiếp.",
+      "caution": "Không phun thuốc chỉ để phòng theo một ảnh được dự đoán khỏe. Đối chiếu nhu cầu thực tế với người có chuyên môn.",
+      "source_sections": {
+        "ppd2025": "Mục 3.3, 3.5–3.6: nước, dinh dưỡng, quản lý cây trồng",
+        "water": "Mục 1–2: nước tưới và theo dõi hạn/mặn"
+      },
+      "summary": "Tiếp tục theo dõi toàn cây, duy trì nước tưới và chăm sóc phù hợp; chụp lại nếu có dấu hiệu mới.",
+      "short_description": "Chưa thấy dấu hiệu rõ của ba nhóm bệnh được hỗ trợ.",
+      "appearance": [
+        {
+          "title": "Quan sát mặt lá",
+          "text": "Đối chiếu xem có đốm nổi, mảng nâu khô hoặc vùng biến dạng không.",
+          "source_ids": []
+        },
+        {
+          "title": "Quan sát hai mặt",
+          "text": "Chụp cả hai mặt lá; kiểm tra thêm lá non, ngọn và thân.",
+          "source_ids": []
+        },
+        {
+          "title": "Không kết luận cả cây",
+          "text": "Một lá trông bình thường không đủ kết luận cây hoàn toàn khỏe.",
+          "source_ids": []
+        }
+      ],
+      "differential": "Lá khỏe là nhãn của mô hình trong phạm vi bốn lớp, không loại trừ sâu hại, thiếu dinh dưỡng hoặc bệnh ngoài dữ liệu đã học."
+    }
+  },
+  "unconfirmed": {
+    "name": "Cần kiểm tra thêm",
+    "intro": "Kết quả chưa đủ cơ sở để áp dụng hướng xử lý cho một bệnh cụ thể.",
+    "symptoms": [
+      {
+        "text": "Quan sát thêm hai mặt lá, ngọn, thân và các lá lân cận.",
+        "source_ids": []
+      }
+    ],
+    "steps": [
+      {
+        "text": "Chụp lại một lá rõ nét, đủ sáng, không dùng bộ lọc màu.",
+        "source_ids": []
+      },
+      {
+        "text": "Ghi diễn biến và các lần tưới, bón hoặc phun gần đây.",
+        "source_ids": []
+      },
+      {
+        "text": "Nhờ cán bộ bảo vệ thực vật kiểm tra nếu cây bất thường.",
+        "source_ids": []
+      }
+    ],
+    "seek_help": "Nếu lá rụng nhiều, ngọn khô, cây héo hoặc thân chảy nhựa, liên hệ cán bộ bảo vệ thực vật để kiểm tra trực tiếp.",
+    "caution": "Không chọn thuốc hoặc liều lượng từ kết quả AI. Nếu cần thuốc, nhờ xác nhận đúng nguyên nhân và đối chiếu đăng ký, nhãn sản phẩm hiện hành.",
+    "source_sections": {
+      "ppd2025": "Mục 3.6: nguyên tắc quản lý dịch hại; các bước chụp/ghi nhận là gợi ý của app"
+    },
+    "summary": "Kết quả chưa chắc chắn. Hãy chụp lại rõ hơn, ghi nhận diễn biến và nhờ kiểm tra trước khi xử lý."
+  }
+}

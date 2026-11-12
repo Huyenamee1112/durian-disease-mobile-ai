@@ -62,6 +62,12 @@ cover/
 
 # Local datasets
 ai/data/Durian_Leaf_Diseases/
+ai/data/supabase_dataset/
+ai/data/supabase_dataset_4class/
+ai/data/supabase_dataset_4class_processed/
+ai/data/combined_public_field_4class/
+ai/data/field_dataset/
+ai/data/review/
 
 # Translations
 *.mo
@@ -229,3 +235,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded Kaggle run artifacts
+ai/kaggle_outputs/
+
+# Local dataset exports and Kaggle inputs
+ai/data/combined_public_field_4class_20261003_balanced110/
+ai/data/combined_public_field_4class_20261003_balanced110_field_eval/
+ai/data/supabase_4class_20260921_clean/
+ai/data/supabase_4class_20260921_processed/
+ai/data/supabase_4class_20260922_clean/
+ai/data/supabase_4class_20260922_processed/
+ai/data/supabase_4class_20261003_balanced110/
+ai/data/supabase_4class_20261003_balanced110_processed/
+ai/data/supabase_4class_20261003_balanced110_processed_for_combined/
+ai/data/supabase_4class_20261003_balanced110_processed_for_hybrid_combined/
+ai/data/supabase_dataset_20260922/
+ai/data/supabase_dataset_20261003/
+ai/data/supabase_export/
+ai/kaggle/*/data/
+
+# Local training stop signals
+*.stop
